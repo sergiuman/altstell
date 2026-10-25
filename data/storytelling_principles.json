@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "target_age": 11,
+  "core_philosophy": "Alternative Storytelling that sparks curiosity, metacognition, empathy, and real-world agency without addictive dark patterns.",
+  "rules": [
+    "Hook within 3 seconds using a relatable 11-year-old cognitive puzzle, friend dilemma, or surprising perspective shift.",
+    "Maintain middle-grade readability (Flesch-Kincaid Grade 5.0–7.2): vivid verbs, concrete sensory imagery, zero baby-talk, zero corporate buzzwords.",
+    "Always present a Dual-Perspective Flip so the viewer practices empathy and sees past System-1 snap judgments.",
+    "Include an interactive 'What Would You Do?' dilemma where neither choice shames the child, and the growth choice models emotional regulation and agency.",
+    "End every episode with a concrete 2-minute Offline Real-World Quest so digital stories transfer into real-world competence and play.",
+    "Ensure full bilingual parity between English and natural, idiomatic Romanian with accurate diacritics (ă, â, î, ș, ț)."
+  ],
+  "learned_heuristics": [
+    "11-year-olds respond far better to inner-voice contrast ('My fast brain shouted X, my wise brain noticed Y') than adult lectures.",
+    "Pairing two complementary values from different books (e.g., Quiet Observation + Deep Listening) creates novel 'superpower combinations'.",
+    "Embed age-appropriate problem-solving steps within the inner-voice contrast to empower active decision-making.",
+    "Weave micro-challenges requiring the child to apply learned values, prompting real-world reflection."
+  ],
+  "last_updated": "2026-10-25T22:08:16.438993+00:00"
+}

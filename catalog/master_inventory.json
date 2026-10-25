@@ -1,0 +1,1457 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_title": "Eldoria & Mult Curaj Bilingual Children's Psychology Library — Master Inventory",
+  "base_directory": "/Users/sergiuman/Desktop/Gemini/Books",
+  "generated_at": "2026-10-25T21:30:00Z",
+  "total_books": 17,
+  "age_tiers": {
+    "11yo": "Pre-adolescent narrative adaptations (Eldoria Fantasy Line in EN/RO + Contemporary Realistic Line in RO + 5-chapter Seed Fables for Vols 8–17)",
+    "5yo_junior": "Rhythmic/musical early-childhood stories with 5 watercolor slides, ElevenLabs voiceovers (EN/RO), and compiled read-along MP4 videos"
+  },
+  "psychological_domains": [
+    "Systems & Metacognition",
+    "Agency, Purpose & Habits",
+    "Social & Communicative Intelligence",
+    "Emotional & Existential Balance",
+    "Growth, Grit & Resilience",
+    "Focus, Rest & Embodied Play"
+  ],
+  "corpus_totals": {
+    "total_11yo_en_words": 259937,
+    "total_11yo_ro_words_including_dual_editions": 184029,
+    "total_5yo_en_words": 6777,
+    "total_5yo_ro_words": 6896,
+    "full_novels_en_count": 6,
+    "mid_novellas_en_count": 1,
+    "seed_outlines_en_count": 10,
+    "junior_bespoke_visual_sets": 7,
+    "junior_shared_placeholder_visual_sets": 10
+  },
+  "books": [
+    {
+      "id": "book_01",
+      "num": 1,
+      "folder": "1_systems_thinking",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/1_systems_thinking",
+      "source_book": "The Fifth Discipline: The Art & Practice of The Learning Organization",
+      "source_author": "Peter M. Senge",
+      "domain": "Systems & Metacognition",
+      "psych_subdomain": "Systems Thinking, Causal Loops & Mental Models",
+      "titles": {
+        "11yo_en": "The Whispering Forest",
+        "11yo_ro": "Lumea prin ochii lui Radu",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Radu and the Magic Glasses",
+        "5yo_junior_ro": "Radu și ochelarii fermecați"
+      },
+      "title_11yo_en": "The Whispering Forest",
+      "title_11yo_ro": "Lumea prin ochii lui Radu",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Radu and the Magic Glasses",
+      "title_5yo_ro": "Radu și ochelarii fermecați",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/1_systems_thinking/source/the_whispering_forest_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/1_systems_thinking/source/lumea_prin_ochii_lui_radu_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/1_systems_thinking/The_Whispering_Forest_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/1_systems_thinking/Lumea_Prin_Ochii_Lui_Radu_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/1_systems_thinking/source/Lumea_prin_ochii_lui_Radu.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol01_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol01_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/1_systems_thinking/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 36364,
+        "words_11yo_ro": 5530,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 124,
+        "pdf_pages_11yo_ro": 28,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 995,
+        "words_5yo_ro": 1042,
+        "edition_tier_11yo_en": "full_eldoria_novel",
+        "edition_tier_11yo_ro": "realistic_short_draft",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "123463507b",
+          "838d7033c4",
+          "28e77f13fa",
+          "881eff6a81",
+          "5113ddfc20"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola"
+        ],
+        "11yo_ro": [
+          "Radu",
+          "Bunicul"
+        ]
+      },
+      "core_values": [
+        "val_systems_sight",
+        "val_mental_models"
+      ],
+      "core_takeaway_11yo_en": "Everything around us is connected by invisible feedback loops and time delays, and everyone wears invisible 'mental lenses' shaped by their fears and habits—when you swap lenses and map the whole loop instead of blaming others, you stop making problems worse with panicked quick fixes.",
+      "core_takeaway_11yo_ro": "Totul în jurul nostru este legat prin bucle invizibile de feedback și întârzieri în timp, iar fiecare om privește lumea prin propriii „ochelari mentali” — când schimbi lentila și desenezi întregul cerc în loc să dai vina pe ceilalți, nu mai agravezi problemele prin soluții pripite."
+    },
+    {
+      "id": "book_02",
+      "num": 2,
+      "folder": "2_seven_habits",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/2_seven_habits",
+      "source_book": "The 7 Habits of Highly Effective People",
+      "source_author": "Stephen R. Covey",
+      "domain": "Agency, Purpose & Habits",
+      "psych_subdomain": "Proactive Self-Leadership, Prioritization & Win-Win Synergy",
+      "titles": {
+        "11yo_en": "Seven Paths of Eldoria",
+        "11yo_ro": "Ileana și cele șapte turnuri",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Ileana's Seven Magic Keys",
+        "5yo_junior_ro": "Ileana și cele șapte chei magice"
+      },
+      "title_11yo_en": "Seven Paths of Eldoria",
+      "title_11yo_ro": "Ileana și cele șapte turnuri",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Ileana's Seven Magic Keys",
+      "title_5yo_ro": "Ileana și cele șapte chei magice",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/2_seven_habits/source/seven_paths_of_eldoria_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/2_seven_habits/source/ileana_si_cele_sapte_turnuri_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/2_seven_habits/Seven_Paths_of_Eldoria_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/2_seven_habits/Ileana_Si_Cele_Sapte_Turnuri_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/2_seven_habits/source/Ileana_si_cele_sapte_turnuri.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol02_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol02_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/2_seven_habits/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 40729,
+        "words_11yo_ro": 6525,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 145,
+        "pdf_pages_11yo_ro": 36,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 988,
+        "words_5yo_ro": 985,
+        "edition_tier_11yo_en": "full_eldoria_novel",
+        "edition_tier_11yo_ro": "portal_fable_novella",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "2498f492e8",
+          "2443f99615",
+          "daa8dbaff9",
+          "3927e9d5bd",
+          "43f703c438"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola",
+          "Master Tor"
+        ],
+        "11yo_ro": [
+          "Ileana",
+          "Daria"
+        ]
+      },
+      "core_values": [
+        "val_proactive_agency",
+        "val_synergy"
+      ],
+      "core_takeaway_11yo_en": "You are not soft clay melted by bad weather or moods—you are iron forged by your own choices; when you picture your blueprint first, put big rocks before tiny distractions, listen before speaking, and combine differences in win-win synergy, you lead yourself and lift everyone around you.",
+      "core_takeaway_11yo_ro": "Nu ești lut moale topit de ploaie sau de toanele altora, ci fier modelat prin propriile alegeri; când ai o hartă clară în minte, pui lucrurile importante pe primul loc, cauți soluții câștig-câștig și îți unești forțele cu ceilalți în sinergie, devii stăpân pe propriul drum."
+    },
+    {
+      "id": "book_03",
+      "num": 3,
+      "folder": "3_sapiens",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/3_sapiens",
+      "source_book": "Sapiens: A Brief History of Humankind",
+      "source_author": "Yuval Noah Harari",
+      "domain": "Social & Communicative Intelligence",
+      "psych_subdomain": "Shared Fictions, Intersubjective Meaning & Large-Scale Cooperation",
+      "titles": {
+        "11yo_en": "Chronicles of the Forest",
+        "11yo_ro": "NOI: Povestea oamenilor",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "The Magic Campfire",
+        "5yo_junior_ro": "Focul fermecat și poveștile noastre"
+      },
+      "title_11yo_en": "Chronicles of the Forest",
+      "title_11yo_ro": "NOI: Povestea oamenilor",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "The Magic Campfire",
+      "title_5yo_ro": "Focul fermecat și poveștile noastre",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/3_sapiens/source/chronicles_of_the_forest_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/3_sapiens/source/noi_povestea_oamenilor_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/3_sapiens/Chronicles_of_the_Forest_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/3_sapiens/NOI_Povestea_Oamenilor_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/3_sapiens/source/NOI_Povestea_Oamenilor.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol03_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol03_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/3_sapiens/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 36998,
+        "words_11yo_ro": 9700,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 120,
+        "pdf_pages_11yo_ro": 50,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 658,
+        "words_5yo_ro": 677,
+        "edition_tier_11yo_en": "full_eldoria_novel",
+        "edition_tier_11yo_ro": "realistic_novella",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "887102aaee",
+          "3ca20fc227",
+          "b885545f4c",
+          "080395832c",
+          "998dac4f7c"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola",
+          "Clover"
+        ],
+        "11yo_ro": [
+          "Ana",
+          "Daria",
+          "Bunicul"
+        ]
+      },
+      "core_values": [
+        "val_shared_stories",
+        "val_cooperative_trust"
+      ],
+      "core_takeaway_11yo_en": "Humanity's superpower is weaving shared stories—laws, teams, money, promises, and human rights—that let thousands of strangers trust each other and cooperate, which also means we have the responsibility to question unfair stories and bravely admit 'I don't know yet' to discover truth.",
+      "core_takeaway_11yo_ro": "Superputerea oamenilor este capacitatea de a țese povești comune — reguli, echipe, promisiuni, bani și drepturi — care îi ajută pe necunoscuți să aibă încredere și să coopereze, dându-ne totodată puterea de a schimba regulile nedrepte și curajul de a spune „încă nu știu”."
+    },
+    {
+      "id": "book_04",
+      "num": 4,
+      "folder": "4_supercommunicators",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators",
+      "source_book": "Supercommunicators: How to Unlock the Secret Language of Connection",
+      "source_author": "Charles Duhigg",
+      "domain": "Social & Communicative Intelligence",
+      "psych_subdomain": "Conversation Matching, Active Looping & Relational Repair",
+      "titles": {
+        "11yo_en": "The Whisperers of Eldoria",
+        "11yo_ro": "Doar un pic mai aproape",
+        "11yo_ro_eldoria": "Șoptitorii din Eldoria",
+        "5yo_junior_en": "The Whispering Hares",
+        "5yo_junior_ro": "Urechile lungi și secretele pădurii"
+      },
+      "title_11yo_en": "The Whisperers of Eldoria",
+      "title_11yo_ro": "Doar un pic mai aproape",
+      "title_11yo_ro_eldoria": "Șoptitorii din Eldoria",
+      "title_5yo_en": "The Whispering Hares",
+      "title_5yo_ro": "Urechile lungi și secretele pădurii",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/source/whisperers_of_eldoria_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/source/doar_un_pic_mai_aproape_ro.md",
+        "manuscript_11yo_ro_eldoria": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/source/soptitorii_din_eldoria_ro.md",
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/Whisperers_of_Eldoria_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/Doar_Un_Pic_Mai_Aproape_RO.pdf",
+        "pdf_11yo_ro_eldoria": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/Soptitorii_din_Eldoria_RO.pdf",
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/4_supercommunicators/source/Doar_Un_Pic_Mai_Aproape.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol04_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol04_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/4_supercommunicators/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 38865,
+        "words_11yo_ro": 11380,
+        "words_11yo_ro_eldoria": 39402,
+        "pdf_pages_11yo_en": 124,
+        "pdf_pages_11yo_ro": 55,
+        "pdf_pages_11yo_ro_eldoria": 128,
+        "words_5yo_en": 662,
+        "words_5yo_ro": 697,
+        "edition_tier_11yo_en": "full_eldoria_novel",
+        "edition_tier_11yo_ro": "dual_edition_eldoria_and_realistic",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "081caaf724",
+          "24a72c6349",
+          "cc1ea95046",
+          "59b1c2fc85",
+          "ea924b66ff"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola",
+          "Mr. Bramble"
+        ],
+        "11yo_ro": [
+          "Sonia Pavel",
+          "Lara Chen",
+          "Bunica Elena"
+        ]
+      },
+      "core_values": [
+        "val_deep_listening",
+        "val_empathy_matching"
+      ],
+      "core_takeaway_11yo_en": "Winning an argument often loses a friend: every conversation is secretly Practical (fixing), Emotional (feeling), or Social (belonging), and real closeness happens when you match your friend's wavelength, ask deep questions, and loop back what they said in your own words to check you truly understood.",
+      "core_takeaway_11yo_ro": "Dacă vrei să câștigi fiecare discuție, riști să îți pierzi prietenii: orice conversație este fie Practică (soluții), fie Emoțională (sentimente), fie Socială (apartenență), iar apropierea reală apare când te acordezi la lungimea de undă a celuilalt și verifici cu propriile cuvinte dacă l-ai înțeles cu adevărat."
+    },
+    {
+      "id": "book_05",
+      "num": 5,
+      "folder": "5_atomic_habits",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/5_atomic_habits",
+      "source_book": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "source_author": "James Clear",
+      "domain": "Agency, Purpose & Habits",
+      "psych_subdomain": "Behavioral Design, Marginal Compounding & Identity-Based Habits",
+      "titles": {
+        "11yo_en": "Sparks of Eldoria",
+        "11yo_ro": "Doar un pic mai mult",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Tiny Steps of the Little Bear",
+        "5yo_junior_ro": "Pașii mărunți ai ursulețului"
+      },
+      "title_11yo_en": "Sparks of Eldoria",
+      "title_11yo_ro": "Doar un pic mai mult",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Tiny Steps of the Little Bear",
+      "title_5yo_ro": "Pașii mărunți ai ursulețului",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/5_atomic_habits/source/sparks_of_eldoria_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/5_atomic_habits/source/doar_un_pic_mai_mult_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/5_atomic_habits/Sparks_of_Eldoria_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/5_atomic_habits/Doar_Un_Pic_Mai_Mult_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/5_atomic_habits/source/Doar_Un_Pic_Mai_Mult.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol05_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol05_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/5_atomic_habits/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 41357,
+        "words_11yo_ro": 28137,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 138,
+        "pdf_pages_11yo_ro": 136,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 702,
+        "words_5yo_ro": 688,
+        "edition_tier_11yo_en": "full_eldoria_novel",
+        "edition_tier_11yo_ro": "full_realistic_novel",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "61b5959606",
+          "53820ae790",
+          "5e7cc76036",
+          "0eae964344",
+          "298663de2b"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola",
+          "Master Tor"
+        ],
+        "11yo_ro": [
+          "Milo Chen",
+          "Maya",
+          "Jordan",
+          "Bunica Elena"
+        ]
+      },
+      "core_values": [
+        "val_tiny_compounding",
+        "val_identity_habits"
+      ],
+      "core_takeaway_11yo_en": "Waiting until you 'feel inspired' is a trap—tiny 1% daily habits compound into extraordinary skill when you make cues obvious, attractive, easy (the Two-Minute Seed), and satisfying, recover immediately so you never miss twice, and treat each small action as a vote for who you are becoming.",
+      "core_takeaway_11yo_ro": "A aștepta „inspirația” este o capcană — pașii zilnici de doar 1% se adună miraculos atunci când faci obiceiurile bune vizibile, atrăgătoare, ușoare (regula celor două minute) și satisfăcătoare, nu ratezi niciodată de două ori la rând și privești fiecare faptă mică drept un vot pentru cine devii."
+    },
+    {
+      "id": "book_06",
+      "num": 6,
+      "folder": "6_emotional_intelligence",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence",
+      "source_book": "Emotional Intelligence: Why It Can Matter More Than IQ",
+      "source_author": "Daniel Goleman",
+      "domain": "Emotional & Existential Balance",
+      "psych_subdomain": "Affect Labeling, Amygdala Regulation & Empathetic Attunement",
+      "titles": {
+        "11yo_en": "Heart Keepers of Eldoria",
+        "11yo_ro": "Doar un pic mai adânc",
+        "11yo_ro_eldoria": "Păstrătorii Inimii din Eldoria",
+        "5yo_junior_en": "The Heart Keepers",
+        "5yo_junior_ro": "Spiridușii din inima noastră"
+      },
+      "title_11yo_en": "Heart Keepers of Eldoria",
+      "title_11yo_ro": "Doar un pic mai adânc",
+      "title_11yo_ro_eldoria": "Păstrătorii Inimii din Eldoria",
+      "title_5yo_en": "The Heart Keepers",
+      "title_5yo_ro": "Spiridușii din inima noastră",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/source/heart_keepers_of_eldoria_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/source/doar_un_pic_mai_adanc_ro.md",
+        "manuscript_11yo_ro_eldoria": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/source/pastratorii_inimii_din_eldoria_ro.md",
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/Heart_Keepers_of_Eldoria_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/Doar_Un_Pic_Mai_Adanc_RO.pdf",
+        "pdf_11yo_ro_eldoria": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/Păstrătorii_Inimii_din_Eldoria_RO.pdf",
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/6_emotional_intelligence/source/Doar_Un_Pic_Mai_Adanc.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol06_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol06_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/6_emotional_intelligence/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 39734,
+        "words_11yo_ro": 10971,
+        "words_11yo_ro_eldoria": 39495,
+        "pdf_pages_11yo_en": 138,
+        "pdf_pages_11yo_ro": 51,
+        "pdf_pages_11yo_ro_eldoria": 142,
+        "words_5yo_en": 675,
+        "words_5yo_ro": 713,
+        "edition_tier_11yo_en": "full_eldoria_novel",
+        "edition_tier_11yo_ro": "dual_edition_eldoria_and_realistic",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "910875c6be",
+          "624bf890ac",
+          "da37b5116f",
+          "43d4651378",
+          "f50a1b028c"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola",
+          "Jasper"
+        ],
+        "11yo_ro": [
+          "Alex Marin",
+          "Tudor",
+          "Filozoful",
+          "Bunica Elena"
+        ]
+      },
+      "core_values": [
+        "val_emotional_naming",
+        "val_impulse_pause"
+      ],
+      "core_takeaway_11yo_en": "Anger, worry, jealousy, and grief are storms carrying signals, not proof you are bad; when your inner 'Fire-Beast' tries to hijack your brain, taking a Sacred Pause to breathe and naming the exact feeling tames the storm so your Wise Mind can respond with empathy and courage.",
+      "core_takeaway_11yo_ro": "Furia, îngrijorarea, gelozia și tristețea sunt furtuni cu mesaje importante, nu dovezi că ești „rău”; când „Fiara de Foc” din creier vrea să preia controlul, o pauză de respirație și numirea exactă a emoției îmblânzesc furtuna și lasă Mintea Înțeleaptă să aleagă cu empatie."
+    },
+    {
+      "id": "book_07",
+      "num": 7,
+      "folder": "7_beyond_order",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/7_beyond_order",
+      "source_book": "Beyond Order: 12 More Rules for Life",
+      "source_author": "Jordan B. Peterson",
+      "domain": "Emotional & Existential Balance",
+      "psych_subdomain": "Order-Chaos Equilibrium, Truthfulness & Existential Responsibility",
+      "titles": {
+        "11yo_en": "Beyond the Whispering Valley",
+        "11yo_ro": "Doar un pic mai puțin haos",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "The Cozy Nest and the Wild Woods",
+        "5yo_junior_ro": "Cuibul călduros și pădurea cea mare"
+      },
+      "title_11yo_en": "Beyond the Whispering Valley",
+      "title_11yo_ro": "Doar un pic mai puțin haos",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "The Cozy Nest and the Wild Woods",
+      "title_5yo_ro": "Cuibul călduros și pădurea cea mare",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/7_beyond_order/source/beyond_the_whispering_valley_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/7_beyond_order/source/doar_un_pic_mai_putin_haos_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/7_beyond_order/Beyond_the_Whispering_Valley_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/7_beyond_order/Doar_Un_Pic_Mai_Putin_Haos_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/7_beyond_order/source/Doar_Un_Pic_Mai_Putin_Haos.docx",
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol07_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol07_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/7_beyond_order/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 8359,
+        "words_11yo_ro": 14690,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 46,
+        "pdf_pages_11yo_ro": 80,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 678,
+        "words_5yo_ro": 711,
+        "edition_tier_11yo_en": "mid_eldoria_novella",
+        "edition_tier_11yo_ro": "realistic_novella",
+        "junior_slides_unique": true,
+        "junior_slides_md5_prefix": [
+          "a6e8945931",
+          "8bde1255dc",
+          "939b8a3117",
+          "320446af65",
+          "cef80a7260"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Kiri",
+          "Pip",
+          "Sola",
+          "Mr. Bramble",
+          "Elder Martha"
+        ],
+        "11yo_ro": [
+          "Lara Chen",
+          "Milo Chen",
+          "Bunica Elena"
+        ]
+      },
+      "core_values": [
+        "val_order_chaos_balance",
+        "val_creative_courage"
+      ],
+      "core_takeaway_11yo_en": "Too much strict control freezes you in stone, while too much mess overwhelms you—you grow strongest with one foot in tidy, honest daily Order and one foot stepping bravely into new Chaos, comparing yourself only to who you were yesterday.",
+      "core_takeaway_11yo_ro": "Prea mult control rigid te îngheață, iar prea multă dezordine te copleșește — crești cel mai frumos când ții un picior în siguranța ordinii zilnice și pășești cu celălalt curajos în necunoscut, spunând adevărul și comparându-te doar cu cine erai tu ieri."
+    },
+    {
+      "id": "book_08",
+      "num": 8,
+      "folder": "8_mindset",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/8_mindset",
+      "source_book": "Mindset: The New Psychology of Success",
+      "source_author": "Carol S. Dweck",
+      "domain": "Growth, Grit & Resilience",
+      "psych_subdomain": "Growth vs. Fixed Mindset & Error-Driven Learning",
+      "titles": {
+        "11yo_en": "The Garden of Growth",
+        "11yo_ro": "Grădina Dezvoltării",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "The Little Seed that Loved to Try",
+        "5yo_junior_ro": "Sămânța care iubea să încerce"
+      },
+      "title_11yo_en": "The Garden of Growth",
+      "title_11yo_ro": "Grădina Dezvoltării",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "The Little Seed that Loved to Try",
+      "title_5yo_ro": "Sămânța care iubea să încerce",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/8_mindset/source/8_mindset_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/8_mindset/source/8_mindset_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/8_mindset/The_Garden_of_Growth_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/8_mindset/Grădina_Dezvoltării_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol08_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol08_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/8_mindset/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 3523,
+        "words_11yo_ro": 4040,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 191,
+        "words_5yo_ro": 170,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Clara",
+          "Master Garen"
+        ],
+        "11yo_ro": [
+          "Clara",
+          "Meșterul Garen"
+        ]
+      },
+      "core_values": [
+        "val_yet_growth",
+        "val_mistake_alchemy"
+      ],
+      "core_takeaway_11yo_en": "A marble flower looks flawless on day one, yet can never grow an inch; your brain is a living seed whose mistakes, split planks, and tough storms are not proof of weakness, but the exact rain that teaches your roots how to master what you can't do YET.",
+      "core_takeaway_11yo_ro": "O floare de marmură arată perfect din prima zi, dar nu va crește niciodată; mintea ta este o sămânță vie pentru care greșelile și furtunile nu sunt dovezi de slăbiciune, ci ploaia care îi învață rădăcinile să stăpânească ceea ce nu poate face ÎNCĂ."
+    },
+    {
+      "id": "book_09",
+      "num": 9,
+      "folder": "9_grit",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/9_grit",
+      "source_book": "Grit: The Power of Passion and Perseverance",
+      "source_author": "Angela Duckworth",
+      "domain": "Growth, Grit & Resilience",
+      "psych_subdomain": "Long-Term Perseverance, Stamina & Deliberate Pacing",
+      "titles": {
+        "11yo_en": "The Mountain of the Slow Climber",
+        "11yo_ro": "Muntele Urcușului Răbdător",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Leo's Little Wings",
+        "5yo_junior_ro": "Aripile micului Leo"
+      },
+      "title_11yo_en": "The Mountain of the Slow Climber",
+      "title_11yo_ro": "Muntele Urcușului Răbdător",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Leo's Little Wings",
+      "title_5yo_ro": "Aripile micului Leo",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/9_grit/source/9_grit_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/9_grit/source/9_grit_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/9_grit/The_Mountain_of_the_Slow_Climber_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/9_grit/Muntele_Urcușului_Răbdător_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol09_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol09_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/9_grit/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 3137,
+        "words_11yo_ro": 3539,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 145,
+        "words_5yo_ro": 139,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Leo",
+          "Felix",
+          "Shell-Top"
+        ],
+        "11yo_ro": [
+          "Leo",
+          "Felix",
+          "Carapace-Bătrână"
+        ]
+      },
+      "core_values": [
+        "val_patient_grit",
+        "val_deliberate_pacing"
+      ],
+      "core_takeaway_11yo_en": "Flashy natural talent sprints fast in warm weather and quits when the wind turns freezing; quiet Grit conquers the highest peaks by pacing yourself ledge by ledge, resting smartly behind rocks without giving up, and keeping your eyes on the summit.",
+      "core_takeaway_11yo_ro": "Talentul spectaculos țâșnește repede pe vreme bună, dar renunță la primul viscol; perseverența răbdătoare (Grit) cucerește cele mai înalte vârfuri urcând prag cu prag, dozându-ți puterile și păstrând privirea pe țintă chiar și când aripile obosesc."
+    },
+    {
+      "id": "book_10",
+      "num": 10,
+      "folder": "10_deep_work",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/10_deep_work",
+      "source_book": "Deep Work: Rules for Focused Success in a Distracted World",
+      "source_author": "Cal Newport",
+      "domain": "Focus, Rest & Embodied Play",
+      "psych_subdomain": "Selective Attention, Distraction Shielding & Flow Immersion",
+      "titles": {
+        "11yo_en": "The Island of the Quiet Forge",
+        "11yo_ro": "Insula Faurului Liniștit",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "The Quiet Forest",
+        "5yo_junior_ro": "Pădurea Liniștită"
+      },
+      "title_11yo_en": "The Island of the Quiet Forge",
+      "title_11yo_ro": "Insula Faurului Liniștit",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "The Quiet Forest",
+      "title_5yo_ro": "Pădurea Liniștită",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/10_deep_work/source/10_deep_work_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/10_deep_work/source/10_deep_work_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/10_deep_work/The_Island_of_the_Quiet_Forge_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/10_deep_work/Insula_Faurului_Liniștit_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol10_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol10_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/10_deep_work/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 614,
+        "words_11yo_ro": 411,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 162,
+        "words_5yo_ro": 148,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Thomas",
+          "Master Silas"
+        ],
+        "11yo_ro": [
+          "Thomas",
+          "Meșterul Silas"
+        ]
+      },
+      "core_values": [
+        "val_deep_focus",
+        "val_attention_shield"
+      ],
+      "core_takeaway_11yo_en": "Glowing 'Sparkflies' of constant pings and chatter scatter your attention; when you build a Quiet Forge, shut distractions outside the door, and push past the first twenty restless minutes, your brain enters deep flow and crafts work of lasting brilliance.",
+      "core_takeaway_11yo_ro": "„Licuricii” gălăgioși ai notificărilor și întreruperilor îți împrăștie puterea minții; când închizi ușa Faurului Liniștit și treci de primele douăzeci de minute de neliniște, intri în starea de concentrare profundă și creezi lucruri cu adevărat valoroase."
+    },
+    {
+      "id": "book_11",
+      "num": 11,
+      "folder": "11_thinking_fast_slow",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/11_thinking_fast_slow",
+      "source_book": "Thinking, Fast and Slow",
+      "source_author": "Daniel Kahneman",
+      "domain": "Systems & Metacognition",
+      "psych_subdomain": "Dual-Process Theory (System 1 vs. System 2) & Cognitive Debiasing",
+      "titles": {
+        "11yo_en": "The Hare and the Owl of the Mind",
+        "11yo_ro": "Iepurele și Bufnița Minții",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Quick-Hop and Slow-Hoot",
+        "5yo_junior_ro": "Iepurașul cel Rapid și Bufnița cea Înțeleaptă"
+      },
+      "title_11yo_en": "The Hare and the Owl of the Mind",
+      "title_11yo_ro": "Iepurele și Bufnița Minții",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Quick-Hop and Slow-Hoot",
+      "title_5yo_ro": "Iepurașul cel Rapid și Bufnița cea Înțeleaptă",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/11_thinking_fast_slow/source/11_thinking_fast_slow_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/11_thinking_fast_slow/source/11_thinking_fast_slow_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/11_thinking_fast_slow/The_Hare_and_the_Owl_of_the_Mind_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/11_thinking_fast_slow/Iepurele_și_Bufnița_Minții_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol11_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol11_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/11_thinking_fast_slow/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 642,
+        "words_11yo_ro": 441,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 143,
+        "words_5yo_ro": 147,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Dan",
+          "Quick-Hop",
+          "Slow-Hoot"
+        ],
+        "11yo_ro": [
+          "Dan",
+          "Țup-Rapid",
+          "Bufnița-Lentă"
+        ]
+      },
+      "core_values": [
+        "val_slow_owl_logic",
+        "val_bias_detective"
+      ],
+      "core_takeaway_11yo_en": "Your brain has two helpers—Quick-Hop the Hare (fast gut instincts that keep you safe from sudden danger but fall for illusions) and Slow-Hoot the Owl (calm, careful logic)—and wise decisions happen when you ask the Owl to check the bridge beams before the Hare jumps.",
+      "core_takeaway_11yo_ro": "Mintea ta are doi ajutoare — Iepurele rapid al instinctului (util în pericole, dar ușor de păcălit de aparențe) și Bufnița lentă a logicii — iar deciziile înțelepte apar când chemi Bufnița să verifice dovezile înainte ca Iepurele să sară la concluzii."
+    },
+    {
+      "id": "book_12",
+      "num": 12,
+      "folder": "12_quiet",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/12_quiet",
+      "source_book": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+      "source_author": "Susan Cain",
+      "domain": "Social & Communicative Intelligence",
+      "psych_subdomain": "Introverted Temperament, Deep Observation & Calm Leadership",
+      "titles": {
+        "11yo_en": "The Whispering Stream",
+        "11yo_ro": "Pârâul Șoptitor",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Oliver's Quiet Power",
+        "5yo_junior_ro": "Puterea liniștită a lui Oliver"
+      },
+      "title_11yo_en": "The Whispering Stream",
+      "title_11yo_ro": "Pârâul Șoptitor",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Oliver's Quiet Power",
+      "title_5yo_ro": "Puterea liniștită a lui Oliver",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/12_quiet/source/12_quiet_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/12_quiet/source/12_quiet_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/12_quiet/The_Whispering_Stream_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/12_quiet/Pârâul_Șoptitor_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol12_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol12_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/12_quiet/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 594,
+        "words_11yo_ro": 406,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 137,
+        "words_5yo_ro": 131,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Oliver",
+          "Buster"
+        ],
+        "11yo_ro": [
+          "Oliver",
+          "Buster"
+        ]
+      },
+      "core_values": [
+        "val_quiet_observation"
+      ],
+      "core_takeaway_11yo_en": "Being quiet does not mean you have nothing to say: introverts who recharge in calm spaces listen deeper, notice hidden cracks at the base of the dam before anyone else, and lead with steady clarity when loud shouting only creates panic.",
+      "core_takeaway_11yo_ro": "A fi tăcut nu înseamnă că nu ai nimic de spus: cei care iubesc liniștea observă detalii ascunse pe care gălăgia le acoperă și pot conduce cu claritate și calm tocmai atunci când strigătele creează doar panică."
+    },
+    {
+      "id": "book_13",
+      "num": 13,
+      "folder": "13_boy_mole_fox_horse",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/13_boy_mole_fox_horse",
+      "source_book": "The Boy, the Mole, the Fox and the Horse",
+      "source_author": "Charlie Mackesy",
+      "domain": "Social & Communicative Intelligence",
+      "psych_subdomain": "Self-Compassion, Vulnerable Help-Seeking & Unconditional Kindness",
+      "titles": {
+        "11yo_en": "The Path in the Snow",
+        "11yo_ro": "Drumul prin zăpadă",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Kindness in the Forest",
+        "5yo_junior_ro": "Bunătatea din pădure"
+      },
+      "title_11yo_en": "The Path in the Snow",
+      "title_11yo_ro": "Drumul prin zăpadă",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Kindness in the Forest",
+      "title_5yo_ro": "Bunătatea din pădure",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/13_boy_mole_fox_horse/source/13_boy_mole_fox_horse_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/13_boy_mole_fox_horse/source/13_boy_mole_fox_horse_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/13_boy_mole_fox_horse/The_Path_in_the_Snow_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/13_boy_mole_fox_horse/Drumul_prin_zăpadă_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol13_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol13_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/13_boy_mole_fox_horse/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 3688,
+        "words_11yo_ro": 4103,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 127,
+        "words_5yo_ro": 131,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Ben",
+          "The Mole",
+          "The Fox",
+          "The Horse"
+        ],
+        "11yo_ro": [
+          "Ben",
+          "Cârtița",
+          "Vulpea",
+          "Calul"
+        ]
+      },
+      "core_values": [
+        "val_courageous_kindness"
+      ],
+      "core_takeaway_11yo_en": "Asking for help in a snowstorm isn't giving up—it is the bravest way of refusing to give up; true strength is gentle, patient with quiet hurt friends, and begins the moment you choose to be kind to yourself.",
+      "core_takeaway_11yo_ro": "A cere ajutor în mijlocul viscolului nu înseamnă că renunți, ci este cel mai curajos mod de a merge mai departe; adevărata putere este blândă, răbdătoare cu prietenii răniți și începe atunci când ești bun cu tine însuți."
+    },
+    {
+      "id": "book_14",
+      "num": 14,
+      "folder": "14_start_with_why",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/14_start_with_why",
+      "source_book": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
+      "source_author": "Simon Sinek",
+      "domain": "Agency, Purpose & Habits",
+      "psych_subdomain": "Intrinsic Purpose, Teleological Motivation & Inspired Leadership",
+      "titles": {
+        "11yo_en": "The Secret of the Lighthouse",
+        "11yo_ro": "Secretul Farului din Poiană",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Maya's Golden Compass",
+        "5yo_junior_ro": "Busola aurie a Mayei"
+      },
+      "title_11yo_en": "The Secret of the Lighthouse",
+      "title_11yo_ro": "Secretul Farului din Poiană",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Maya's Golden Compass",
+      "title_5yo_ro": "Busola aurie a Mayei",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/14_start_with_why/source/14_start_with_why_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/14_start_with_why/source/14_start_with_why_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/14_start_with_why/The_Secret_of_the_Lighthouse_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/14_start_with_why/Secretul_Farului_din_Poiană_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol14_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol14_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/14_start_with_why/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 3486,
+        "words_11yo_ro": 4024,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 127,
+        "words_5yo_ro": 136,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Maya",
+          "Old Captain Joshua",
+          "Leo",
+          "Sonia"
+        ],
+        "11yo_ro": [
+          "Maya",
+          "Căpitanul Joshua",
+          "Leo",
+          "Sonia"
+        ]
+      },
+      "core_values": [
+        "val_purpose_why"
+      ],
+      "core_takeaway_11yo_en": "Shiny paint ('What') and clever carpentry ('How') spin in circles without a sail; when you start with 'Why'—the inner lighthouse flame of purpose and who your work helps—every hard task gains direction and meaning.",
+      "core_takeaway_11yo_ro": "Vopseaua strălucitoare („Ce faci”) și meșteșugul tehnic („Cum faci”) se învârt în cerc fără pânze; când începi cu „De ce” — flacăra interioară a scopului și a oamenilor pe care vrei să îi ajuți — orice efort capătă direcție și sens."
+    },
+    {
+      "id": "book_15",
+      "num": 15,
+      "folder": "15_why_we_sleep",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/15_why_we_sleep",
+      "source_book": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+      "source_author": "Matthew Walker",
+      "domain": "Focus, Rest & Embodied Play",
+      "psych_subdomain": "Sleep Architecture, Memory Consolidation & Emotional Restoration",
+      "titles": {
+        "11yo_en": "The Night-Garden of Dreams",
+        "11yo_ro": "Grădina de Noapte a Viselor",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "The Sleep Elves",
+        "5yo_junior_ro": "Spiridușii Somnului"
+      },
+      "title_11yo_en": "The Night-Garden of Dreams",
+      "title_11yo_ro": "Grădina de Noapte a Viselor",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "The Sleep Elves",
+      "title_5yo_ro": "Spiridușii Somnului",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/15_why_we_sleep/source/15_why_we_sleep_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/15_why_we_sleep/source/15_why_we_sleep_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/15_why_we_sleep/The_Night-Garden_of_Dreams_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/15_why_we_sleep/Grădina_de_Noapte_a_Viselor_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol15_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol15_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/15_why_we_sleep/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 638,
+        "words_11yo_ro": 417,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 129,
+        "words_5yo_ro": 117,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Toby",
+          "Nyx"
+        ],
+        "11yo_ro": [
+          "Toby",
+          "Nyx"
+        ]
+      },
+      "core_values": [
+        "val_nightly_brain_reset"
+      ],
+      "core_takeaway_11yo_en": "Sleep is never 'wasted playtime'—while your eyes are closed, your brain's Night-Garden crew files everything you learned into neat oak drawers, repairs your growing muscles, and filters muddy anger out of your heart so you wake up sharp and kind.",
+      "core_takeaway_11yo_ro": "Somnul nu este niciodată „timp pierdut de la joacă” — în timp ce dormi, echipa din Grădina de Noapte așază cunoștințele în sertarele memoriei, repară corpul în creștere și spală supărările zilei, ca să te trezești limpede și plin de energie."
+    },
+    {
+      "id": "book_16",
+      "num": 16,
+      "folder": "16_cant_hurt_me",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/16_cant_hurt_me",
+      "source_book": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "source_author": "David Goggins",
+      "domain": "Growth, Grit & Resilience",
+      "psych_subdomain": "Voluntary Discomfort, Governor Override & Resilient Self-Talk",
+      "titles": {
+        "11yo_en": "The Iron Pebble",
+        "11yo_ro": "Pietricica de Fier",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "Victor's Strong Shield",
+        "5yo_junior_ro": "Scutul puternic al lui Victor"
+      },
+      "title_11yo_en": "The Iron Pebble",
+      "title_11yo_ro": "Pietricica de Fier",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "Victor's Strong Shield",
+      "title_5yo_ro": "Scutul puternic al lui Victor",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/16_cant_hurt_me/source/16_cant_hurt_me_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/16_cant_hurt_me/source/16_cant_hurt_me_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/16_cant_hurt_me/The_Iron_Pebble_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/16_cant_hurt_me/Pietricica_de_Fier_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol16_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol16_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/16_cant_hurt_me/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 576,
+        "words_11yo_ro": 389,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 121,
+        "words_5yo_ro": 124,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Victor",
+          "Grizz"
+        ],
+        "11yo_ro": [
+          "Victor",
+          "Grizz"
+        ]
+      },
+      "core_values": [
+        "val_resilient_self_talk"
+      ],
+      "core_takeaway_11yo_en": "Only staying in warm comfort makes your mind feel fragile; when your brain's protective 'governor' shouts 'Quit!' at the first cold raindrop (when you're only at 40% of your real strength), focusing on the very next stone and speaking brave Iron-Pebble words unlocks resilience.",
+      "core_takeaway_11yo_ro": "Dacă rămâi mereu doar în confort, mintea devine temătoare; când vocea de alarmă din cap îți cere să te oprești la prima ploaie rece, concentrarea pe următoarea piatră și un dialog interior curajos („Sunt o pietricică de fier”) îți călesc voința."
+    },
+    {
+      "id": "book_17",
+      "num": 17,
+      "folder": "17_anxious_generation",
+      "folder_path": "/Users/sergiuman/Desktop/Gemini/Books/17_anxious_generation",
+      "source_book": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+      "source_author": "Jonathan Haidt",
+      "domain": "Focus, Rest & Embodied Play",
+      "psych_subdomain": "Screen Hygiene, Embodied Free Play & Peer Co-Presence",
+      "titles": {
+        "11yo_en": "The Glass Mirror and the Muddy Trail",
+        "11yo_ro": "Oglinda de Sticlă și Cărarea cu Noroi",
+        "11yo_ro_eldoria": null,
+        "5yo_junior_en": "The Play Forest",
+        "5yo_junior_ro": "Pădurea de Joacă"
+      },
+      "title_11yo_en": "The Glass Mirror and the Muddy Trail",
+      "title_11yo_ro": "Oglinda de Sticlă și Cărarea cu Noroi",
+      "title_11yo_ro_eldoria": null,
+      "title_5yo_en": "The Play Forest",
+      "title_5yo_ro": "Pădurea de Joacă",
+      "paths": {
+        "manuscript_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/17_anxious_generation/source/17_anxious_generation_en.md",
+        "manuscript_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/17_anxious_generation/source/17_anxious_generation_ro.md",
+        "manuscript_11yo_ro_eldoria": null,
+        "pdf_11yo_en": "/Users/sergiuman/Desktop/Gemini/Books/17_anxious_generation/The_Glass_Mirror_and_the_Muddy_Trail_EN.pdf",
+        "pdf_11yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/17_anxious_generation/Oglinda_de_Sticlă_și_Cărarea_cu_Noroi_RO.pdf",
+        "pdf_11yo_ro_eldoria": null,
+        "docx_11yo_ro": null,
+        "manuscript_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/manuscript_en.md",
+        "manuscript_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/manuscript_ro.md",
+        "audio_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/audio_en.mp3",
+        "audio_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/audio_ro.mp3",
+        "video_5yo_en": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/video_en_v2.mp4",
+        "video_5yo_ro": "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/video_ro_v2.mp4",
+        "youtube_pack_en": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol17_Junior_EN.mp4",
+        "youtube_pack_ro": "/Users/sergiuman/Desktop/Gemini/Books/youtube_upload_pack_full/Vol17_Junior_RO.mp4",
+        "slides_5yo": [
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/slide1.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/slide2.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/slide3.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/slide4.png",
+          "/Users/sergiuman/Desktop/Gemini/Books/junior_editions/17_anxious_generation/source/slide5.png"
+        ]
+      },
+      "metrics": {
+        "words_11yo_en": 633,
+        "words_11yo_ro": 429,
+        "words_11yo_ro_eldoria": null,
+        "pdf_pages_11yo_en": 9,
+        "pdf_pages_11yo_ro": 9,
+        "pdf_pages_11yo_ro_eldoria": null,
+        "words_5yo_en": 137,
+        "words_5yo_ro": 140,
+        "edition_tier_11yo_en": "seed_outline_5ch",
+        "edition_tier_11yo_ro": "seed_outline_5ch",
+        "junior_slides_unique": false,
+        "junior_slides_md5_prefix": [
+          "cc3452bf98",
+          "5a38d3d38e",
+          "2219c72077",
+          "857a1883ff",
+          "ab8cf438e7"
+        ]
+      },
+      "protagonists": {
+        "11yo_en": [
+          "Dan",
+          "Master Eldon",
+          "Clara",
+          "Thomas"
+        ],
+        "11yo_ro": [
+          "Dan",
+          "Meșterul Eldon",
+          "Clara",
+          "Thomas"
+        ]
+      },
+      "core_values": [
+        "val_real_world_play"
+      ],
+      "core_takeaway_11yo_en": "Swiping a glowing 'glass mirror' alone in bed feels safe on the surface while quietly filling your chest with isolation and anxiety; stepping out onto the muddy trail—climbing rocks, risking small scrapes, and laughing face-to-face with friends—is what wires a confident, joyful brain.",
+      "core_takeaway_11yo_ro": "Statul singur în pat cu ochii în „oglinda de sticlă” a ecranului pare comod, dar îți umple inima de izolare și neliniște; ieșirea pe cărarea cu noroi — cățăratul, jocurile reale și râsul față în față cu prietenii — este hrana de care creierul are nevoie pentru a crește curajos și fericit."
+    }
+  ]
+}

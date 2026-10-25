@@ -1,0 +1,47 @@
+name: AltStell Daily Graph Integrity & Pages Sync
+
+on:
+  schedule:
+    # Runs daily at 08:30 UTC for ongoing graph telemetry & integrity verification
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-graph-and-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install NetworkX
+        run: pip install networkx
+
+      - name: Recompute Knowledge Graph Centrality & Validate Feed JSON
+        run: |
+          python3 -c "
+          import json
+          from engine.graph_engine import KnowledgeGraphManager, FEED_PATH, GRAPH_PATH
+          with open(FEED_PATH, 'r', encoding='utf-8') as f:
+              episodes = json.load(f)['episodes']
+          kg = KnowledgeGraphManager(GRAPH_PATH)
+          kg.load()
+          kg.sync_episodes_into_graph(episodes)
+          m = kg.compute_graph_metrics()
+          kg.save()
+          print('Verified Graph Metrics:', m)
+          "
+
+      - name: Commit updated graph metrics if changed
+        run: |
+          git config user.name "altstell-graph-bot"
+          git config user.email "altstell-bot@users.noreply.github.com"
+          git add data/knowledge_graph.json
+          git diff --staged --quiet || (git commit -m "chore(graph): daily centrality & topology refresh" && git push)

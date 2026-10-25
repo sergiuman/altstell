@@ -1,0 +1,798 @@
+:root {
+  --bg-deep: #070913;
+  --bg-surface: rgba(16, 21, 42, 0.86);
+  --bg-card: rgba(20, 27, 54, 0.92);
+  --border-glass: rgba(148, 163, 184, 0.18);
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent-primary: #6366f1;
+  --accent-cyan: #38bdf8;
+  --accent-amber: #fbbf24;
+  --accent-emerald: #10b981;
+  --accent-rose: #f43f5e;
+  --radius-xl: 24px;
+  --radius-lg: 16px;
+  --font-display: 'Space Grotesk', 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 10%, #131b3a 0%, #070913 65%);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 62px;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: rgba(7, 9, 19, 0.78);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.brand-orb {
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #6366f1, #38bdf8, #fbbf24);
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  color: #070913;
+  font-size: 18px;
+  box-shadow: 0 0 18px rgba(99, 102, 241, 0.55);
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #ffffff, #cbd5e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-tag {
+  font-size: 0.72rem;
+  color: var(--accent-cyan);
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.75);
+  padding: 4px;
+  border-radius: 999px;
+  border: 1px solid var(--border-glass);
+}
+
+.nav-tab {
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  padding: 7px 15px;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-tab:hover {
+  color: var(--text-main);
+}
+
+.nav-tab.active {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sparks-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(251, 191, 36, 0.13);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  color: var(--accent-amber);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.btn-pill {
+  background: rgba(30, 41, 59, 0.85);
+  color: var(--text-main);
+  border: 1px solid var(--border-glass);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-pill:hover {
+  border-color: var(--accent-cyan);
+  background: rgba(56, 189, 248, 0.16);
+}
+
+/* Main View Container */
+.view-panel {
+  display: none;
+  position: fixed;
+  top: 62px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.view-panel.active {
+  display: flex;
+}
+
+/* =========================================================
+   VIEW 1: TIKTOK-STYLE VERTICAL SHORT-VIDEO FEED
+   ========================================================= */
+#view-feed {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.feed-filter-bar {
+  position: absolute;
+  top: 12px;
+  z-index: 40;
+  display: flex;
+  gap: 8px;
+  max-width: 94vw;
+  overflow-x: auto;
+  padding: 5px 10px;
+  background: rgba(7, 9, 19, 0.65);
+  backdrop-filter: blur(12px);
+  border-radius: 999px;
+  border: 1px solid var(--border-glass);
+  scrollbar-width: none;
+}
+
+.feed-filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-chip {
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.filter-chip.active {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+.shorts-stream {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.shorts-stream::-webkit-scrollbar {
+  display: none;
+}
+
+.short-slide {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 12px 16px;
+  position: relative;
+}
+
+.short-stage {
+  position: relative;
+  height: 100%;
+  aspect-ratio: 9 / 16;
+  max-width: 96vw;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background: #0a0e1f;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.short-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.sound-unlock-banner {
+  position: absolute;
+  top: 56px;
+  right: 14px;
+  z-index: 25;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.5);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: transform 0.18s;
+}
+
+.sound-unlock-banner:hover {
+  transform: scale(1.04);
+}
+
+/* Right-side TikTok Action Rail (Ethical Child-Psych Actions!) */
+.action-rail {
+  position: absolute;
+  right: 12px;
+  bottom: 138px;
+  z-index: 25;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.rail-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(12, 16, 34, 0.82);
+  backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.22);
+  color: #fff;
+  font-size: 1.2rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.rail-btn:hover {
+  transform: scale(1.09);
+  border-color: var(--accent-cyan);
+  background: rgba(30, 41, 82, 0.92);
+}
+
+.rail-btn.completed {
+  border-color: var(--accent-emerald);
+  background: rgba(16, 185, 129, 0.25);
+}
+
+.rail-label {
+  font-size: 0.66rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  margin-top: -6px;
+  text-align: center;
+  max-width: 64px;
+}
+
+/* Bottom Value Tags & Quick Action Strip inside Stage */
+.stage-footer-chips {
+  position: absolute;
+  left: 14px;
+  right: 72px;
+  bottom: 14px;
+  z-index: 24;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.value-badge {
+  font-size: 0.71rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.86);
+  border: 1px solid rgba(99, 102, 241, 0.5);
+  color: #c7d2fe;
+  cursor: pointer;
+}
+
+.interactive-cta-btn {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.92), rgba(56, 189, 248, 0.92));
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.35);
+}
+
+/* In-Stage Interactive Overlay Cards (Perspective Flip, Branching Dilemma, Quest) */
+.stage-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 35;
+  background: rgba(7, 10, 24, 0.91);
+  backdrop-filter: blur(16px);
+  padding: 24px 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  animation: fadeIn 0.2s ease;
+}
+
+.stage-overlay.open {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.overlay-kicker {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-cyan);
+  font-weight: 800;
+}
+
+.overlay-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.lens-card {
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  background: rgba(30, 41, 59, 0.7);
+  border-left: 4px solid var(--accent-rose);
+}
+
+.lens-card.lens-growth {
+  border-left-color: var(--accent-emerald);
+  background: rgba(16, 185, 129, 0.12);
+}
+
+.lens-card h4 {
+  font-size: 0.82rem;
+  margin-bottom: 6px;
+  color: #f8fafc;
+}
+
+.lens-card p {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #cbd5e1;
+}
+
+.choice-btn {
+  width: 100%;
+  text-align: left;
+  padding: 13px 15px;
+  border-radius: var(--radius-lg);
+  background: rgba(30, 41, 59, 0.85);
+  border: 1.5px solid rgba(148, 163, 184, 0.28);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.choice-btn:hover {
+  border-color: var(--accent-cyan);
+  background: rgba(56, 189, 248, 0.15);
+}
+
+.dilemma-feedback {
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  background: rgba(99, 102, 241, 0.16);
+  border: 1px solid rgba(99, 102, 241, 0.45);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.overlay-close {
+  align-self: center;
+  margin-top: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* =========================================================
+   VIEW 2: CONSTELLATION KNOWLEDGE GRAPH EXPLORER
+   ========================================================= */
+#view-constellation {
+  position: fixed;
+  display: none;
+}
+
+#view-constellation.active {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+}
+
+.graph-canvas-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, #0f1734 0%, #060812 75%);
+}
+
+#constellation-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: grab;
+}
+
+.graph-legend {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  gap: 12px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(7, 9, 19, 0.78);
+  border: 1px solid var(--border-glass);
+  font-size: 0.76rem;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.graph-inspector {
+  background: var(--bg-surface);
+  border-left: 1px solid var(--border-glass);
+  padding: 22px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* =========================================================
+   VIEW 3: 17-BOOK BILINGUAL CONSOLIDATED LIBRARY
+   ========================================================= */
+#view-library {
+  overflow-y: auto;
+  padding: 28px 24px 60px;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.library-hero {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.books-grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 18px;
+}
+
+.book-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(99, 102, 241, 0.55);
+}
+
+.book-num {
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.book-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+}
+
+.book-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.book-actions {
+  margin-top: auto;
+  padding-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* =========================================================
+   VIEW 4: MINDFUL PULSE, QA TELEMETRY & 10-DAY EVOLUTION
+   ========================================================= */
+#view-pulse {
+  overflow-y: auto;
+  padding: 28px 24px 60px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pulse-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+}
+
+.stat-val {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+}
+
+.qa-table-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  overflow-x: auto;
+}
+
+table.qa-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+}
+
+table.qa-table th, table.qa-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+  text-align: left;
+}
+
+table.qa-table th {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+/* Modal Reader & Mindful Pause Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  background: rgba(4, 6, 15, 0.86);
+  backdrop-filter: blur(14px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-backdrop.open {
+  display: flex;
+}
+
+.reader-modal {
+  background: #0e1429;
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  max-width: 860px;
+  width: 100%;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.reader-header {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border-glass);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.reader-chapters-bar {
+  display: flex;
+  gap: 6px;
+  padding: 10px 24px;
+  overflow-x: auto;
+  background: rgba(7, 9, 19, 0.55);
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.reader-body {
+  padding: 28px 32px;
+  overflow-y: auto;
+  line-height: 1.78;
+  font-size: 1.03rem;
+  color: #e2e8f0;
+}
+
+.reader-body p {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 860px) {
+  .brand-tag { display: none; }
+  .nav-tab span.tab-txt { display: none; }
+  #view-constellation.active {
+    grid-template-columns: 1fr;
+    grid-template-rows: 58% 42%;
+  }
+  .graph-inspector {
+    border-left: none;
+    border-top: 1px solid var(--border-glass);
+  }
+}
+
+/* Live Synced 6-Beat Interactive Strip & Library Search */
+.beat-sync-bar {
+  position: absolute;
+  top: 56px;
+  left: 14px;
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(12, 16, 34, 0.82);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.beat-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(30, 41, 59, 0.75);
+  color: #cbd5e1;
+  font-size: 0.66rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: all 0.16s ease;
+}
+
+.beat-dot.active {
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #fff;
+  border-color: #fff;
+  transform: scale(1.14);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.65);
+}
+
+.book-search-input {
+  background: rgba(15, 23, 42, 0.88);
+  color: var(--text-main);
+  border: 1px solid var(--border-glass);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  min-width: 260px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.book-search-input:focus {
+  border-color: var(--accent-cyan);
+}

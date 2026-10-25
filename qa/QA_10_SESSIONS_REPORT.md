@@ -1,0 +1,17 @@
+# AltStell — 10-Session QA & Incremental Outcome Telemetry
+
+> Target Audience: **11-Year-Old Readers & Viewers (Bilingual EN / RO)**  
+> Evaluation Engine: Quantitative Readability + `ffprobe` Media Verification + NetworkX Graph Metrics + Local `Ollama (gemma2:latest)` Child Psychologist Audit
+
+| QA Session | Composite Score | Incremental Delta | Episodes | Graph (Nodes / Edges) | Age-11 Fit | Psych Safety | Alt-Story | Bilingual | Media MP4 | Graph | Web UX | Engineering & Editorial Upgrade Applied |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Session 1** | **64.55/100** | `+64.55` | 12 | 0 / 0 | 85.0 | 94.6 | 92.0 | 70.0 | 0.0 | 0.0 | 90.0 | Baseline: Initial 12-episode feed (Books 1-12) & Storytelling Principles v1 before Graph sync, 17-book library bundle, and MP4 synthesis. |
+| **Session 2** | **75.74/100** | `+11.19` | 24 | 86 / 267 | 85.0 | 95.8 | 92.0 | 70.0 | 0.0 | 91.5 | 90.0 | Expanded feed to 24 bilingual episodes (adding Books 13-17 + 7 cross-book Graph Fusion shorts) & synced NetworkX Knowledge Graph (86 nodes, 249 edges). |
+| **Session 3** | **81.74/100** | `+6.00` | 24 | 86 / 267 | 100.0 | 95.8 | 92.0 | 100.0 | 0.0 | 91.5 | 90.0 | Consolidated all 17 bilingual 11yo books (2,839-34,000w each) into books_library.json, normalized Romanian comma-below diacritics, and enabled weighted PageRank centrality. |
+| **Session 4** | **86.44/100** | `+4.70` | 24 | 86 / 267 | 100.0 | 95.8 | 96.0 | 100.0 | 29.0 | 91.5 | 90.0 | Synthesized Batch A (ep_01-ep_12) 720x1280 H.264+AAC vertical MP4 shorts in English with per-beat ffprobe audio sync & poster thumbnails. |
+| **Session 5** | **92.12/100** | `+5.68` | 24 | 86 / 267 | 100.0 | 95.8 | 100.0 | 100.0 | 65.0 | 91.5 | 90.0 | Synthesized Batch B (ep_13-ep_24) English 720x1280 MP4 shorts (including 7 Graph Fusion shorts), compacted all 24 EN videos <4.5 MB with +faststart, and locked 24/24 beat timestamps. |
+| **Session 6** | **94.57/100** | `+2.45` | 24 | 86 / 267 | 100.0 | 95.8 | 100.0 | 100.0 | 82.5 | 91.5 | 90.0 | Synthesized Batch A (ep_01-ep_12) Romanian 720x1280 MP4 shorts with localized Romanian HUD badges (zero English text), Ioana narration, and per-beat sync. |
+| **Session 7** | **97.02/100** | `+2.45` | 24 | 86 / 267 | 100.0 | 95.8 | 100.0 | 100.0 | 100.0 | 91.5 | 90.0 | Synthesized Batch B (ep_13-ep_24) Romanian 720x1280 MP4 shorts, completing all 48/48 bilingual vertical short videos (<5.3 MB each) with 100% ffprobe stream & beat-sync verification. |
+| **Session 8** | **97.24/100** | `+0.22` | 24 | 86 / 267 | 100.0 | 97.0 | 100.0 | 100.0 | 100.0 | 91.5 | 90.0 | Applied Child Psychologist Audit: added 24/24 somatic mindful_cues (EN+RO), randomized A/B dilemma growth order, and polished Romanian grammar & gender-inclusive phrasing. |
+| **Session 9** | **98.26/100** | `+1.02` | 25 | 87 / 274 | 100.0 | 97.0 | 100.0 | 100.0 | 100.0 | 100.0 | 90.0 | Executed live Multi-Agent Graph + Ollama (gemma2:latest) autonomous cycle: evolved Storytelling Principles to v2, discovered cross-book value bridge, synthesized ep_25 (EN+RO MP4s), and expanded Graph to 87 nodes. |
+| **Session 10** | **99.46/100** | `+1.20` | 25 | 87 / 274 | 100.0 | 97.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | Shipped live synced 6-beat karaoke bar (beat_timestamps + timeupdate), 17-Book instant search, upgraded ChildPsychGuardNode (>=95 threshold, ep_25 FK Grade tuned to 6th-grade), and passed full HTTP smoke verification. |

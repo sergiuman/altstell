@@ -1,0 +1,26 @@
+# OS & Python artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+*.aiff
+*.tmp
+temp_*/
+junior_editions/*/temp_v2/
+
+# Large long-form YouTube bulk upload archives (>50MB per file; short vertical web videos live in assets/videos/)
+youtube_upload_pack/
+youtube_upload_pack_full/
+junior_editions/*/*.mp4
+junior_editions/*/*.mp3
+junior_editions/*/slides/
+junior_editions/assets/
+*/*.docx
+logs/
+
+# Local credentials / progress logs
+*client_secret*.json
+*token*.json
+upload_*_progress*.json
+organized_ops/youtube_scripts/
+upload_*.py
+inspect_*.py

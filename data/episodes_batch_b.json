@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "ep_13",
+    "order": 13,
+    "is_graph_fusion": false,
+    "book_ids": [
+      "book_13"
+    ],
+    "value_ids": [
+      "val_courageous_kindness"
+    ],
+    "dilemma_id": "dil_13",
+    "category": "friends_empathy",
+    "alt_format": "QUIET_SPARK",
+    "art_theme": "snowy_lantern_woods",
+    "accent_color": "#f59e0b",
+    "duration_target_sec": 45,
+    "title": {
+      "en": "The Gutsiest Word in Sixth Grade",
+      "ro": "Cel mai curajos cuvânt dintr-a șasea"
+    },
+    "hook": {
+      "en": "What is the bravest word you can say when everything goes wrong, and why isn't it 'fine'?",
+      "ro": "Care e cel mai curajos cuvânt când totul iese prost? Indiciu: sigur nu e «bine»."
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Matei's volcano model cracked in front of science class, so he laughed loudly and muttered that the project was stupid.",
+        "caption_ro": "Macheta lui Matei s-a prăbușit chiar în fața clasei. El a râs tare și a mormăit că proiectul era oricum prostesc."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Most kids assume courage looks loud and fearless. They picture scoring winning goals or delivering a clever comeback.",
+        "caption_ro": "Mulți copii cred că adevăratul curaj arată gălăgios și neînfricat. Își imaginează golul decisiv sau replica perfectă spusă pe loc."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Out on the snowy steps at recess, Matei stared at his boots while hiding behind prickly, protective armor.",
+        "caption_ro": "Afară, pe treptele înzăpezite din pauză, Matei își privea fix ghetele. Stătea ascuns după o armură țepoasă ca o vulpe speriată."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Leo walked over without giving any big pep talk. He sat quietly beside him and shared his warm pretzel.",
+        "caption_ro": "Leo s-a apropiat fără să țină vreun discurs măreț. S-a așezat liniștit lângă el și i-a întins jumătate din covrigul cald."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Ten quiet seconds passed on those cold steps before Matei dropped his shoulders and whispered: Can you help me?",
+        "caption_ro": "Au trecut zece secunde tăcute pe treptele reci. Matei și-a lăsat umerii jos și a șoptit: Mă ajuți s-o refacem împreună?"
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Asking for help is never giving up on yourself. Honest words take real guts when pretending feels way easier.",
+        "caption_ro": "Să ceri ajutor nu înseamnă niciodată că renunți. Cere mult curaj să fii sincer atunci când prefacerea pare mai simplă."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Prickly Armor Voice",
+        "ro": "Vocea Armurii Țepoase"
+      },
+      "lens_a_thought": {
+        "en": "Act like you don't care at all right now. If nobody sees you're upset, nobody can laugh at you, even if sitting alone on these cold steps feels awful.",
+        "ro": "Prefă-te că nu îți pasă absolut deloc acum. Dacă nimeni nu vede că ești supărat, nimeni nu poate râde de tine, chiar dacă singurătatea de pe trepte doare."
+      },
+      "lens_b_label": {
+        "en": "Courageous Kindness Voice",
+        "ro": "Vocea Bunătății Curajoase"
+      },
+      "lens_b_thought": {
+        "en": "Dropping the tough act takes real guts today. Letting one trusted friend see the mess means I don't have to carry this broken project all by myself.",
+        "ro": "Să renunți la masca de dur cere curaj adevărat. Dacă las un prieten bun să vadă dezastrul, nu mai trebuie să duc greutatea asta de unul singur."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "Your friend blanks out during a class presentation and says afterward, 'Whatever, I didn't even try.'",
+        "ro": "Prietenul tău se blochează la o prezentare în clasă și spune apoi: «Oricum nici nu m-am străduit.»"
+      },
+      "choice_a": {
+        "label": {
+          "en": "Joke around to change the subject fast",
+          "ro": "Faci o glumă ca să schimbi rapid subiectul"
+        },
+        "ripple": {
+          "en": "The awkwardness fades for a minute, yet your friend stays stuck behind their armor feeling secretly alone.",
+          "ro": "Stânjeneala dispare un minut, dar prietenul tău rămâne blocat în spatele armurii, simțindu-se singur în sinea lui."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Sit nearby gently and share your snack",
+          "ro": "Te așezi calm lângă el și împarți gustarea"
+        },
+        "ripple": {
+          "en": "Zero pressure makes their brain feel safe enough to drop the tough mask and talk honestly.",
+          "ro": "Lipsa presiunii îi face creierul să se simtă în siguranță ca să lase masca jos și să vorbească sincer."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Quiet, zero-pressure presence calms a friend's threat alarm way faster than advice or jokes ever could.",
+        "ro": "Prezența caldă și fără presiune liniștește alarma emoțională a unui prieten mult mai rapid decât orice sfat."
+      }
+    },
+    "mindful_cue": {
+      "en": "Unclench your jaw, let your shoulders drop an inch, and take one slow breath.",
+      "ro": "Relaxează maxilarul, coboară umerii ușor și trage aer în piept lent o dată."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Zero-Fix Check-In",
+        "ro": "Salutul Fără Lecții"
+      },
+      "instruction": {
+        "en": "Spot someone at home or school having a heavy day and bring them water, a snack, or a kind two-line note without trying to fix anything.",
+        "ro": "Observă azi pe cineva de acasă sau de la școală care are o zi grea și oferă-i un pahar cu apă sau un bilețel cald, fără să dai sfaturi."
+      }
+    }
+  },
+  {
+    "id": "ep_14",
+    "order": 14,
+    "is_graph_fusion": false,
+    "book_ids": [
+      "book_14"
+    ],
+    "value_ids": [
+      "val_purpose_why"
+    ],
+    "dilemma_id": "dil_14",
+    "category": "focus_grit",
+    "alt_format": "PERSPECTIVE_FLIP",
+    "art_theme": "lighthouse_compass",
+    "accent_color": "#eab308",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "Why Your Brain Hates Boring Checklists",
+      "ro": "De ce creierul tău urăște listele plictisitoare"
+    },
+    "hook": {
+      "en": "Why do five minutes of worksheets feel endless while two hours building a cardboard fort fly right past?",
+      "ro": "De ce cinci minute de fișe par infinite, dar două ore la un fort din carton zboară imediat?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Maya stared at her blank poster board for twenty minutes because the school project checklist felt like afternoon torture.",
+        "caption_ro": "Maya s-a uitat douăzeci de minute la cartonul gol. Lista cu cerințele proiectului școlar părea o adevărată tortură de după-amiază."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Most people work from the outside in. They ask What to finish first, never asking Why it matters.",
+        "caption_ro": "Majoritatea oamenilor lucrează de la exterior spre interior. Întreabă întâi Ce au de bifat, fără să întrebe De ce contează."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Your brain's motivation engine isn't broken or lazy; it keeps fuel locked until real human purpose turns the key.",
+        "caption_ro": "Motorul motivației din creier nu este stricat ori leneș. El ține combustibilul încuiat până când un scop real învârte cheia."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Then Maya pictured her younger brother eating lunch alone in week one. Suddenly her whole poster idea flipped.",
+        "caption_ro": "Apoi Maya și-a amintit cum fratele ei mânca singur în prima săptămână. Dintr-odată, toată ideea proiectului s-a schimbat complet."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "She stopped chasing easy grade points and designed a schoolyard Buddy Map so new kids wouldn't feel invisible.",
+        "caption_ro": "Nu mai desena un simplu afiș pentru notă. Construia harta unei Bănci a Prieteniei, ca niciun coleg nou să nu fie singur."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Checklists tell your hands what to do next. A clear Why lights your lighthouse beam when work gets stormy.",
+        "caption_ro": "Listele le spun mâinilor ce să facă pe moment. Un De ce clar aprinde însă farul interior când munca devine grea."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Checklist Zombie Mode",
+        "ro": "Modul Robot pe Listă"
+      },
+      "lens_a_thought": {
+        "en": "Just glue three random facts onto the board so the teacher marks it complete. Count every minute until the bell rings and forget the whole thing tomorrow.",
+        "ro": "Lipește rapid trei informații la întâmplare pe carton doar ca să scapi de temă. Numără fiecare minut până sună clopoțelul și uită totul până mâine dimineață."
+      },
+      "lens_b_label": {
+        "en": "Lighthouse Purpose Mode",
+        "ro": "Modul Busolei cu Sens"
+      },
+      "lens_b_thought": {
+        "en": "Connect this task to something I actually care about helping or mastering. Once I know who this helps, even the tricky details start feeling like my mission.",
+        "ro": "Leagă sarcina asta de ceva ce chiar vreau să ajut sau să stăpânesc. Când știu cui îi folosește, până și detaliile grele devin propria mea misiune."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You need to practice boring music scales or math drills, and you want to quit after ninety seconds.",
+        "ro": "Trebuie să exersezi game muzicale sau exerciții la mate plictisitoare și îți vine să renunți după nouăzeci de secunde."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Stare at the clock and rush sloppy reps",
+          "ro": "Te uiți la ceas și repezi exercițiile"
+        },
+        "ripple": {
+          "en": "Your brain tags the skill as pointless chores, draining your energy twice as fast without building real skill.",
+          "ro": "Creierul etichetează activitatea drept corvoadă fără rost, consumându-ți energia de două ori mai repede fără progres real."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Link the drill to a cool real goal",
+          "ro": "Legi exercițiul de un scop real și fain"
+        },
+        "ripple": {
+          "en": "Knowing these chords unlock your favorite song or game design releases steady focus fuel.",
+          "ro": "Când știi că acordurile deblochează piesa ta preferată sau matematica ajută la jocuri, creierul eliberează concentrare."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Your brain unlocks deep focus fuel only when it sees the human meaning behind the effort.",
+        "ro": "Creierul eliberează energie profundă doar atunci când înțelege rostul viu din spatele efortului."
+      }
+    },
+    "mindful_cue": {
+      "en": "Place one hand on your chest, breathe in slowly, and ask what truly matters to you today.",
+      "ro": "Pune o mână pe piept, inspiră rar și întreabă-te ce contează cu adevărat pentru tine astăzi."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Five-Word Why Flip",
+        "ro": "Busola în Cinci Cuvinte"
+      },
+      "instruction": {
+        "en": "Pick your least favorite task today, grab a scrap of paper, and write in five bold words how finishing it helps future you or someone else.",
+        "ro": "Alege cea mai plictisitoare sarcină de azi și scrie pe un bilețel, în cinci cuvinte clare, cum te ajută pe tine sau pe altcineva."
+      }
+    }
+  },
+  {
+    "id": "ep_15",
+    "order": 15,
+    "is_graph_fusion": false,
+    "book_ids": [
+      "book_15"
+    ],
+    "value_ids": [
+      "val_nightly_brain_reset"
+    ],
+    "dilemma_id": "dil_15",
+    "category": "brain_systems",
+    "alt_format": "BRAIN_GLITCH",
+    "art_theme": "sleep_library",
+    "accent_color": "#6366f1",
+    "duration_target_sec": 48,
+    "title": {
+      "en": "Your Brain's Secret Midnight Cleanup Crew",
+      "ro": "Echipa secretă de noapte din creierul tău"
+    },
+    "hook": {
+      "en": "Think staying up past midnight gives you bonus free hours? Your brain's overnight cleanup crew strongly disagrees.",
+      "ro": "Crezi că statul treaz după miezul nopții îți dă timp liber bonus? Echipa din creier te contrazice."
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "At eleven thirty under her blanket, Daria tapped another video because she thought she was stealing extra free time.",
+        "caption_ro": "La unsprezece și jumătate, sub pătură, Daria a pornit încă un clip. Era convinsă că fură ore libere din noapte."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Inside her skull, her memory inbox was packed way too tight, like an overflowing school locker ready to burst.",
+        "caption_ro": "În mintea ei însă, cutia cu amintiri era îndesată la refuz. Arăta exact ca un dulap gata să se verse pe hol."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Sleep never turns your brain off at night. Instead, it launches an active crew that washes away mental clutter.",
+        "caption_ro": "Somnul nu îți oprește niciodată creierul pe timpul nopții. El pornește o echipă harnică de curățenie care spală oboseala adunată."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Deep slow brain waves carry today's best lessons into permanent vaults, locking in skateboard tricks and tricky vocabulary.",
+        "caption_ro": "Undele lente și profunde mută lecțiile zilei în seifuri sigure. Tot ele fixează schemele pe skateboard și cuvintele noi."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Dream sleep then cools down your inner emotional alarm. Small morning mix-ups stop feeling like giant school disasters.",
+        "caption_ro": "Apoi somnul cu vise răcorește alarma de stres din creier. Micile încurcături de dimineață nu mai par niște catastrofe uriașe."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Parking your screen early isn't missing out on fun. It hands the keys to your smartest upgrade crew.",
+        "caption_ro": "Să lași ecranul devreme nu înseamnă că pierzi distracția. Înseamnă să dai cheile celei mai deștepte echipe din mintea ta."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Revenge Scroll Voice",
+        "ro": "Vocea Scroll-ului de Noapte"
+      },
+      "lens_a_thought": {
+        "en": "Just watch three more funny clips under the warm covers tonight. Tomorrow me can handle feeling sleepy, because right now nobody is bossing me around.",
+        "ro": "Mai uită-te la încă trei clipuri sub plapumă. Mă descurc eu mâine dacă sunt puțin somnoros, fiindcă acum e singurul moment când nu mă bate nimeni la cap."
+      },
+      "lens_b_label": {
+        "en": "Night-Shift Upgrade Voice",
+        "ro": "Vocea Upgrade-ului Nocturn"
+      },
+      "lens_b_thought": {
+        "en": "Real freedom tomorrow means waking up with sharp focus and steady patience. Docking the screen now lets my brain save every cool skill I practiced today.",
+        "ro": "Libertatea adevărată de mâine înseamnă să mă trezesc cu reflexe rapide și cu răbdare calmă. Dacă parchez ecranul acum, creierul salvează fiecare mișcare tare exersată astăzi."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "It is 9:45 PM before soccer tryouts and a math quiz, and autoplay queues up a tempting video.",
+        "ro": "Este ora 21:45 înainte de selecția la fotbal și un test la mate, iar aplicația pornește încă un clip tentant."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Park the screen across the room right now",
+          "ro": "Parchezi ecranul în celălalt capăt al camerei"
+        },
+        "ripple": {
+          "en": "Your night crew runs all cycles, boosting your reaction speed, memory recall, and calm focus tomorrow.",
+          "ro": "Echipa de noapte își face toate turele, crescându-ți viteza de reacție, memoria și calmul de mâine."
+        },
+        "is_growth_choice": true
+      },
+      "choice_b": {
+        "label": {
+          "en": "Keep watching under the blanket until midnight",
+          "ro": "Continui să te uiți sub pătură până la miezul nopții"
+        },
+        "ripple": {
+          "en": "Bright blue light blocks sleep signals and leaves your threat alarm way jumpier at school the next day.",
+          "ro": "Lumina albastră blochează melatonina și îți lasă alarma emoțională mult mai irascibilă a doua zi la școală."
+        },
+        "is_growth_choice": false
+      },
+      "psych_takeaway": {
+        "en": "Full sleep cycles lock in daytime learning while resetting the brain's emotional brakes for tomorrow.",
+        "ro": "Ciclurile complete de somn fixează tot ce ai învățat ziua și resetează frânele emoționale pentru mâine."
+      }
+    },
+    "mindful_cue": {
+      "en": "Blink slowly three times to rest your eyes and stretch your neck gently side to side.",
+      "ro": "Clipește rar de trei ori ca să îți odihnești ochii și întinde ușor gâtul într-o parte și în alta."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Build a Screen Launchpad",
+        "ro": "Stația de Parcare a Ecranului"
+      },
+      "instruction": {
+        "en": "Pick a spot at least five giant steps from your bed where your phone or tablet parks tonight, and put a comic, book, or notebook by your pillow.",
+        "ro": "Alege chiar acum un loc la cel puțin cinci pași mari de pat unde va dormi telefonul sau tableta la noapte și pune o carte lângă pernă."
+      }
+    }
+  },
+  {
+    "id": "ep_16",
+    "order": 16,
+    "is_graph_fusion": false,
+    "book_ids": [
+      "book_16"
+    ],
+    "value_ids": [
+      "val_resilient_self_talk"
+    ],
+    "dilemma_id": "dil_16",
+    "category": "focus_grit",
+    "alt_format": "BRANCHING_CHOICE",
+    "art_theme": "iron_resilience",
+    "accent_color": "#ef4444",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "The Proof Jar Trick for Tough Moments",
+      "ro": "Trucul Borcanului cu Dovezi în momentele grele"
+    },
+    "hook": {
+      "en": "Why does your brain shout 'I quit!' way before your actual energy tank is even half empty?",
+      "ro": "De ce strigă creierul tău «Renunț!» cu mult înainte ca rezervorul tău de energie să fie gol?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Halfway up the steep park hill in cold drizzle, Victor's legs burned while an inner voice begged to stop.",
+        "caption_ro": "La jumătatea dealului abrupt din parc, prin ploaia rece, picioarele lui Victor ardeau. O voce interioară îi cerea să oprească."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Psychologists call that voice your early comfort alarm, a cautious guard that rings bells whenever climbs feel unfamiliar.",
+        "caption_ro": "Psihologii numesc vocea aceea alarma timpurie de confort. Ca un paznic prea prudent, ea sună imediat ce urcușul devine greu."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Real inner strength never means bullying yourself. Instead, it means answering loud panic with calm, steady coach talk.",
+        "caption_ro": "Puterea interioară nu înseamnă niciodată să te cerți aspru. Înseamnă să răspunzi panicii cu vocea unui antrenor calm și cald."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Victor opened his mental Proof Jar right on that hill. Inside sat real memories of tough challenges he conquered.",
+        "caption_ro": "Victor a deschis în minte Borcanul cu Dovezi chiar pe deal. Înăuntru păstra amintiri reale cu greutăți depășite deja cu bine."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "He remembered coughing pool water before mastering freestyle, and trembling before his history speech yet finishing proud and tall.",
+        "caption_ro": "Și-a amintit cum înghițise apă la bazin înainte să învețe înotul. Și-a amintit și emoțiile de la serbare, când reușise."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "He took one calm breath and pedaled ten steady strokes. Right on cue, the hilltop leveled under his wheel.",
+        "caption_ro": "A tras aer în piept calm și a mai pedalat de zece ori. Vârful dealului s-a ivit chiar sub roata bicicletei."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Early Comfort Alarm",
+        "ro": "Alarma de Confort"
+      },
+      "lens_a_thought": {
+        "en": "This climb feels way too hard, which proves you aren't strong enough. Turn your bike around right now before you embarrass yourself trying something out of your league.",
+        "ro": "Asta se simte mult prea greu, semn clar că nu ești destul de puternic. Întoarce bicicleta chiar acum înainte să te faci de râs încercând degeaba."
+      },
+      "lens_b_label": {
+        "en": "Steady Coach + Proof Jar",
+        "ro": "Antrenorul Calm și Dovezile"
+      },
+      "lens_b_thought": {
+        "en": "My comfort alarm is just loud because my leg muscles are working hard. I tackled tough things before, so let's breathe slow and reach that next tree.",
+        "ro": "Alarma mea de confort sună tare doar fiindcă mușchii lucrează serios. Am mai trecut prin lucruri grele, așa că respir rar și pedalez până la următorul felinar."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "Halfway through a tricky coding bug or gym run, frustration spikes and your brain says, 'Just stop.'",
+        "ro": "La mijlocul unei probleme grele sau al unei alergări la sport, apare frustrarea și mintea îți spune: «Oprește-te.»"
+      },
+      "choice_a": {
+        "label": {
+          "en": "Call yourself weak and quit right away",
+          "ro": "Te învinovățești și renunți pe loc"
+        },
+        "ripple": {
+          "en": "Harsh self-talk floods your brain with stress, making future challenges feel twice as scary to start.",
+          "ro": "Autocritica dură îți inundă creierul cu stres și face următoarele provocări să pară de două ori mai sperietoare."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Pull one memory from your Proof Jar",
+          "ro": "Scoți o amintire din Borcanul cu Dovezi"
+        },
+        "ripple": {
+          "en": "Remembering real past wins calms your threat alarm and unlocks steady reserve strength for the next step.",
+          "ro": "Amintirea reușitelor reale din trecut îți calmează sistemul nervos și deblochează energie proaspătă pentru pasul următor."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Warm, evidence-based coach talk builds far stronger grit than harsh inner criticism ever does.",
+        "ro": "Dialogul interior cald, bazat pe dovezi reale, construiește o reziliență mult mai solidă decât autocritica dură."
+      }
+    },
+    "mindful_cue": {
+      "en": "Sit tall, exhale all the air out like a slow sigh, and recall one hard thing you survived.",
+      "ro": "Îndreaptă spatele, expiră tot aerul ca un oftat lung și amintește-ți un lucru greu pe care l-ai biruit."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Start Your Real Proof Jar",
+        "ro": "Creează Borcanul cu Dovezi"
+      },
+      "instruction": {
+        "en": "Grab an empty mug or small jar, write two tough moments you survived on paper slips, and drop them inside for days you doubt yourself.",
+        "ro": "Ia o cană goală sau un borcănel, scrie pe două bilețele două momente grele cărora le-ai făcut față și păstrează-le pentru zilele dificile."
+      }
+    }
+  },
+  {
+    "id": "ep_17",
+    "order": 17,
+    "is_graph_fusion": false,
+    "book_ids": [
+      "book_17"
+    ],
+    "value_ids": [
+      "val_real_world_play",
+      "val_attention_shield"
+    ],
+    "dilemma_id": "dil_17",
+    "category": "inner_calm",
+    "alt_format": "RIPPLE_TIMELINE",
+    "art_theme": "muddy_treehouse",
+    "accent_color": "#10b981",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "Why Scrolling Makes You Tired Sitting Still",
+      "ro": "De ce obosești pe ecran fără să te miști"
+    },
+    "hook": {
+      "en": "How can lying motionless on a soft couch for forty minutes leave your brain buzzing with anxious stress?",
+      "ro": "Cum poți să stai nemișcat pe canapea patruzeci de minute și totuși să te simți epuizat și agitat?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Forty short clips into Saturday afternoon, Sofia hadn't moved an inch, yet her chest felt tight and strangely left out.",
+        "caption_ro": "După patruzeci de clipuri într-o sâmbătă după-amiază, Sofia nu se mișcase deloc. Totuși, simțea în piept o apăsare ciudată."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Endless video feeds work just like bright slot machines. They spark quick cravings while starving your body of motion.",
+        "caption_ro": "Fluxurile infinite funcționează exact ca niște aparate cu luminițe. Aprind pofta de mai mult, dar îți lipsesc corpul de mișcare."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Kid brains grew brave by testing gravity outdoors. We need scraped knees, goofy backyard rules, and friends nearby.",
+        "caption_ro": "Creierul copiilor a crescut curajos testând lumea reală afară. Avem nevoie de alergare, reguli inventate și prieteni chiar lângă noi."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Then her neighbor knocked holding sidewalk chalk and a basketball. Sofia raised her Attention Shield and clicked the tablet shut.",
+        "caption_ro": "Apoi vecinul a bătut la ușă cu cretă și o minge veche. Sofia a ridicat Scutul Atenției și a închis tableta."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "They invented a chaotic bounce game against the garage wall, and eight minutes of laughter cleared every bit of static.",
+        "caption_ro": "Au inventat pe loc un joc haotic cu mingea la perete. Opt minute de râs adevărat au șters toată ceața ecranului."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Flat glass screens only display edited highlights. Muddy sneakers and messy play prove what you can actually do.",
+        "caption_ro": "Ecranele plate îți arată doar vitrinele editate ale altora. Adidașii prăfuiți și joaca vie îți arată ce poți face tu."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Infinite Scroll Trap",
+        "ro": "Capcana Scroll-ului Infinit"
+      },
+      "lens_a_thought": {
+        "en": "Going outside takes way too much effort right now. Keep swiping until a funny clip wakes you up, even though every ten minutes makes your mood heavier.",
+        "ro": "Să ieși afară cere prea mult efort acum. Mai dă scroll până găsești un clip amuzant, chiar dacă după fiecare zece minute te simți tot mai stors."
+      },
+      "lens_b_label": {
+        "en": "Attention Shield + Real Play",
+        "ro": "Scutul Atenției și Joaca Vie"
+      },
+      "lens_b_thought": {
+        "en": "That restless buzz means my brain craves real 3D action, not another flat video. Five minutes of tossing a ball or building something resets my whole mood.",
+        "ro": "Bâzâitul ăsta agitat înseamnă că mintea mea are nevoie de acțiune în lumea reală, nu de încă un ecran plat. Cinci minute de mișcare schimbă totul."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You finish homework with a free hour ahead, and your hand reaches straight for short-video feeds.",
+        "ro": "Ai terminat temele, ai o oră liberă în față și mâna se întinde automat spre aplicația cu clipuri scurte."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Step outside or start hands-on play first",
+          "ro": "Ieși afară sau începi un joc real întâi"
+        },
+        "ripple": {
+          "en": "Real motion and unpredictable play release natural joy chemicals, leaving you energized and calm.",
+          "ro": "Mișcarea și joaca imprevizibilă eliberează endorfine naturale, lăsându-te plin de energie și cu adevărat liniștit."
+        },
+        "is_growth_choice": true
+      },
+      "choice_b": {
+        "label": {
+          "en": "Scroll 'just five minutes' to relax first",
+          "ro": "Dai scroll «doar cinci minute» ca să te relaxezi"
+        },
+        "ripple": {
+          "en": "Autoplay hijacks forty minutes before you blink, leaving your eyes tired and your free hour gone.",
+          "ro": "Redarea automată îți fură patruzeci de minute pe nesimțite, lăsându-ți ochii obosiți și ora liberă consumată."
+        },
+        "is_growth_choice": false
+      },
+      "psych_takeaway": {
+        "en": "Physical, unscripted real-world play switches a kid's brain from anxious comparison mode into confident action mode.",
+        "ro": "Joaca liberă în lumea fizică mută creierul din modul comparației anxioase în modul descoperirii încrezătoare."
+      }
+    },
+    "mindful_cue": {
+      "en": "Look away from the screen toward the farthest window or wall for five calm seconds.",
+      "ro": "Ridică privirea din ecran și privește cel mai îndepărtat punct pe fereastră timp de cinci secunde."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Two-Minute Trick Shot",
+        "ro": "Provocarea Aruncării la Țintă"
+      },
+      "instruction": {
+        "en": "Put down this device right now, roll up a pair of clean socks or grab a ball, and invent a trick-shot bounce into a basket or box.",
+        "ro": "Lasă dispozitivul jos chiar acum, fă ghem o pereche de șosete curate sau ia o minge și inventează o aruncare cu ricoșeu într-o cutie."
+      }
+    }
+  },
+  {
+    "id": "ep_18",
+    "order": 18,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_12",
+      "book_04"
+    ],
+    "value_ids": [
+      "val_quiet_observation",
+      "val_deep_listening"
+    ],
+    "dilemma_id": "dil_12",
+    "category": "friends_empathy",
+    "alt_format": "QUIET_SPARK",
+    "art_theme": "listening_stream",
+    "accent_color": "#06b6d4",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "Why the Quietest Kid Hears What Everyone Misses",
+      "ro": "De ce colegul tăcut aude ce le scapă tuturor"
+    },
+    "hook": {
+      "en": "Who is the sharpest communicator at a loud lunch table? Almost never the kid talking the loudest.",
+      "ro": "Cine comunică de fapt cel mai bine la o masă gălăgioasă? Aproape niciodată cel care vorbește cel mai tare."
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Four friends argued loudly over weekend movies at lunch, while Toma poked his sandwich quietly with weak little smiles.",
+        "caption_ro": "Patru prieteni se contraziceau tare la prânz pe filmele de weekend. Între timp, Toma își înțepa sandvișul tăcut și zâmbea șters."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Loud talkers often race to plan their next joke. They miss hidden feelings sitting right under spoken words.",
+        "caption_ro": "Cei gălăgioși se grăbesc adesea să își pregătească următoarea glumă. Astfel ratează emoția ascunsă chiar sub cuvintele rostite la masă."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Quiet watchers carry a sharp radar for small clues. Oliver noticed Toma's dropped shoulders and heavy sighs right away.",
+        "caption_ro": "Copiii liniștiți au un radar aparte pentru micile detalii. Oliver a observat imediat umerii lăsați și oftatul greu al colegului."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Oliver didn't shout to beat the table noise; he leaned in and asked gently how Toma's sick dog felt.",
+        "caption_ro": "Oliver nu a strigat ca să acopere gălăgia mesei. S-a aplecat ușor și l-a întrebat blând cum se simte cățelul bolnav."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Right away the whole group stopped arguing and listened closely. Everyone tuned in and gave Toma real support.",
+        "caption_ro": "Într-o clipă, tot grupul a oprit cearta și a ascultat atent. Toți i-au oferit lui Toma sprijinul de care avea nevoie."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Pair quiet observation with one caring question and magic happens. You never need loud volume to lead friends.",
+        "caption_ro": "Unește observația tăcută cu o întrebare caldă și totul se schimbă. Nu ai nevoie de volum mare între prieteni adevărați."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Volume Competition Voice",
+        "ro": "Vocea Competiției de Volum"
+      },
+      "lens_a_thought": {
+        "en": "Everybody talks so fast here that I must interrupt with a bigger story right now, or else the whole group will forget I'm sitting here.",
+        "ro": "Toată lumea vorbește atât de repede încât trebuie să intervin acum cu o poveste și mai tare, altfel grupul va uita complet că stau aici."
+      },
+      "lens_b_label": {
+        "en": "Super-Listener Radar Voice",
+        "ro": "Vocea Radarului de Ascultare"
+      },
+      "lens_b_thought": {
+        "en": "My quiet nature lets me spot details loud talkers miss. Asking one curious question that shows I truly noticed can connect this entire friend group.",
+        "ro": "Firea mea liniștită mă ajută să observ detalii care celor gălăgioși le scapă. O singură întrebare atentă și sinceră poate apropia tot grupul nostru de prieteni."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "During a noisy science group project, two loud classmates keep talking right over a shy teammate's smart idea.",
+        "ro": "În timpul unui proiect zgomotos pe echipe, doi colegi gălăgioși vorbesc întruna peste ideea bună a unei colege timide."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Stay silent so you don't draw attention",
+          "ro": "Rămâi tăcut ca să nu atragi atenția"
+        },
+        "ripple": {
+          "en": "The best idea gets buried in noise, and your quiet teammate feels unseen for the rest of class.",
+          "ro": "Cea mai bună idee se pierde în gălăgie, iar colega ta rămâne cu sentimentul că este invizibilă toată ora."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Pass the mic: 'Wait, let's hear Ana's idea!'",
+          "ro": "Pasezi cuvântul: «Stați puțin, ce ziceai, Ana?»"
+        },
+        "ripple": {
+          "en": "Your sharp radar rescues a great idea and makes you the bridge the whole team trusts.",
+          "ro": "Observația ta scoate la lumină o soluție grozavă și te transformă în puntea de încredere a întregii echipe."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Great listeners don't fight for airtime; they spot quiet clues and ask questions that help friends feel heard.",
+        "ro": "Cei mai buni comunicatori nu monopolizează discuția, ci citesc semnalele tăcute și pun întrebări care îi fac pe ceilalți ascultați."
+      }
+    },
+    "mindful_cue": {
+      "en": "Pause for three quiet seconds right now and notice three soft sounds in the room around you.",
+      "ro": "Oprește-te trei secunde în liniște chiar acum și observă trei sunete discrete din jurul tău."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Follow-Up Detective",
+        "ro": "Detectivul Întrebării de Aur"
+      },
+      "instruction": {
+        "en": "In your next real conversation today, notice the other person's tone of voice and ask one curious follow-up question before talking about yourself.",
+        "ro": "În următoarea discuție de azi, observă tonul vocii celuilalt și pune o întrebare curioasă despre ce tocmai a spus, înainte să vorbești despre tine."
+      }
+    }
+  },
+  {
+    "id": "ep_19",
+    "order": 19,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_10",
+      "book_17"
+    ],
+    "value_ids": [
+      "val_deep_focus",
+      "val_real_world_play"
+    ],
+    "dilemma_id": "dil_10",
+    "category": "graph_fusion",
+    "alt_format": "FORGE_MODE",
+    "art_theme": "quiet_forge",
+    "accent_color": "#8b5cf6",
+    "duration_target_sec": 48,
+    "title": {
+      "en": "What Happens When You Silence Pings for 30 Minutes",
+      "ro": "Ce se întâmplă când oprești notificările 30 de minute"
+    },
+    "hook": {
+      "en": "Why does every tiny notification buzz slice your coolest hands-on project into frustrating unfinished scraps?",
+      "ro": "De ce fiecare mic bâzâit de notificare îți taie cel mai tare proiect în bucăți neterminate?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Luca tried building a wooden glider at his desk, yet every four minutes his phone buzzed with chat stickers.",
+        "caption_ro": "Luca încerca să construiască la birou un planor din lemn ușor. La fiecare patru minute telefonul vibra cu stickere."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Brain science calls that trap attention residue, because even a quick peek leaves half your mind stuck behind.",
+        "caption_ro": "Știința creierului numește capcana asta reziduu de atenție. Chiar și o privire scurtă îți lasă jumătate din minte blocată acolo."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Chopped focus makes cool physical crafts feel way harder. It tricks you into thinking you lack creative patience.",
+        "caption_ro": "Atenția fărâmițată face proiectele practice să pară mult mai grele. Te păcălește că nu ai îndemânare sau destulă răbdare."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "So Luca tapped Airplane Mode and hid the phone in a hallway drawer before entering his Quiet Forge.",
+        "caption_ro": "Așa că Luca a pus Modul Avion și a ascuns telefonul pe hol. Apoi a intrat în Atelierul Liniștit."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Twelve minutes later, boredom melted into smooth flow. His hands shaped both wings cleanly, and the glider soared.",
+        "caption_ro": "După douăsprezece minute, plictiseala s-a topit într-un flux plăcut. Mâinile au șlefuit aripile curat, iar planorul a zburat peste iarbă."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Scrolling feeds only gives you borrowed thrills. Deep focus on real crafts builds proud skills nobody can swipe.",
+        "caption_ro": "Clipurile pe ecran îți dau doar un entuziasm împrumutat. Concentrarea profundă pe ceva real clădește o mândrie doar a ta."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Ping-Chasing Brain",
+        "ro": "Mintea Vânătoare de Ping-uri"
+      },
+      "lens_a_thought": {
+        "en": "Keep the group chat open right beside your elbow so you never miss any joke. Checking messages takes two seconds, so you can easily multitask both things.",
+        "ro": "Ține grupul deschis chiar lângă cot ca să nu pierzi nicio glumă. Să verifici un mesaj durează doar două secunde, sigur poți face ambele lucruri deodată."
+      },
+      "lens_b_label": {
+        "en": "Deep Forge Builder",
+        "ro": "Constructorul din Atelierul Profund"
+      },
+      "lens_b_thought": {
+        "en": "The memes will still be there in half an hour. Locking notifications out lets my brain hit full flow state and build something real that flies.",
+        "ro": "Glumele de pe grup vor fi tot acolo peste jumătate de oră. Dacă opresc notificările acum, mintea intră în flux profund și construiesc ceva real."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You start sketching a comic or building a LEGO gadget, and group-chat pings start popping nonstop.",
+        "ro": "Începi să desenezi o bandă desenată sau să construiești un mecanism LEGO, iar notificările de pe grup curg întruna."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Check every buzz while trying to build",
+          "ro": "Verifici fiecare vibrație în timp ce lucrezi"
+        },
+        "ripple": {
+          "en": "Jumping back and forth drains your mental battery before you ever reach the fun flow zone.",
+          "ro": "Comutarea continuă a atenției îți descarcă bateria mentală înainte să ajungi în zona plăcută de inspirație."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Stash the screen in another room for 30m",
+          "ro": "Pui ecranul în altă cameră 30 de minute"
+        },
+        "ripple": {
+          "en": "After ten uninterrupted minutes, deep focus kicks in and your hands build something truly awesome.",
+          "ro": "După zece minute neîntrerupte, concentrarea profundă pornește și mâinile tale creează ceva cu adevărat uimitor."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Guarding unbroken focus for hands-on making sparks flow, your brain's best cure for screen restlessness.",
+        "ro": "Protejarea atenției neîntrerupte în activități practice declanșează starea de flux, cel mai bun antidot pentru agitația ecranelor."
+      }
+    },
+    "mindful_cue": {
+      "en": "Wiggle your ten fingers, press your palms together once, and get ready to make something real.",
+      "ro": "Mișcă degetele de la mâini, lipește palmele o secundă și pregătește-te să construiești ceva real."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Ten-Minute Quiet Forge",
+        "ro": "Zece Minute în Atelierul Liniștit"
+      },
+      "instruction": {
+        "en": "Put every screen out of sight for ten minutes and build, fold, sketch, or repair something real using only your two hands.",
+        "ro": "Pune toate ecranele într-o altă cameră timp de zece minute și construiește, împăturește, desenează sau repară ceva real doar cu mâinile tale."
+      }
+    }
+  },
+  {
+    "id": "ep_20",
+    "order": 20,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_11",
+      "book_06"
+    ],
+    "value_ids": [
+      "val_slow_owl_logic",
+      "val_emotional_naming"
+    ],
+    "dilemma_id": "dil_11",
+    "category": "brain_systems",
+    "alt_format": "BRAIN_GLITCH",
+    "art_theme": "mind_duality",
+    "accent_color": "#f97316",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "Why Your Fast Brain Misreads One-Word Texts",
+      "ro": "De ce creierul rapid citește greșit mesajele scurte"
+    },
+    "hook": {
+      "en": "Ever get a tiny reply like 'Ok.'? Right away, you convince yourself your best friend is furious!",
+      "ro": "Ai primit vreodată un simplu «Ok.» cu punct? În trei secunde crezi deja că prietenul tău e supărat!"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Clara texted her best friend an invite to skate outside, and twenty minutes later received two cold letters: Ok.",
+        "caption_ro": "Clara i-a trimis prietenei sale o invitație în parc cu rolele. Peste douăzeci de minute a primit doar atât: Ok."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Right away her Quick-Hop brain jumped straight into panic. It made up a whole movie about secret anger.",
+        "caption_ro": "Pe loc, creierul ei Iepure-Rapid a sărit direct în panică. A inventat un film întreg despre supărări și trădare."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Fast thinking evolved to dodge sudden danger, so whenever clues are missing, it fills every blank with scary stories.",
+        "caption_ro": "Gândirea rapidă s-a format ca să ne ferească de pericole bruște. Când lipsesc detalii, ea umple golurile cu scenarii negre."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Before sending a snappy reply, Clara paused for one breath. She named her exact feeling: sudden rejection worry.",
+        "caption_ro": "Înainte să trimită un răspuns tăios, Clara a respirat adânc. Și-a numit exact emoția din piept: Asta e teamă de respingere."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Labeling that emotion cooled the alarm and woke her Slow Owl, which calmly asked what else could explain this.",
+        "caption_ro": "Numirea emoției a oprit alarma și a trezit Bufnița Lentă. Bufnița a întrebat calm: Ce alt motiv firesc ar putea exista?"
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Soon her friend called laughing from the market steps. She had typed one-handed while carrying heavy grocery bags.",
+        "caption_ro": "Curând, prietena a sunat râzând chiar de pe treptele pieței. Scrisese cu un singur deget în timp ce căra plasele bunicii."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Quick-Hop Mind Reader",
+        "ro": "Iepurele Cititor de Gânduri"
+      },
+      "lens_a_thought": {
+        "en": "That period after 'Ok.' is 100 percent cold! Send back 'Never mind then' right now so she knows you don't even want to hang out anyway.",
+        "ro": "Punctul acela pus după «Ok.» este sută la sută ostil! Scrie-i imediat «Lasă atunci» ca să vadă clar că nici tu nu mai vrei să ieși."
+      },
+      "lens_b_label": {
+        "en": "Name It + Slow-Owl Check",
+        "ro": "Numește Emoția + Bufnița Lentă"
+      },
+      "lens_b_thought": {
+        "en": "My chest feels tight right now because my fast brain hates uncertainty. Scary feelings are not facts, because maybe her battery died or her mom called.",
+        "ro": "Simt o strângere în piept fiindcă mintea rapidă urăște incertitudinea. Emoțiile nu sunt dovezi sigure: poate rămâne fără baterie sau a chemat-o mama ei la masă."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "A friend walks right past you in the school hallway looking super serious without waving back.",
+        "ro": "Un prieten trece chiar pe lângă tine pe holul școlii cu o privire foarte serioasă, fără să te salute."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Name your worry and test harmless reasons",
+          "ro": "Numești emoția și cauți explicații firești"
+        },
+        "ripple": {
+          "en": "Your Slow Owl learns the truth at lunch: they were stressed over a forgotten math notebook, not mad at you.",
+          "ro": "Bufnița Lentă află adevărul în pauză: era panicat fiindcă își uitase caietul de istorie, nicidecum supărat pe tine."
+        },
+        "is_growth_choice": true
+      },
+      "choice_b": {
+        "label": {
+          "en": "Assume they're mad and ignore them back",
+          "ro": "Presupui că e supărat și îl ignori și tu"
+        },
+        "ripple": {
+          "en": "Your frosty silence confuses your friend, turning a harmless hallway moment into an actual fight.",
+          "ro": "Răceala ta îl ia prin surprindere și creează o ceartă adevărată dintr-o simplă neînțelegere imaginară."
+        },
+        "is_growth_choice": false
+      },
+      "psych_takeaway": {
+        "en": "Naming a sudden feeling slows down fast-brain guesses so your logical Slow Owl can check the facts.",
+        "ro": "Numirea precisă a emoției încetinește presupunerile pripite și lasă gândirea logică să verifice realitatea."
+      }
+    },
+    "mindful_cue": {
+      "en": "Inhale for four slow counts, name what you feel right now in two words, and exhale gently.",
+      "ro": "Inspiră numărând rar până la patru, numește în două cuvinte ce simți acum și expiră lin."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Three Innocent Stories Game",
+        "ro": "Jocul celor Trei Explicații"
+      },
+      "instruction": {
+        "en": "Recall one weird look or short reply that bugged you recently, and say out loud three harmless, funny, or ordinary reasons it happened.",
+        "ro": "Amintește-ți o privire ciudată sau un răspuns scurt care te-a deranjat recent și spune cu voce tare trei motive complet nevinovate pentru acel moment."
+      }
+    }
+  },
+  {
+    "id": "ep_21",
+    "order": 21,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_05",
+      "book_09"
+    ],
+    "value_ids": [
+      "val_tiny_compounding",
+      "val_patient_grit"
+    ],
+    "dilemma_id": "dil_09",
+    "category": "focus_grit",
+    "alt_format": "RIPPLE_TIMELINE",
+    "art_theme": "mountain_climb",
+    "accent_color": "#14b8a6",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "How Ten Daily Minutes Beat Natural Talent",
+      "ro": "Cum bat zece minute zilnice talentul nativ"
+    },
+    "hook": {
+      "en": "Who wins by springtime: the 'natural' star who skips practice, or the beginner with a daily ten-minute habit?",
+      "ro": "Cine câștigă până în primăvară: «talentatul» care sare peste antrenament sau începătorul cu zece minute zilnice?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "At fall basketball tryouts, Radu clanked four layups off the rim while effortlessly smooth Teo swished nearly every shot.",
+        "caption_ro": "La selecția de baschet din toamnă, Radu a ratat patru aruncări la inel. Între timp, Teo înscria aproape fiecare minge."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "People love calling skill a magical gift from birth, because talent myths give easy excuses when climbs hurt.",
+        "caption_ro": "Oamenilor le place să spună că îndemânarea este un dar din naștere. Mitul talentului oferă o scuză când urcușul doare."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Grit keeps your eyes on the high mountain peak. Tiny daily habits carve solid steps under your sneakers.",
+        "caption_ro": "Perseverența îți ține privirea sus, pe vârful muntelui înalt. Micile obiceiuri zilnice sapă însă trepte sigure chiar sub adidași."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Radu set one simple rule for every school afternoon: drop his backpack, then shoot twenty focused left-hand layups.",
+        "caption_ro": "Radu și-a stabilit o regulă simplă pentru fiecare după-amiază. Imediat ce lăsa ghiozdanul jos, arunca douăzeci de mingi cu stânga."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Day one looked tiny, and day ten still looked clumsy. Day one hundred compounded into two thousand clean shots.",
+        "caption_ro": "Prima zi părea măruntă, iar a zecea încă părea stângace. Ziua o sută a adunat însă două mii de aruncări."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Talent only sets your speed on day one. Tiny daily sparks plus patient grit decide how high you climb.",
+        "caption_ro": "Talentul îți dă doar viteza din prima zi de joc. Pașii mărunți zilnici și răbdarea decid cât de sus urci."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "All-or-Nothing Quitter",
+        "ro": "Vocea Totul-sau-Nimic"
+      },
+      "lens_a_thought": {
+        "en": "Look how easy that is for Teo. Either practice for three exhausting hours tonight or admit you weren't born with basketball genes and quit now.",
+        "ro": "Uite cât de ușor îi iese totul lui Teo! Ori te antrenezi trei ore epuizante diseară, ori recunoști că nu ai talent la baschet și renunți."
+      },
+      "lens_b_label": {
+        "en": "1% Climber Engine",
+        "ro": "Motorul Pașilor de 1%"
+      },
+      "lens_b_thought": {
+        "en": "Three-hour bursts burn out by Thursday, while ten focused minutes every afternoon never miss. Stack one tiny brick today and let compounding close the gap.",
+        "ro": "Exploziile de trei ore se sting până joi, dar zece minute atente în fiecare după-amiază nu dau greș. Pune azi o cărămidă mică și ai răbdare."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You start learning sketching, guitar, or coding, and your first week looks super wobbly next to an experienced friend.",
+        "ro": "Începi să înveți desen, chitară sau programare, iar prima ta săptămână arată tare stângaci lângă un coleg experimentat."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Wait until you feel 'motivated' on weekends",
+          "ro": "Aștepți până ai «chef și timp» în weekend"
+        },
+        "ripple": {
+          "en": "Waiting for random bursts of mood leaves whole weeks empty, so the skill stays rusty and frustrating.",
+          "ro": "Așteptând chef din senin, trec săptămâni goale, iar abilitatea rămâne mereu ruginită și greu de pornit."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Attach five focused minutes to a daily habit",
+          "ro": "Legi cinci minute clare de un obicei zilnic"
+        },
+        "ripple": {
+          "en": "Steady daily reps quietly rewire your brain until tricky moves start feeling smooth and natural.",
+          "ro": "Repetițiile zilnice automate îți recablează treptat memoria musculară până când mișcările grele devin surprinzător de fluide."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Big long-term grit becomes easy to keep going when you shrink daily practice into an anchored tiny habit.",
+        "ro": "Perseverența pe termen lung devine ușor de susținut atunci când o transformi într-un micro-obicei ancorat zilnic."
+      }
+    },
+    "mindful_cue": {
+      "en": "Feel both feet planted firmly on the floor and take one steady climber's breath.",
+      "ro": "Simte ambele tălpi bine sprijinite pe podea și ia o respirație calmă de cățărător."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Lock In Your Habit Anchor",
+        "ro": "Fixează Ancora de 2 Minute"
+      },
+      "instruction": {
+        "en": "Choose one skill you want to grow, say out loud 'Right after I drop my bag, I practice two minutes,' and do today's try now.",
+        "ro": "Alege o abilitate pe care vrei s-o crești, rostește cu voce tare formula «Imediat după ce las ghiozdanul, exersez două minute» și fă prima încercare acum."
+      }
+    }
+  },
+  {
+    "id": "ep_22",
+    "order": 22,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_08",
+      "book_16"
+    ],
+    "value_ids": [
+      "val_yet_growth",
+      "val_resilient_self_talk"
+    ],
+    "dilemma_id": "dil_08",
+    "category": "inner_calm",
+    "alt_format": "PERSPECTIVE_FLIP",
+    "art_theme": "growth_garden",
+    "accent_color": "#ec4899",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "How Mistakes Wrap Armor Around Your Brain",
+      "ro": "Cum îți îmbracă greșelile creierul în armură"
+    },
+    "hook": {
+      "en": "What if that frustrating sting right after you mess up is actually your brain installing stronger armor?",
+      "ro": "Și dacă usturimea pe care o simți fix după o greșeală e chiar creierul tău instalând un upgrade?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "When Elena pressed start at robotics club, her little rover spun wildly into a table leg and lost a wheel.",
+        "caption_ro": "Elena a apăsat butonul de start la clubul de robotică plină de speranță. Robotul s-a învârtit haotic și și-a sărit roata."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "Her face turned hot as harsh inner talk started up. It whispered that smart builders get wires right first.",
+        "caption_ro": "Obrajii i-au luat foc pe loc, iar o voce aspră a pornit. Îi șoptea că elevii isteți nimeresc firele din prima."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Brain scans prove the exact opposite is true. Easy wins barely change neurons, while fixing errors sparks thick pathways.",
+        "caption_ro": "Scanările cerebrale arată că adevărul este fix invers. Reușitele ușoare abia mișcă neuronii, dar repararea erorilor aprinde legături groase."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Elena combined two strong mental tools immediately. She added the word YET and spoke like an encouraging coach.",
+        "caption_ro": "Elena a unit pe loc două instrumente mentale puternice. A adăugat cuvântul ÎNCĂ și și-a vorbit ca un antrenor calm."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "She told herself: My rover doesn't drive straight yet, and catching this swapped motor wire just made me sharper.",
+        "caption_ro": "Și-a spus clar: Robotul meu nu merge drept încă. Faptul că am prins azi firul inversat mă face mai bună."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Inspecting a mistake without shame upgrades your wiring. Every tough test wraps fresh armor around your growing skill.",
+        "caption_ro": "Când cercetezi o greșeală fără rușine, îți întărești rețeaua din minte. Fiecare încercare grea îmbracă abilitatea ta în armură nouă."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Fixed Verdict Voice",
+        "ro": "Vocea Verdictului Fix"
+      },
+      "lens_a_thought": {
+        "en": "Everyone just saw that wheel fly off! Stuff the robot into your backpack fast because messing up proves your brain isn't wired for real engineering.",
+        "ro": "Toată sala a văzut cum a sărit roata! Îndeasă rapid robotul în ghiozdan, fiindcă greșeala asta arată clar că mintea ta nu e făcută pentru inginerie."
+      },
+      "lens_b_label": {
+        "en": "Yet + Neural Armor Coach",
+        "ro": "Antrenorul «Încă» și Armura"
+      },
+      "lens_b_thought": {
+        "en": "That wobble is not a final verdict; it is free clue data. I haven't solved the left motor yet, and fixing this wire upgrades my brain.",
+        "ro": "Eroarea asta nu e un verdict, ci un indiciu gratuit. Nu am reglat motorul stâng încă, iar repararea firului îmi întărește chiar acum rețeaua din creier."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You get back a math test or art sketch with several mistakes circled, and your face feels hot.",
+        "ro": "Primești înapoi un test la matematică sau o schiță cu mai multe greșeli încercuite și simți un val de rușine."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Crumple it into your bag and avoid looking",
+          "ro": "Îl ascunzi în fundul ghiozdanului fără să te uiți"
+        },
+        "ripple": {
+          "en": "Hiding the paper skips the exact moment your brain was ready to build stronger pathways.",
+          "ro": "Ascunzând foaia, ratezi fix momentul în care creierul era pregătit să construiască legături neuronale mai solide."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Add 'yet' and solve one tricky mistake",
+          "ro": "Adaugi «încă» și descifrezi o greșeală grea"
+        },
+        "ripple": {
+          "en": "Curiosity replaces shame, wrapping fresh armor around your brain links so that trap won't fool you twice.",
+          "ro": "Curiozitatea ia locul rușinii și îmbracă neuronii în mielină nouă, ca aceeași capcană să nu te mai păcălească."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Pairing 'not yet' thinking with kind coach talk turns mistakes into fast-track brain growth.",
+        "ro": "Îmbinarea perspectivei «nu încă» cu un dialog interior blând transformă greșelile în cel mai rapid antrenament cerebral."
+      }
+    },
+    "mindful_cue": {
+      "en": "Shake out both hands like shaking water off your fingers, smile softly, and breathe in fresh air.",
+      "ro": "Scutură ușor ambele mâini ca și cum ai scutura picături de apă și trage aer proaspăt în piept."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Loud 'Yet' Upgrade",
+        "ro": "Upgrade-ul cu «Încă»"
+      },
+      "instruction": {
+        "en": "Name one thing you can't do smoothly right now, say the sentence out loud ending with a bold '...YET!', and test one tiny step.",
+        "ro": "Numește un lucru care nu îți iese bine acum, rostește propoziția cu voce tare adăugând la final un «...ÎNCĂ!» hotărât și fă o mică încercare."
+      }
+    }
+  },
+  {
+    "id": "ep_23",
+    "order": 23,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_15",
+      "book_01"
+    ],
+    "value_ids": [
+      "val_nightly_brain_reset",
+      "val_systems_sight"
+    ],
+    "dilemma_id": "dil_01",
+    "category": "graph_fusion",
+    "alt_format": "SYSTEM_LOOP",
+    "art_theme": "emerald_forest_gears",
+    "accent_color": "#3b82f6",
+    "duration_target_sec": 49,
+    "title": {
+      "en": "The Hidden Domino Behind Your Worst Wednesday",
+      "ro": "Dominoul invizibil din spatele unei zile proaste"
+    },
+    "hook": {
+      "en": "Why did Tudor snap at his best friend at noon? The first domino fell thirteen hours earlier.",
+      "ro": "De ce s-a răstit Tudor la cel mai bun prieten la prânz? Indiciul real era cu treisprezece ore în urmă."
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Wednesday afternoon felt cursed for Tudor from the start. He forgot his gym sneakers and argued with Sonia over pens.",
+        "caption_ro": "Miercuri după-amiază totul părea plin de ghinion pentru Tudor. Își uitase adidașii de sport și se certase cu Sonia pe un pix."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "At first he blamed random bad luck. Then he slipped on Systems Glasses and traced the hidden chain backward.",
+        "caption_ro": "La început a dat vina pe ghinion pentru toată harababura. Apoi și-a pus Ochelarii Sistemelor și a privit firul înapoi."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Domino One tipped Tuesday around midnight, when two extra hours of gaming stripped his brain of emotional brakes.",
+        "caption_ro": "Primul domino căzuse marți noaptea chiar pe la douăsprezece. Două ore târzii de jocuri îi lăsaseră creierul fără frânele răbdării."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Worn-out brakes tipped Domino Two at lunch. Sonia's harmless joke sparked an argument that left Tudor feeling miserable.",
+        "caption_ro": "Frânele tocite au răsturnat al doilea domino în pauza mare. Gluma Soniei a aprins o ceartă care l-a lăsat tare amărât."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Here hides the sneaky feedback trap on Wednesday evening: feeling grumpy tempts you to scroll late and repeat everything.",
+        "caption_ro": "Aici pândea capcana buclei ascunse din seara de miercuri. Când ești morocănos, îți vine să stai iar târziu pe ecran."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Systems thinkers never fight ten separate daytime fires alone. Flip Domino One tonight, and tomorrow's entire chain heals.",
+        "caption_ro": "Gânditorii de sisteme nu sting zece incendii separate peste zi. Repară primul domino diseară și tot lanțul de mâine se vindecă."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Single-Event Blame Lens",
+        "ro": "Lentila Ghinionului Izolat"
+      },
+      "lens_a_thought": {
+        "en": "Today was just cursed! Sonia was super annoying, the teacher made the quiz unfair, and staying up late tonight is the only reward I get.",
+        "ro": "Ziua de azi a fost pur și simplu plină de ghinion! Sonia m-a enervat, testul a fost nedrept și măcar diseară merit să stau până târziu."
+      },
+      "lens_b_label": {
+        "en": "Systems Loop Detective",
+        "ro": "Detectivul Buclelor Ascunse"
+      },
+      "lens_b_thought": {
+        "en": "Hold on, these aren't random disasters at all; they are connected dominoes from last night's lost sleep. Telling Sonia sorry and sleeping early breaks this loop.",
+        "ro": "Stai puțin: astea nu sunt ghinioane izolate, ci dominouri legate de somnul pierdut azi-noapte. Dacă îi cer scuze Soniei și dorm devreme, rup toată bucla."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "After a grumpy, tired day, evening arrives and you feel tempted to stay up late watching videos for comfort.",
+        "ro": "După o zi obositoare și morocănoasă, vine seara și simți tentația să stai iar târziu la clipuri ca recompensă."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Break the loop with an early reset night",
+          "ro": "Rupi bucla cu un somn devreme de resetare"
+        },
+        "ripple": {
+          "en": "Flipping Domino One restores your focus and mood, making friendships and classes feel ten times smoother tomorrow.",
+          "ro": "Reparând primul domino îți refaci atenția și buna dispoziție, iar școala și prieteniile merg de zece ori mai bine."
+        },
+        "is_growth_choice": true
+      },
+      "choice_b": {
+        "label": {
+          "en": "Stay up late to make up for a rough day",
+          "ro": "Stai treaz târziu ca să compensezi ziua grea"
+        },
+        "ripple": {
+          "en": "You feed a hidden loop that makes Thursday feel even foggier and touchier than Wednesday.",
+          "ro": "Hrănești fără să vrei o buclă repetitivă care face ziua de joi și mai încețoșată decât cea de miercuri."
+        },
+        "is_growth_choice": false
+      },
+      "psych_takeaway": {
+        "en": "Seeing sleep, mood, focus, and friendships as one connected loop lets one smart night fix three daytime struggles.",
+        "ro": "Când vezi somnul, starea de spirit și prieteniile ca un singur sistem conectat, o seară bună rezolvă trei probleme."
+      }
+    },
+    "mindful_cue": {
+      "en": "Roll your shoulders back once and trace how one calm choice right now helps tonight.",
+      "ro": "Rotește umerii înapoi o dată și observă cum o singură alegere calmă de acum îți ajută seara."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Sketch a 3-Domino Chain",
+        "ro": "Desenează Lanțul celor 3 Dominouri"
+      },
+      "instruction": {
+        "en": "Draw three small domino boxes with arrows on scrap paper showing how tonight's bedtime shapes tomorrow's mood and one fun goal.",
+        "ro": "Desenează pe o foaie trei piese de domino cu săgeți între ele, arătând cum ora de culcare de azi îți influențează energia și ziua de mâine."
+      }
+    }
+  },
+  {
+    "id": "ep_24",
+    "order": 24,
+    "is_graph_fusion": true,
+    "book_ids": [
+      "book_14",
+      "book_13"
+    ],
+    "value_ids": [
+      "val_purpose_why",
+      "val_courageous_kindness"
+    ],
+    "dilemma_id": "dil_07",
+    "category": "graph_fusion",
+    "alt_format": "WHY_COMPASS",
+    "art_theme": "campfire_myth",
+    "accent_color": "#f43f5e",
+    "duration_target_sec": 48,
+    "title": {
+      "en": "The Compass That Shrinks Stage Fright",
+      "ro": "Busola care micșorează emoțiile de pe scenă"
+    },
+    "hook": {
+      "en": "Why do your knees shake hardest when trying to look cool, yet steady up when helping someone else?",
+      "ro": "De ce îți tremură genunchii când vrei să pari grozav, dar prinzi curaj când ajuți pe cineva?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Backstage before the talent show, Sonia gripped her wood guitar tight until her fingers felt cold on the strings.",
+        "caption_ro": "În culisele serbării școlare, Sonia strângea cu putere chitara din lemn. Degetele îi erau reci și amorțite pe corzi."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "tension_pan",
+        "caption_en": "While her goal was impressing sixth graders without any slips, every whisper out in the hall sounded scary.",
+        "caption_ro": "La început voia doar să pară grozavă în fața colegilor mari. Fiecare șoaptă din sala plină părea înfricoșătoare."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "inner_voice",
+        "caption_en": "Chasing applause is fragile fuel under bright stage lights. One crooked chord can crack your pride right in half.",
+        "caption_ro": "Goana după aplauze este un combustibil slab sub luminile puternice. Un singur acord greșit îți poate frânge toată încrederea."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "shift_moment",
+        "caption_en": "Then Sonia spotted her shy younger cousin in row three, the kid she wrote this brave funny song for.",
+        "caption_ro": "Apoi Sonia și-a zărit în rândul trei verișorul cel timid. Scrisese cântecul acesta curajos și vesel chiar pentru el."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "action_ripple",
+        "caption_en": "Her inner compass pointed straight right away, because her true purpose was helping one nervous kid feel welcome today.",
+        "caption_ro": "Busola ei interioară s-a îndreptat pe loc spre ce conta. Scopul ei real era să aducă zâmbetul unui copil emoționat."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "constellation_close",
+        "caption_en": "Join real purpose with brave kindness and watch what shifts: fear steps aside while your true voice rings out.",
+        "caption_ro": "Unește un scop clar cu bunătatea curajoasă și privește schimbarea. Frica se dă la o parte și îți eliberează vocea."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Spotlight Approval Voice",
+        "ro": "Vocea Vânătorii de Aplauze"
+      },
+      "lens_a_thought": {
+        "en": "Everyone in this crowded hall is judging every single note you play! If your voice cracks once, people will remember all year, so pretend your throat hurts.",
+        "ro": "Toată sala asta plină îți judecă fiecare notă cântată! Dacă îți tremură vocea o singură dată, toți vor ține minte tot anul, mai bine renunți."
+      },
+      "lens_b_label": {
+        "en": "Kindness Compass Voice",
+        "ro": "Vocea Busolei Bunătății"
+      },
+      "lens_b_thought": {
+        "en": "I'm not up here to look like a flawless statue; I'm here to share warmth with someone who needs it. Honest kindness beats frozen perfection.",
+        "ro": "Nu am urcat aici ca să par o statuie fără cusur, ci ca să ofer curaj cuiva care are nevoie. Bunătatea sinceră bate perfecțiunea înghețată."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "A nervous new student stands holding a lunch tray while loud kids at your table whisper jokes.",
+        "ro": "Un coleg nou și emoționat stă în picioare în pauza de masă, în timp ce la masa ta se șușotește."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Stare at your food to stay safe and cool",
+          "ro": "Te uiți în farfurie ca să pari indiferent"
+        },
+        "ripple": {
+          "en": "Guarding your cool image keeps things safe, yet leaves the new kid lonely and your own chest oddly empty.",
+          "ro": "Protejarea imaginii păstrează aparențele, dar îl lasă pe colegul nou singur și îți lasă în piept un gol ciudat."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Slide over warmly: 'Hey, sit with us!'",
+          "ro": "Faci loc cu zâmbet: «Hei, vino lângă noi!»"
+        },
+        "ripple": {
+          "en": "Following your kindness compass melts the table's tension and turns five awkward seconds into real courage.",
+          "ro": "Când acționezi ghidat de busola bunătății, tensiunea de la masă se topește și cinci secunde devin curaj autentic."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Shifting focus from 'How do I look?' to 'Who can I help?' calms social stage fright fast.",
+        "ro": "Mutarea atenției de la «Cum arăt eu?» la «Pe cine pot ajuta?» liniștește imediat teama de a fi judecat."
+      }
+    },
+    "mindful_cue": {
+      "en": "Breathe in warmth for four counts, picture one person you appreciate, and let a small smile form.",
+      "ro": "Inspiră lent numărând până la patru, gândește-te la un om drag și lasă un zâmbet cald să apară."
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Aim Your Kindness Compass",
+        "ro": "Activează Busola Bunătății"
+      },
+      "instruction": {
+        "en": "Before tonight, do one purposeful micro-act of kindness: thank someone overlooked, welcome someone into a game, or leave a kind note.",
+        "ro": "Până diseară, fă un gest mic de bunătate cu sens: mulțumește sincer cuiva trecut cu vederea, invită pe cineva în joc sau lasă un bilet încurajator."
+      }
+    }
+  }
+]

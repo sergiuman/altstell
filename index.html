@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AltStell — Alternative Storytelling · Stellar Minds (Age 11+)</title>
+  <meta name="description" content="AltStell: Short-video interactive alternative storytelling powered by a developmental psychology Knowledge Graph for 11-year-old minds." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/altstell.css" />
+</head>
+<body>
+  <!-- Top Glass Navigation -->
+  <header class="top-nav" role="banner">
+    <div class="brand" onclick="document.querySelector('[data-view=feed]').click()">
+      <div class="brand-orb" aria-hidden="true">✦</div>
+      <span class="brand-name">AltStell</span>
+      <span class="brand-tag" data-en="Alternative Storytelling · 11+" data-ro="Povestire Alternativă · 11+">Alternative Storytelling · 11+</span>
+    </div>
+
+    <nav class="nav-tabs" aria-label="Primary Views">
+      <button class="nav-tab active" data-view="feed" aria-label="Short Videos Feed">
+        <span>🎬</span><span class="tab-txt" data-i18n="feed">Shorts</span>
+      </button>
+      <button class="nav-tab" data-view="constellation" aria-label="Knowledge Graph Constellation">
+        <span>🕸️</span><span class="tab-txt" data-i18n="constellation">Constellation</span>
+      </button>
+      <button class="nav-tab" data-view="library" aria-label="17 Consolidated Books Library">
+        <span>📚</span><span class="tab-txt" data-i18n="library">17 Books</span>
+      </button>
+      <button class="nav-tab" data-view="pulse" aria-label="Mindful Pulse & QA Telemetry">
+        <span>🧠</span><span class="tab-txt" data-i18n="pulse">Mindful & QA</span>
+      </button>
+    </nav>
+
+    <div class="nav-right">
+      <div class="sparks-pill" title="Stellar Wisdom Sparks">
+        <span>✦</span><span id="sparks-count">12</span>
+      </div>
+      <button id="lang-switch-btn" class="btn-pill" aria-label="Switch Language English or Romanian">🇬🇧 EN → 🇷🇴 RO</button>
+    </div>
+  </header>
+
+  <!-- VIEW 1: VERTICAL SHORT-VIDEO STREAM (TIKTOK PHYSICS + ETHICAL INTERACTIVITY) -->
+  <main id="view-feed" class="view-panel active" role="main">
+    <div id="feed-filter-bar" class="feed-filter-bar" role="toolbar" aria-label="Story Categories"></div>
+    <div id="shorts-stream" class="shorts-stream" aria-live="polite"></div>
+  </main>
+
+  <!-- VIEW 2: INTERACTIVE VALUE CONSTELLATION GRAPH -->
+  <section id="view-constellation" class="view-panel" aria-label="Interactive Knowledge Graph">
+    <div class="graph-canvas-wrap">
+      <div class="graph-legend">
+        <span><i class="legend-dot" style="background:#38bdf8;"></i><span data-en="Values" data-ro="Valori">Values</span></span>
+        <span><i class="legend-dot" style="background:#fbbf24;"></i><span data-en="17 Books" data-ro="17 Cărți">17 Books</span></span>
+        <span><i class="legend-dot" style="background:#a855f7;"></i><span data-en="AltStell Shorts" data-ro="Episoade Scurte">AltStell Shorts</span></span>
+        <span><i class="legend-dot" style="background:#10b981;"></i><span data-en="11yo Dilemmas" data-ro="Dileme 11 Ani">11yo Dilemmas</span></span>
+      </div>
+      <canvas id="constellation-canvas"></canvas>
+    </div>
+    <aside class="graph-inspector" id="graph-inspector-content" aria-live="polite"></aside>
+  </section>
+
+  <!-- VIEW 3: 17 CONSOLIDATED BILINGUAL 11YO BOOKS LIBRARY -->
+  <section id="view-library" class="view-panel" aria-label="17 Consolidated Books">
+    <div class="library-hero">
+      <div>
+        <span class="overlay-kicker" data-en="CONSOLIDATED BILINGUAL ARCHIVE · AGE 11 EDITION" data-ro="ARHIVA BILINGVĂ CONSOLIDATĂ · EDIȚIA 11 ANI">CONSOLIDATED BILINGUAL ARCHIVE · AGE 11 EDITION</span>
+        <h2 style="font-family:var(--font-display);font-size:1.75rem;margin-top:4px;" data-en="17 World-Shaping Books Adapted as Stories" data-ro="17 Cărți Fundamentale Adaptate ca Povești">17 World-Shaping Books Adapted as Stories</h2>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <input id="bookSearchInput" type="search" class="book-search-input" placeholder="🔍 Search 17 books, authors, or themes..." aria-label="Search 17 Consolidated Books" />
+        <a class="btn-pill" href="legacy_whispering_forest/index.html" target="_blank" rel="noopener" style="text-decoration:none;">
+          🧁 <span data-en="Play Bonus Systems Cupcake Simulator" data-ro="Joacă Simulatorul Sistemic cu Brioșe">Play Bonus Systems Cupcake Simulator</span>
+        </a>
+      </div>
+    </div>
+    <div id="books-grid" class="books-grid"></div>
+  </section>
+
+  <!-- VIEW 4: MINDFUL PULSE, 10-QA TELEMETRY & 10-DAY GRAPH EVOLUTION -->
+  <section id="view-pulse" class="view-panel" aria-label="Mindful Pulse and Graph QA Telemetry">
+    <div class="pulse-container">
+      <div>
+        <span class="overlay-kicker" data-en="ETHICAL DESIGN · CHILD PSYCHOLOGY & GRAPH TELEMETRY" data-ro="DESIGN ETIC · PSIHOLOGIE & TELEMETRIE GRAF">ETHICAL DESIGN · CHILD PSYCHOLOGY & GRAPH TELEMETRY</span>
+        <h2 style="font-family:var(--font-display);font-size:1.7rem;margin-top:4px;" data-en="Your Mindful Growth & 10-Day Self-Improving Engine" data-ro="Progresul Tău Conștient & Motorul Autonom pe 10 Zile">Your Mindful Growth & 10-Day Self-Improving Engine</h2>
+      </div>
+
+      <div id="pulse-stats" class="stat-cards"></div>
+
+      <div class="qa-table-wrap">
+        <h3 style="font-family:var(--font-display);margin-bottom:12px;" data-en="Autonomous Graph & Ollama Evolution Log" data-ro="Jurnalul Evoluției Autonome (Graf + Ollama)">Autonomous Graph & Ollama Evolution Log</h3>
+        <div id="evolution-log-list"></div>
+      </div>
+
+      <div class="qa-table-wrap">
+        <h3 style="font-family:var(--font-display);margin-bottom:12px;" data-en="Verified 10 QA Sessions — Incremental Measured Outcomes" data-ro="Cele 10 Sesiuni QA Verificate — Progres Măsurat Incremental">Verified 10 QA Sessions — Incremental Measured Outcomes</h3>
+        <table class="qa-table">
+          <thead>
+            <tr>
+              <th>Session</th>
+              <th>Composite</th>
+              <th>Delta</th>
+              <th>Age-11 Fit</th>
+              <th>Psych Safety</th>
+              <th>Alt-Story</th>
+              <th>Media MP4</th>
+              <th>Graph</th>
+              <th>Measured Upgrade</th>
+            </tr>
+          </thead>
+          <tbody id="qa-history-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN-APP FULL BOOK READER MODAL -->
+  <div id="book-reader-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Book Reader">
+    <div class="reader-modal">
+      <div class="reader-header">
+        <h3 id="reader-book-title" style="font-family:var(--font-display);font-size:1.2rem;">Book Title</h3>
+        <button class="btn-pill" onclick="closeBookReader()" aria-label="Close Reader">✕ Close</button>
+      </div>
+      <div id="reader-chapters-bar" class="reader-chapters-bar"></div>
+      <div id="reader-body" class="reader-body"></div>
+    </div>
+  </div>
+
+  <!-- ETHICAL ANTI-DOOMSCROLL MINDFUL CHECK-IN MODAL -->
+  <div id="mindful-pause-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Mindful Spark Check-In">
+    <div class="reader-modal" style="max-width:460px;padding:28px;text-align:center;gap:14px;">
+      <div style="font-size:2.4rem;">🌿✨</div>
+      <span class="overlay-kicker" data-en="HEALTHY BRAIN PAUSE · ZERO DOOMSCROLL" data-ro="PAUZĂ PENTRU MINTE · FĂRĂ SCROLL INFINIT">HEALTHY BRAIN PAUSE · ZERO DOOMSCROLL</span>
+      <h3 style="font-family:var(--font-display);font-size:1.35rem;" data-en="6 Stories Explored! Ready for a Real-World Spark?" data-ro="Ai explorat 6 povești! Încerci o scânteie în lumea reală?">6 Stories Explored! Ready for a Real-World Spark?</h3>
+      <p style="color:#cbd5e1;font-size:0.92rem;line-height:1.55;" data-en="AltStell is built to grow your real life—never trap your attention. Look 20 feet away for 20 seconds, stretch your shoulders, or try one 2-Minute Quest offline!" data-ro="AltStell este creat să îți dezvolte viața reală, nu să îți fure atenția. Privește pe fereastră 20 de secunde, întinde-ți umerii sau încearcă o provocare offline!">
+        AltStell is built to grow your real life—never trap your attention. Look 20 feet away for 20 seconds, stretch your shoulders, or try one 2-Minute Quest offline!
+      </p>
+      <div style="display:flex;gap:10px;justify-content:center;margin-top:8px;">
+        <button class="interactive-cta-btn" onclick="closeMindfulPause()" style="padding:10px 20px;" data-en="I Stretched! Continue Exploring" data-ro="M-am întins! Continuă explorarea">I Stretched! Continue Exploring</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/constellation.js"></script>
+  <script src="js/altstell.js"></script>
+</body>
+</html>

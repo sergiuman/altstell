@@ -1,0 +1,293 @@
+[
+  {
+    "session": 1,
+    "timestamp": "2026-10-25T21:50:25.208077+00:00",
+    "composite_score": 64.55,
+    "delta_from_previous": 64.55,
+    "passed_incremental": true,
+    "episode_count": 12,
+    "graph_nodes": 0,
+    "graph_edges": 0,
+    "dimensions": {
+      "age_11_readability_fit": 85.0,
+      "child_psych_safety_growth": 94.6,
+      "alt_storytelling_richness": 92.0,
+      "bilingual_parity_en_ro": 70.0,
+      "media_video_audio_integrity": 0.0,
+      "graph_connectivity_expansion": 0.0,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 24,
+    "top_findings": [
+      "books_library.json not built yet (-15 pts)",
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "ep_01 missing exact per-beat audio sync timestamps",
+      "ep_02 missing exact per-beat audio sync timestamps",
+      "ep_03 missing exact per-beat audio sync timestamps",
+      "ep_04 missing exact per-beat audio sync timestamps",
+      "ep_05 missing exact per-beat audio sync timestamps",
+      "ep_06 missing exact per-beat audio sync timestamps"
+    ],
+    "changelog_note": "Baseline: Initial 12-episode feed (Books 1-12) & Storytelling Principles v1 before Graph sync, 17-book library bundle, and MP4 synthesis."
+  },
+  {
+    "session": 2,
+    "timestamp": "2026-10-25T21:50:41.973283+00:00",
+    "composite_score": 75.74,
+    "delta_from_previous": 11.19,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 85.0,
+      "child_psych_safety_growth": 95.8,
+      "alt_storytelling_richness": 92.0,
+      "bilingual_parity_en_ro": 70.0,
+      "media_video_audio_integrity": 0.0,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 36,
+    "top_findings": [
+      "books_library.json not built yet (-15 pts)",
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "ep_01 missing exact per-beat audio sync timestamps",
+      "ep_02 missing exact per-beat audio sync timestamps",
+      "ep_03 missing exact per-beat audio sync timestamps",
+      "ep_04 missing exact per-beat audio sync timestamps",
+      "ep_05 missing exact per-beat audio sync timestamps",
+      "ep_06 missing exact per-beat audio sync timestamps"
+    ],
+    "changelog_note": "Expanded feed to 24 bilingual episodes (adding Books 13-17 + 7 cross-book Graph Fusion shorts) & synced NetworkX Knowledge Graph (86 nodes, 249 edges)."
+  },
+  {
+    "session": 3,
+    "timestamp": "2026-10-25T21:51:31.449864+00:00",
+    "composite_score": 81.74,
+    "delta_from_previous": 6.0,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 95.8,
+      "alt_storytelling_richness": 92.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 0.0,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 34,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "ep_01 missing exact per-beat audio sync timestamps",
+      "ep_02 missing exact per-beat audio sync timestamps",
+      "ep_03 missing exact per-beat audio sync timestamps",
+      "ep_04 missing exact per-beat audio sync timestamps",
+      "ep_05 missing exact per-beat audio sync timestamps",
+      "ep_06 missing exact per-beat audio sync timestamps",
+      "ep_07 missing exact per-beat audio sync timestamps"
+    ],
+    "changelog_note": "Consolidated all 17 bilingual 11yo books (2,839-34,000w each) into books_library.json, normalized Romanian comma-below diacritics, and enabled weighted PageRank centrality."
+  },
+  {
+    "session": 4,
+    "timestamp": "2026-10-25T21:57:04.487147+00:00",
+    "composite_score": 86.44,
+    "delta_from_previous": 4.7,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 95.8,
+      "alt_storytelling_richness": 96.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 29.0,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 22,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "ep_13 missing exact per-beat audio sync timestamps",
+      "ep_14 missing exact per-beat audio sync timestamps",
+      "ep_15 missing exact per-beat audio sync timestamps",
+      "ep_16 missing exact per-beat audio sync timestamps",
+      "ep_17 missing exact per-beat audio sync timestamps",
+      "ep_18 missing exact per-beat audio sync timestamps",
+      "ep_19 missing exact per-beat audio sync timestamps"
+    ],
+    "changelog_note": "Synthesized Batch A (ep_01-ep_12) 720x1280 H.264+AAC vertical MP4 shorts in English with per-beat ffprobe audio sync & poster thumbnails."
+  },
+  {
+    "session": 5,
+    "timestamp": "2026-10-25T21:58:43.308467+00:00",
+    "composite_score": 92.12,
+    "delta_from_previous": 5.68,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 95.8,
+      "alt_storytelling_richness": 100.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 65.0,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 10,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "Missing MP4 video: ep_01_ro.mp4",
+      "Missing MP4 video: ep_02_ro.mp4",
+      "Missing MP4 video: ep_03_ro.mp4",
+      "Missing MP4 video: ep_04_ro.mp4",
+      "Missing MP4 video: ep_05_ro.mp4",
+      "Missing MP4 video: ep_06_ro.mp4",
+      "Autonomous Ollama daily evolution cycle not yet executed (principles still at v1)"
+    ],
+    "changelog_note": "Synthesized Batch B (ep_13-ep_24) English 720x1280 MP4 shorts (including 7 Graph Fusion shorts), compacted all 24 EN videos <4.5 MB with +faststart, and locked 24/24 beat timestamps."
+  },
+  {
+    "session": 6,
+    "timestamp": "2026-10-25T22:00:16.642622+00:00",
+    "composite_score": 94.57,
+    "delta_from_previous": 2.45,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 95.8,
+      "alt_storytelling_richness": 100.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 82.5,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 10,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "Missing MP4 video: ep_13_ro.mp4",
+      "Missing MP4 video: ep_14_ro.mp4",
+      "Missing MP4 video: ep_15_ro.mp4",
+      "Missing MP4 video: ep_16_ro.mp4",
+      "Missing MP4 video: ep_17_ro.mp4",
+      "Missing MP4 video: ep_18_ro.mp4",
+      "Autonomous Ollama daily evolution cycle not yet executed (principles still at v1)"
+    ],
+    "changelog_note": "Synthesized Batch A (ep_01-ep_12) Romanian 720x1280 MP4 shorts with localized Romanian HUD badges (zero English text), Ioana narration, and per-beat sync."
+  },
+  {
+    "session": 7,
+    "timestamp": "2026-10-25T22:02:06.233792+00:00",
+    "composite_score": 97.02,
+    "delta_from_previous": 2.45,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 95.8,
+      "alt_storytelling_richness": 100.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 100.0,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 4,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Add a mindful cue that encourages reflection on the interconnectedness of nature and actions.",
+      "Autonomous Ollama daily evolution cycle not yet executed (principles still at v1)",
+      "Missing live synced story-beat caption karaoke bar",
+      "Missing instant search filter in 17-Book Deep Dive Library"
+    ],
+    "changelog_note": "Synthesized Batch B (ep_13-ep_24) Romanian 720x1280 MP4 shorts, completing all 48/48 bilingual vertical short videos (<5.3 MB each) with 100% ffprobe stream & beat-sync verification."
+  },
+  {
+    "session": 8,
+    "timestamp": "2026-10-25T22:03:15.899093+00:00",
+    "composite_score": 97.24,
+    "delta_from_previous": 0.22,
+    "passed_incremental": true,
+    "episode_count": 24,
+    "graph_nodes": 86,
+    "graph_edges": 267,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 97.0,
+      "alt_storytelling_richness": 100.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 100.0,
+      "graph_connectivity_expansion": 91.5,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 4,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Consider adding a visual element to the 'hidden ripples' cue for better engagement.",
+      "Autonomous Ollama daily evolution cycle not yet executed (principles still at v1)",
+      "Missing live synced story-beat caption karaoke bar",
+      "Missing instant search filter in 17-Book Deep Dive Library"
+    ],
+    "changelog_note": "Applied Child Psychologist Audit: added 24/24 somatic mindful_cues (EN+RO), randomized A/B dilemma growth order, and polished Romanian grammar & gender-inclusive phrasing."
+  },
+  {
+    "session": 9,
+    "timestamp": "2026-10-25T22:05:03.656616+00:00",
+    "composite_score": 98.26,
+    "delta_from_previous": 1.02,
+    "passed_incremental": true,
+    "episode_count": 25,
+    "graph_nodes": 87,
+    "graph_edges": 274,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 97.0,
+      "alt_storytelling_richness": 100.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 100.0,
+      "graph_connectivity_expansion": 100.0,
+      "ux_accessibility_ethical_design": 90.0
+    },
+    "findings_count": 4,
+    "top_findings": [
+      "ep_25 FK grade too simple (1.7) for 11yo",
+      "Ollama gemma2 Psychologist Tip: Consider adding a visual element to the 'hidden ripples' cue for better engagement.",
+      "Missing live synced story-beat caption karaoke bar",
+      "Missing instant search filter in 17-Book Deep Dive Library"
+    ],
+    "changelog_note": "Executed live Multi-Agent Graph + Ollama (gemma2:latest) autonomous cycle: evolved Storytelling Principles to v2, discovered cross-book value bridge, synthesized ep_25 (EN+RO MP4s), and expanded Graph to 87 nodes."
+  },
+  {
+    "session": 10,
+    "timestamp": "2026-10-25T22:11:01.995478+00:00",
+    "composite_score": 99.46,
+    "delta_from_previous": 1.2,
+    "passed_incremental": true,
+    "episode_count": 25,
+    "graph_nodes": 87,
+    "graph_edges": 274,
+    "dimensions": {
+      "age_11_readability_fit": 100.0,
+      "child_psych_safety_growth": 97.0,
+      "alt_storytelling_richness": 100.0,
+      "bilingual_parity_en_ro": 100.0,
+      "media_video_audio_integrity": 100.0,
+      "graph_connectivity_expansion": 100.0,
+      "ux_accessibility_ethical_design": 100.0
+    },
+    "findings_count": 1,
+    "top_findings": [
+      "Ollama gemma2 Psychologist Tip: Consider adding a visual element to the 'hidden ripples' cue for better engagement."
+    ],
+    "changelog_note": "Shipped live synced 6-beat karaoke bar (beat_timestamps + timeupdate), 17-Book instant search, upgraded ChildPsychGuardNode (>=95 threshold, ep_25 FK Grade tuned to 6th-grade), and passed full HTTP smoke verification."
+  }
+]

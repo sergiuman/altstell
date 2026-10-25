@@ -1,0 +1,170 @@
+{
+  "ep_01": {
+    "mindful_cue": {
+      "en": "Drop your shoulders, take one slow breath, and trace two hidden ripples around you right now.",
+      "ro": "Coboară umerii, inspiră lent o dată și observă două legături nevăzute din jurul tău chiar acum."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 5.84): Zero-shame group-project dilemma accurately models over-functioning ('rescuer burnout') in choice_a without moralizing, while choice_b models collaborative root-cause inquiry. Woodland fable bridges smoothly into 6th-grade science teamwork. Bilingual tip: in choice_a.label.ro ('Refaci singur'), 'Refaci pe cont propriu' avoids gender-locking 11yo girls."
+  },
+  "ep_02": {
+    "mindful_cue": {
+      "en": "Unclench your jaw, press thumb to finger, and claim your calm three-second space before answering.",
+      "ro": "Relaxează maxilarul, unește degetul mare cu arătătorul și păstrează trei secunde calme înainte să răspunzi."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.02): Strong somatic depiction of amygdala surge ('heat rushed straight to Kiri's ears') paired with prefrontal pause empowerment. Choice_a ripple highlights pragmatic futility ('fixing those two bricks still takes thirty seconds') with zero guilt-tripping. LEGO cousin scenario is spot-on for 11yo autonomy."
+  },
+  "ep_03": {
+    "mindful_cue": {
+      "en": "Rest both palms open, breathe out slowly, and notice one fair promise connecting people near you.",
+      "ro": "Deschide palmele relaxat, expiră prelung și observă o regulă dreaptă care apropie oamenii din jurul tău."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.72): Aligns with Piagetian formal-operational emergence and Kohlbergian mutual-agreement reasoning—age 11 is the exact window when pre-teens grasp that rules are negotiated social contracts. Recess 6th-grade handball dispute and choice_a natural consequence (stalled game) are 100% shame-free."
+  },
+  "ep_04": {
+    "mindful_cue": {
+      "en": "Soften your shoulders, inhale quietly, and ask whether your heart needs listening warmth or fixing today.",
+      "ro": "Coboară umerii, inspiră lin și întreabă-te dacă azi cauți ascultare caldă sau soluții practice."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.10): Gold-standard non-shaming framing in choice_a ripple ('Even though you mean well, your friend feels graded all over again'), validating good intentions while teaching emotional attunement ('feeling channel vs fixing channel') in peer friendships."
+  },
+  "ep_05": {
+    "mindful_cue": {
+      "en": "Exhale any rush, tap one finger lightly, and picture one tiny five-minute spark you control today.",
+      "ro": "Expiră toată graba, atinge ușor masa cu degetul și alege o scânteie mică de cinci minute."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.55): Directly addresses 6th-grade all-or-nothing planning traps using friction reduction and environmental cueing (pencil on pillow, guitar by backpack). Choice_a ripple explains motor-memory decay neutrally without calling the child lazy."
+  },
+  "ep_06": {
+    "mindful_cue": {
+      "en": "Place a hand over your stomach, breathe slowly, and notice any quiet feeling hiding underneath annoyance.",
+      "ro": "Așază o mână pe abdomen, respiră rar și observă ce emoție tăcută stă sub armură."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.09): Excellent second-order Theory of Mind training via the Anger Iceberg (bravado masking embarrassment). Optional softer choice_a/ripple_a so 11yo readers see defensive reflex rather than unprovoked cruelty — improved ripple_a EN: 'Trading barbs feels fair for a second, yet their embarrassment spikes, their armor hardens, and the table stays tense.' / RO: 'Replica usturătoare pare dreaptă o clipă, dar jena colegului crește, armura se întărește și masa rămâne încordată.'"
+  },
+  "ep_07": {
+    "mindful_cue": {
+      "en": "Plant both feet flat, take a steady breath, and spot one small corner you can clear.",
+      "ro": "Sprijină tălpile pe podea, respiră rar și privește un singur colț mic pe care îl controlezi."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 5.67): Compassionate normalization of executive-function task paralysis ('Sunday 4 PM blank project + messy desk'). Choice_a validates avoidance scrolling without shame while showing time-slip cost; choice_b models a concrete 2-minute physical anchor."
+  },
+  "ep_08": {
+    "mindful_cue": {
+      "en": "Open your hands like a growing sprout, breathe in gently, and whisper 'not yet' without pressure.",
+      "ro": "Deschide palmele ca un lăstar viu, inspiră blând și șoptește în gând «nu încă» cu răbdare."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 5.98): Strong neuroplasticity metaphor (marble statue vs living seed) with an 11-year-old protagonist (Clara). Choice_a ripple ('You protect your pride for five minutes...') honors self-protective ego defense empathetically before contrasting 'not yet' inquiry."
+  },
+  "ep_09": {
+    "mindful_cue": {
+      "en": "Drop your shoulders from your ears, breathe four slow counts, and picture just your next ridge.",
+      "ro": "Depărtează umerii de urechi, respiră în patru timpi calmi și privește doar spre creasta următoare."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.11): Targets the classic week-3 skill plateau in middle-school clubs (skateboarding, coding, swimming) when beginner novelty fades. Proximal sub-goal chunking ('next pine ridge') is developmentally ideal; choice_a ripple frames quitting as missing future pride rather than moral failure."
+  },
+  "ep_10": {
+    "mindful_cue": {
+      "en": "Rest your eyes from bright pings, exhale slowly, and imagine latching a quiet workshop door.",
+      "ro": "Odihnește-ți privirea o clipă, expiră încet și imaginează-ți că închizi ușa unui atelier liniștit."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.22): Externalizes notification distraction ('leaving the workshop window open' vs blaming willpower) for 11yo Thomas. Choice_a ripple smartly highlights dual loss ('you did not really enjoy the chat either'), tapping intrinsic autonomy instead of adult lecturing."
+  },
+  "ep_11": {
+    "mindful_cue": {
+      "en": "Pause Quick-Hop for one calm breath, blink slowly, and let your inner owl check the facts.",
+      "ro": "Oprește graba pentru o respirație calmă, clipește rar și lasă bufnița interioară să verifice dovezile."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.16): Vivid System-1/System-2 adaptation for 11yo Dan, paired with a highly authentic cropped-screenshot class-6B rumor dilemma. Zero shame in choice_a. Editorial RO fix flagged in beat 1: change 'trăiau doi ajutoare' to 'trăiau două ajutoare' (neuter plural agreement)."
+  },
+  "ep_12": {
+    "mindful_cue": {
+      "en": "Sit completely still, soften your breathing, and catch two tiny quiet details most people rush past.",
+      "ro": "Rămâi în liniște o clipă, respiră lin și observă două detalii fine din jurul tău."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 5.77): Affirms introverted/observant 11-year-olds without villainizing energetic peers ('Great teams need both bold megaphones and quiet eyes'). Escape-room/robotics clue-card dilemma models inclusive team leadership with zero shame."
+  },
+  "ep_13": {
+    "mindful_cue": {
+      "en": "Unclench your jaw, let tough armor drop with your shoulders, and take one safe, honest breath.",
+      "ro": "Relaxează maxilarul, lasă armura grea jos odată cu umerii și ia o respirație caldă și sinceră."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.27): Deeply attuned to 6th-grade vulnerability fear and ironic detachment ('Whatever, I didn't even try'). Choice_a ('Joke around to change the subject') reflects a relatable, well-meaning peer reflex with a gentle, non-shaming ripple; choice_b models co-regulation via low-pressure presence."
+  },
+  "ep_14": {
+    "mindful_cue": {
+      "en": "Place one hand on your chest, inhale slowly, and picture who benefits from your effort today.",
+      "ro": "Pune o mână pe piept, inspiră rar și gândește-te pe cine poate ajuta efortul tău azi."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.09): Grounded in transcendent-purpose motivation science (linking school tasks to prosocial impact like Maya's Buddy Map) and explicitly counters shame ('Your brain's motivation engine isn't broken or lazy'). Optional smoother ripple_a EN (fixing 'skill/chores' number mismatch): 'Your brain tags the practice as a pointless chore, draining your energy fast without building lasting skill.'"
+  },
+  "ep_15": {
+    "mindful_cue": {
+      "en": "Blink slowly three times to rest tired eyes, stretch your neck, and thank tonight's cleanup crew.",
+      "ro": "Clipește rar de trei ori, relaxează gâtul ușor și lasă echipa nocturnă din creier să lucreze."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.64): Captures 11yo 'revenge bedtime procrastination' ('nobody is bossing me around') with high empathy and accurate sleep neuroscience. Growth choice is randomized to choice_a (true) and non-growth to choice_b (false), both framed around biology rather than guilt. Patched RO mindful_cue from 19 words down to 16 words."
+  },
+  "ep_16": {
+    "mindful_cue": {
+      "en": "Sit tall, exhale like a slow sigh, and pull one real victory from your Proof Jar.",
+      "ro": "Îndreaptă spatele, expiră ca un oftat lung și scoate o reușită reală din Borcanul cu Dovezi."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.36): Explicitly inoculates against harsh self-bullying ('Real inner strength never means bullying yourself') using Bandura mastery recall ('Proof Jar'). Optional softer framing since choice_a label ('Call yourself weak') feels slightly abrupt — improved ripple_a EN: 'Believing that loud comfort alarm spikes stress in your brain, making the next challenge feel twice as steep.' / RO: 'Când crezi din prima alarma de confort, stresul crește și face următoarea încercare să pară de două ori mai grea.'"
+  },
+  "ep_17": {
+    "mindful_cue": {
+      "en": "Look away from flat glass toward the farthest wall, stretch your arms, and breathe real space.",
+      "ro": "Ridică privirea din ecran spre cel mai îndepărtat perete, întinde brațele și respiră în lumea reală."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.25): Respectful anti-doomscroll psychoeducation explaining variable-reward feeds ('slot machines') vs embodied 3D play without shaming tablet users. Randomized choice order (choice_a is growth=true, choice_b is growth=false) prevents mindless button-B tapping."
+  },
+  "ep_18": {
+    "mindful_cue": {
+      "en": "Pause for three quiet seconds, relax your throat, and notice three soft sounds in the room.",
+      "ro": "Oprește-te trei secunde în liniște, relaxează umerii și ascultă trei sunete discrete din încăpere."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.36): Strong cross-book fusion (Quiet Observation + Deep Listening) giving 11-year-olds a concrete, socially natural allyship micro-script ('Wait, let's hear Ana's idea!'). Choice_a ('Stay silent so you don't draw attention') validates shy hesitation with zero blame."
+  },
+  "ep_19": {
+    "mindful_cue": {
+      "en": "Wiggle all ten fingers, press your palms together once, and breathe steady focus into your hands.",
+      "ro": "Mișcă degetele ambelor mâini, lipește palmele o secundă și adu atenție calmă în ce construiești acum."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.56): Teaches 'attention residue' and hands-on 'flow' in crisp middle-grade prose, reframing impatience as chopped focus rather than personal flaw. Minor UX clarity tip on choice_b.label.en: spell out '30 mins' instead of '30m' so metric-system kids don't read '30 meters'."
+  },
+  "ep_20": {
+    "mindful_cue": {
+      "en": "Inhale for four slow counts, name your current feeling in two words, and let guesses wait.",
+      "ro": "Inspiră în patru timpi rari, numește în două cuvinte emoția de acum și oprește scenariile grăbite."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 5.87): Peak 11yo social-digital relevance—decoding catastrophic mind-reading after a one-word 'Ok.' text via affect labeling ('feelings are not facts'). Growth choice is randomized to choice_a (true); choice_b ripple shows interpersonal feedback loops without shaming. Minor parity note: EN ripple_a says 'math notebook' vs RO 'caietul de istorie'."
+  },
+  "ep_21": {
+    "mindful_cue": {
+      "en": "Feel both sneakers or feet grounded firmly below you, breathe steadily, and honor today's small step.",
+      "ro": "Simte ambele tălpi bine ancorate pe podea, respiră calm și prețuiește pasul mărunt făcut astăzi."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.63): Counters middle-school tryout sorting anxiety by pairing long-term grit with implementation intentions ('after I drop my backpack, shoot twenty layups'). Choice_a ('Wait until you feel motivated') demystifies mood-dependent procrastination constructively."
+  },
+  "ep_22": {
+    "mindful_cue": {
+      "en": "Shake out both hands like flicking off water, breathe fresh air, and let mistakes build armor.",
+      "ro": "Scutură ușor palmele ca de picături de apă, inspiră adânc și lasă greșeala să întărească mintea."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.17): Translates error-driven myelination ('armor around brain links' / 'mielină nouă') + 'yet' self-coaching into empowering 11yo robotics storytelling. Zero-shame dilemma. Editorial RO fix flagged in beat 1: change ungrammatical reflexive 'și-a sărit roata' to 'i-a sărit o roată'."
+  },
+  "ep_23": {
+    "mindful_cue": {
+      "en": "Roll your shoulders back gently, exhale tension, and notice one first domino you can reset tonight.",
+      "ro": "Rotește umerii ușor spre spate, expiră tensiunea și alege primul domino pe care îl așezi diseară."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.34): Excellent systems-loop literacy connecting sleep debt, emotional brake fatigue, friend friction, and compensatory late scrolling. Depersonalizes 'cursed days' into solvable causal chains without blame. Growth choice randomized to choice_a (true)."
+  },
+  "ep_24": {
+    "mindful_cue": {
+      "en": "Breathe in warmth for four counts, soften tight knees, and picture one person your kindness helps.",
+      "ro": "Inspiră cald în patru timpi, relaxează genunchii și gândește-te la un om ajutat de bunătatea ta."
+    },
+    "psych_audit_note": "SAFE & AGE-11 FIT (FK 6.38): Directly addresses early-adolescent spotlight anxiety ('imaginary audience') by shifting from ego-approval goals to prosocial ecosystem purpose. Choice_a ('Stare at your food to stay safe and cool') honors bystander hesitation empathetically with zero shaming."
+  }
+}

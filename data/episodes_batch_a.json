@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "ep_01",
+    "order": 1,
+    "book_ids": [
+      "book_01"
+    ],
+    "value_ids": [
+      "val_systems_sight",
+      "val_mental_models"
+    ],
+    "dilemma_id": "dil_01",
+    "category": "brain_systems",
+    "alt_format": "RIPPLE_TIMELINE",
+    "art_theme": "emerald_forest_gears",
+    "accent_color": "#10b981",
+    "duration_target_sec": 45,
+    "title": {
+      "en": "The Dam That Stole the Berries",
+      "ro": "Barajul care a furat murele"
+    },
+    "hook": {
+      "en": "How did keeping one squirrel's paws dry somehow starve an entire hillside of sweet berries?",
+      "ro": "Cum a lăsat o veveriță cu lăbuțele uscate un deal întreg fără mure dulci?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Pip hated splashing through morning puddles. So he jammed six heavy river stones across the narrow meadow creek.",
+        "caption_ro": "Pip ura să-și ude lăbuțele în alergarea de dimineață. Așa că a îndesat șase pietre late chiar în pârâul îngust."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "split_ripple",
+        "caption_en": "His muddy shortcut stayed dry by noon. Yet three afternoons later, every blackberry bush along the hillside shriveled brown.",
+        "caption_ro": "Scurtătura lui era complet uscată la prânz. Totuși, peste trei zile, toate tufele dulci de mure de pe deal s-au ofilit."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_close",
+        "caption_en": "Hungry bluejays began raiding Pip's winter acorn stash instead. Kiri knelt beside the blocked creek and opened her sketchbook.",
+        "caption_ro": "Gaițele flămânde au început să fure chiar ghindele ascunse de Pip. Kiri a îngenuncheat lângă pietre și și-a deschis caietul."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Sola the ancient willow dipped one silver branch toward the soil. Hidden roots connected that tiny creek to the ridge.",
+        "caption_ro": "Salcia Sola și-a plecat o ramură argintie spre pământul umed. Rădăcini ascunse legau acel pârâu mic de creasta îndepărtată."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "lens_shift",
+        "caption_en": "Pip had solved one small splash right under his nose. He missed three silent ripples traveling deep underground.",
+        "caption_ro": "Pip rezolvase doar mica baltă din vârful nasului său. Îi scăpaseră însă cele trei unde tăcute care călătoreau pe sub pământ."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Together they replaced the solid wall with spaced stepping-stones. Water flowed freely again, paws stayed dry, and berries returned.",
+        "caption_ro": "Împreună au înlocuit barajul cu trei pietre de pășit. Apa a curs iar liberă, lăbuțele au rămas uscate, iar dealul a înverzit."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Surface Reaction (Pip's Lens)",
+        "ro": "Reacția de Suprafață (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "This puddle splashes my fur every morning, so blocking it right now fixes my problem fast! Why waste time asking where one tiny trickle goes after I cross?",
+        "ro": "Balta asta îmi stropește blana în fiecare dimineață, deci dacă o blochez acum rezolv totul pe loc! De ce să mai întreb încotro curge un firicel mic de apă?"
+      },
+      "lens_b_label": {
+        "en": "Systems Sight (Sola's Lens)",
+        "ro": "Privirea Sistemică (Lentila Solei)"
+      },
+      "lens_b_thought": {
+        "en": "Every quick fix tugs on an unseen web. Before I move one stone, I ask who drinks downstream and how my bridge can help the whole valley thrive.",
+        "ro": "Orice reparație grăbită atinge o pânză nevăzută de legături. Înainte să mut o piatră, mă întreb cine bea apă în vale și cum pot proteja întregul loc."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "In your science project group, one teammate keeps forgetting to bring their chart, and presentation day is Friday.",
+        "ro": "În echipa ta de la proiectul de științe, un coleg uită mereu să-și aducă graficul, iar prezentarea este vineri."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Secretly redo their entire chart tonight yourself",
+          "ro": "Refaci singur tot graficul lui la noapte, pe ascuns"
+        },
+        "ripple": {
+          "en": "The poster gets finished once, yet your teammate feels shut out and you end up carrying double work on the next project too.",
+          "ro": "Planșa iese gata acum, dar colegul tău se simte exclus, iar la următorul proiect vei ajunge să duci din nou muncă dublă."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Ask what part has them stuck and sketch it together",
+          "ro": "Îl întrebi unde s-a blocat și schițați începutul împreună"
+        },
+        "ripple": {
+          "en": "You discover their home printer broke, solve the real bottleneck in five minutes with markers, and keep the whole team strong.",
+          "ro": "Afli că i s-a stricat imprimanta acasă, rezolvați blocajul real în cinci minute cu carioci și păstrați toată echipa unită."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Smart problem-solvers trace hidden causes instead of just patching the loudest symptom.",
+        "ro": "Mințile agere caută cauza ascunsă din spate, nu doar peticesc primul efect vizibil."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The 3-Step Ripple Map",
+        "ro": "Harta celor trei unde"
+      },
+      "instruction": {
+        "en": "Pick one object on your desk right now and trace three hidden people, tools, or nature steps that brought it into your hands.",
+        "ro": "Alege chiar acum un obiect de pe biroul tău și numește trei pași ascunși din natură sau de la alți oameni care l-au adus la tine."
+      }
+    }
+  },
+  {
+    "id": "ep_02",
+    "order": 2,
+    "book_ids": [
+      "book_02"
+    ],
+    "value_ids": [
+      "val_proactive_agency",
+      "val_synergy"
+    ],
+    "dilemma_id": "dil_02",
+    "category": "inner_calm",
+    "alt_format": "BRANCHING_CHOICE",
+    "art_theme": "amber_forge_compass",
+    "accent_color": "#f59e0b",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "The Three-Second Gap in the Forge",
+      "ro": "Cele trei secunde din fierărie"
+    },
+    "hook": {
+      "en": "Someone smudges your careful drawing by mistake—who controls what happens during the next three seconds?",
+      "ro": "Cineva îți mânjește din greșeală cel mai bun desen—cine controlează următoarele trei secunde?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Kiri spent all morning sketching a timber bridge in white chalk. Then Pip tripped and kicked black soot across the page.",
+        "caption_ro": "Kiri a desenat toată dimineața planul unui pod cu cretă albă. Apoi Pip s-a împiedicat și a vărsat funingine neagră peste foaie."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Sudden heat rushed straight to Kiri's ears. Sharp words gathered on her tongue, ready to chase her best friend outside.",
+        "caption_ro": "Un val fierbinte i-a urcat lui Kiri direct în obraji. Cuvinte tăioase îi stăteau pe limbă, gata să-i alunge prietenul pe ușă."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_close",
+        "caption_en": "Master Tor lifted his heavy iron hammer above the glowing anvil. He held it motionless for three quiet heartbeats.",
+        "caption_ro": "Meșterul Tor și-a ridicat ciocanul greu de fier deasupra nicovalei încinse. L-a ținut nemișcat în aer preț de trei bătăi liniștite."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Nobody controls every clumsy gust of wind, Tor explained calmly. Still, every true builder owns the pause before striking.",
+        "caption_ro": "Nimeni nu controlează fiecare pală stângace de vânt, a spus Tor calm. Dar orice constructor stăpânește mica pauză dinaintea loviturii."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "choice_fork",
+        "caption_en": "Kiri exhaled slowly and studied the dark smudge across her drawing, spotting an unexpected curved arch underneath the soot.",
+        "caption_ro": "Kiri a tras aer adânc în piept și a privit pata întunecată. Sub dâra de funingine se ivise linia unui arc curbat."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "She handed Pip a clean cloth with a warm grin. Together they turned that accidental curve into their strongest bridge.",
+        "caption_ro": "I-a întins lui Pip o cârpă curată, zâmbind cu subînțeles. Împreună au transformat acea curbă întâmplătoare în cel mai solid pod."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Weather Mood (Pip's Lens)",
+        "ro": "Starea Vremii (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "When somebody bumps my table, my temper explodes on its own! If they did not mess up, I would not have to yell, so my reaction is their fault.",
+        "ro": "Când cineva îmi lovește masa, nervii mei sar singuri în aer! Dacă nu greșeau ei, nici eu nu țipam, deci reacția mea este doar din vina lor."
+      },
+      "lens_b_label": {
+        "en": "Builder's Pause (Master Tor's Lens)",
+        "ro": "Pauza Constructorului (Lentila Meșterului Tor)"
+      },
+      "lens_b_thought": {
+        "en": "Accidents hit my bench without asking permission, yet nobody owns my next move except me. Three slow seconds let me choose an answer I will feel proud of tomorrow.",
+        "ro": "Accidentele îmi lovesc masa fără să ceară voie, însă nimeni nu-mi decide pasul următor în afară de mine. Trei secunde calme îmi păstrează busola dreaptă."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "Right before dinner, your younger cousin bumps your elbow and knocks two pieces off the LEGO model you built all afternoon.",
+        "ro": "Chiar înainte de cină, verișorul tău mai mic îți atinge cotul și desprinde două piese din modelul LEGO construit toată după-amiaza."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Shout back instantly and ban them from your room",
+          "ro": "Strigi imediat la el și îi interzici să mai intre în cameră"
+        },
+        "ripple": {
+          "en": "Your cousin tears up, dinner feels tense for everyone, and fixing those two bricks still takes the exact same thirty seconds.",
+          "ro": "Verișorul tău izbucnește în lacrimi, cina devine apăsătoare pentru toți, iar repararea celor două piese îți ia oricum treizeci de secunde."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Take a three-second breath and let them hand you the bricks",
+          "ro": "Respiri trei secunde și îl rogi să-ți dea el piesele căzute"
+        },
+        "ripple": {
+          "en": "Your calm surprises even you, your cousin becomes your careful helper, and you walk into dinner feeling like captain of your own mind.",
+          "ro": "Calmul tău te surprinde chiar și pe tine, verișorul devine un ajutor atent, iar tu mergi la masă stăpân pe propria minte."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Between what happens to you and how you answer sits a three-second space that belongs entirely to you.",
+        "ro": "Între ceea ce ți se întâmplă și felul în care răspunzi există un spațiu de trei secunde care îți aparține complet."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Thumb-Press Pause",
+        "ro": "Butonul secret din palmă"
+      },
+      "instruction": {
+        "en": "Press your thumb and index finger together right now and count three slow breaths—use this secret switch once today when something annoys you.",
+        "ro": "Unește chiar acum degetul mare cu arătătorul și numără trei respirații lente—folosește acest buton secret azi, când ceva te enervează."
+      }
+    }
+  },
+  {
+    "id": "ep_03",
+    "order": 3,
+    "book_ids": [
+      "book_03"
+    ],
+    "value_ids": [
+      "val_shared_stories",
+      "val_cooperative_trust"
+    ],
+    "dilemma_id": "dil_03",
+    "category": "brain_systems",
+    "alt_format": "BRAIN_GLITCH",
+    "art_theme": "starlight_campfire_echoes",
+    "accent_color": "#f97316",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "The Invisible Rule That Built Worlds",
+      "ro": "Regula invizibilă care a clădit lumi"
+    },
+    "hook": {
+      "en": "Fifty squirrels cannot share one oak tree—so how do thousands of strangers build a whole city?",
+      "ro": "Cincizeci de veverițe nu pot împărți un stejar—cum reușesc mii de necunoscuți să ridice un oraș?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "High inside the ancient oak, fifty squirrels argued over every branch. Nobody trusted a visitor from the neighboring grove.",
+        "caption_ro": "Sus, în marele stejar, cincizeci de veverițe se certau pe fiecare creangă. Niciuna nu avea încredere într-o veveriță din crângul vecin."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "split_ripple",
+        "caption_en": "Yet down in the meadow, two hundred strangers passed heavy river boulders hand to hand until a bridge stood tall.",
+        "caption_ro": "Totuși, jos în poiană, două sute de necunoscuți își dădeau pietre grele din mână în mână. Nimeni nu se îmbrâncea, iar podul creștea."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Pip tilted his furry head in total amazement. Did human brains come wired with secret mind-reading antennas beneath their hair?",
+        "caption_ro": "Pip și-a înclinat capul îmblănit, complet uimit. Aveau oare oamenii antene secrete de citit gândurile ascunse pe sub păr?"
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Sola pointed toward the woven campfire banner overhead. Humans unite huge groups through shared stories that nobody can touch.",
+        "caption_ro": "Sola a arătat spre steagul țesut cu soare de deasupra taberei. Oamenii colaborează prin povești comune pe care nu le poți atinge."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "lens_shift",
+        "caption_en": "Soccer rules, coins, and promises do not grow on branches like acorns. They work whenever everyone trusts the agreement.",
+        "caption_ro": "Regulile de fotbal, monedele și promisiunile nu cresc în copaci ca ghindele. Ele funcționează doar când grupul crede în ele."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Kiri painted a simple turn-taking wheel onto flat bark. One fair shared story turned noisy strangers into genuine teammates.",
+        "caption_ro": "Kiri a desenat pe scoarță o roată simplă a rândului pentru constructori. O singură regulă dreaptă a unit mulțimea într-o echipă."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Grab-First Instinct (Pip's Lens)",
+        "ro": "Instinctul Primului Venit (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "I only trust acorns I can hold right in my own two paws! Rules and promises are just invisible air, so why wait my turn when I can grab first?",
+        "ro": "Am încredere doar în ghindele pe care le țin în lăbuțele mele! Regulile și promisiunile sunt doar aer invizibil, deci de ce să-mi aștept rândul?"
+      },
+      "lens_b_label": {
+        "en": "Shared Story Sight (Sola's Lens)",
+        "ro": "Puterea Poveștii Comune (Lentila Solei)"
+      },
+      "lens_b_thought": {
+        "en": "One pair of paws can carry three acorns, yet a shared promise lets a thousand hands raise a bridge. Keeping our word keeps the invisible magic alive for everyone.",
+        "ro": "Două lăbuțe pot duce trei ghinde, dar o înțelegere comună ajută o mie de mâini să ridice un pod. Când ne ținem cuvântul, păstrăm vie încrederea tuturor."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "At recess, kids from two sixth-grade classes argue on the court because each class plays handball with different out-of-bounds rules.",
+        "ro": "În pauză, copiii din două clase a șasea se ceartă pe teren fiindcă fiecare clasă joacă după alte reguli de aut."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Take your ball away and say the other class cheats",
+          "ro": "Iei mingea și spui că cealaltă clasă trișează"
+        },
+        "ripple": {
+          "en": "Recess ends with zero goals scored and twenty annoyed kids standing around blaming each other.",
+          "ro": "Pauza se termină fără niciun gol marcat, cu douăzeci de copii supărați care dau vina unii pe alții."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Call a twenty-second huddle to agree on three shared court rules",
+          "ro": "Aduni jucătorii douăzeci de secunde și stabiliți trei reguli comune"
+        },
+        "ripple": {
+          "en": "Everyone shakes on the same clear boundary line, the game kicks off fast, and rivals turn into energized teammates.",
+          "ro": "Toată lumea bate palma pe aceeași linie clară, meciul pornește rapid, iar rivalii devin coechipieri plini de energie."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Human teams run on shared agreements—when we build clear, fair rules together, strangers become allies.",
+        "ro": "Echipele umane funcționează prin înțelegeri comune—când construim reguli clare și drepte împreună, necunoscuții devin aliați."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Invisible Agreement Hunt",
+        "ro": "Vânătoarea de reguli invizibile"
+      },
+      "instruction": {
+        "en": "Look around your room or out the window and spot three everyday things—like coins, street signs, or team jerseys—that work because people share a story.",
+        "ro": "Privește prin cameră sau pe fereastră și găsește trei lucruri—precum monedele, zebrele pietonale sau tricourile unei echipe—care există prin încredere comună."
+      }
+    }
+  },
+  {
+    "id": "ep_04",
+    "order": 4,
+    "book_ids": [
+      "book_04"
+    ],
+    "value_ids": [
+      "val_deep_listening",
+      "val_empathy_matching"
+    ],
+    "dilemma_id": "dil_04",
+    "category": "friends_empathy",
+    "alt_format": "PERSPECTIVE_FLIP",
+    "art_theme": "teal_soundwave_lanterns",
+    "accent_color": "#14b8a6",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "Help Me Fix It or Just Hear Me?",
+      "ro": "Mă ajuți să repar sau doar mă asculți?"
+    },
+    "hook": {
+      "en": "Ever offer a disappointed friend your smartest advice—and somehow make them feel twice as lonely?",
+      "ro": "Ai dat vreodată unui prieten cel mai isteț sfat—și totuși s-a simțit de două ori mai singur?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Kiri sat on the porch steps holding two halves of her cracked clay bowl. One quiet tear rolled down her cheek.",
+        "caption_ro": "Kiri stătea pe treptele pridvorului cu cele două jumătăți ale bolului ei crăpat. O lacrimă tăcută îi aluneca pe obraz."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "character_action",
+        "caption_en": "Pip bounced over shouting five clever instructions for mixing sticky pine resin. Kiri folded her arms tighter and looked away.",
+        "caption_ro": "Pip a sărit lângă ea strigând cinci metode istețe de lipit cu rășină de pin. Kiri și-a strâns genunchii și a întors privirea."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Pip froze with sticky sap on his paws. Why would practical, helpful answers make his closest friend shut down?",
+        "caption_ro": "Pip a încremenit cu rășină pe lăbuțe. De ce ar face niște soluții atât de bune ca prietena lui să se închidă în sine?"
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Sola rustled her silver leaves overhead, explaining how real talks travel on either a fixing channel or a feeling channel.",
+        "caption_ro": "Sola și-a foșnit blând frunzele calde deasupra lor. Orice discuție adevărată merge fie pe frecvența soluțiilor, fie pe a inimii."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "lens_shift",
+        "caption_en": "Pip had brought a noisy toolbox when Kiri needed warm company first. Matching wavelengths comes before repairing broken pieces.",
+        "caption_ro": "Pip venise cu o trusă zgomotoasă de scule când Kiri avea nevoie întâi de apropiere. Acordarea inimilor vine înaintea reparațiilor."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Pip wiped his paws, sat close, and admitted losing careful craft really stings. Five minutes later, Kiri asked for resin.",
+        "caption_ro": "Pip s-a șters pe lăbuțe, s-a așezat aproape și a recunoscut cât doare munca pierdută. Peste cinci minute, Kiri a cerut rășina."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Instant Fixer Mode (Pip's Lens)",
+        "ro": "Modul Reparator Rapid (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "My friend has a broken bowl, so listing five fast fixes proves I care! Why is she sighing when my pine glue idea clearly solves everything in ten minutes?",
+        "ro": "Prietena mea are un bol spart, deci cinci soluții rapide îi arată că îmi pasă! De ce oftează când ideea mea cu rășină rezolvă clar totul imediat?"
+      },
+      "lens_b_label": {
+        "en": "Wavelength Listener (Kiri's Lens)",
+        "ro": "Ascultarea pe Aceeași Undă (Lentila lui Kiri)"
+      },
+      "lens_b_thought": {
+        "en": "I already know glue exists—right now my heart just hurts because three hours of careful painting cracked. Sit with me for one minute before you try fixing my afternoon.",
+        "ro": "Știu deja că există lipici—chiar acum mă doare că trei ore de pictură atentă s-au crăpat. Rămâi lângă mine un minut înainte să-mi repari ziua."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "Your friend walks out of choir or band tryouts looking crushed because their voice cracked on the high note.",
+        "ro": "Prietenul tău iese abătut de la audiția pentru cor sau trupă, fiindcă i-a tremurat vocea exact la nota înaltă."
+      },
+      "choice_a": {
+        "label": {
+          "en": "List three breathing exercises they should practice tonight",
+          "ro": "Îi înșiri pe loc trei exerciții de respirație pentru diseară"
+        },
+        "ripple": {
+          "en": "Even though you mean well, your friend feels graded all over again and changes the subject.",
+          "ro": "Chiar dacă ai intenții bune, prietenul tău se simte din nou evaluat ca la examen și schimbă subiectul."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Ask warmly: 'Do you want to vent right now, or plan next steps later?'",
+          "ro": "Îl întrebi cald: „Vrei doar să te descarci acum sau facem un plan mai târziu?”"
+        },
+        "ripple": {
+          "en": "Their shoulders drop with relief, you tune straight onto the same radio station, and your friendship grows deeper trust.",
+          "ro": "Umerii i se relaxează ușurați, intrați imediat pe aceeași lungime de undă, iar prietenia voastră câștigă încredere."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Great communicators check whether a friend needs a listening heart or a practical plan before jumping in.",
+        "ro": "Cei care comunică excelent verifică întâi dacă prietenul lor are nevoie să fie ascultat sau ajutat cu un plan."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Wavelength Check",
+        "ro": "Testul lungimii de undă"
+      },
+      "instruction": {
+        "en": "Next time someone at home shares a frustration today, listen for thirty full seconds without interrupting, then ask one curious question about how it felt.",
+        "ro": "Data viitoare când cineva de acasă povestește azi o supărare, ascultă treizeci de secunde fără să întrerupi, apoi pune o întrebare caldă."
+      }
+    }
+  },
+  {
+    "id": "ep_05",
+    "order": 5,
+    "book_ids": [
+      "book_05"
+    ],
+    "value_ids": [
+      "val_tiny_compounding",
+      "val_identity_habits"
+    ],
+    "dilemma_id": "dil_05",
+    "category": "focus_grit",
+    "alt_format": "RIPPLE_TIMELINE",
+    "art_theme": "copper_spark_staircase",
+    "accent_color": "#eab308",
+    "duration_target_sec": 45,
+    "title": {
+      "en": "Why Five Minutes Beats Three Hours",
+      "ro": "De ce cinci minute înving trei ore"
+    },
+    "hook": {
+      "en": "Why do giant Monday plans almost always crash and vanish before Thursday afternoon?",
+      "ro": "De ce se prăbușesc mai mereu planurile uriașe de luni până joi după-amiază?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "On Monday morning, Pip vowed to carve a whole wooden canoe before sunset. Woodchips flew everywhere for three wild hours.",
+        "caption_ro": "Luni dimineață, Pip a jurat să cioplească o barcă întreagă din lemn până la apus. Așchiile au zburat trei ore în șir."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "By Tuesday, his blistered paws ached just looking at the heavy chisel. He shoved the unfinished log underneath his bed.",
+        "caption_ro": "Marți, lăbuțele obosite îl dureau doar privind dalta grea. A împins bușteanul început direct sub pat și a renunțat."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_action",
+        "caption_en": "Across the lane, Kiri placed one sharpened pencil right on her pillow. Every evening she sketched a single forest leaf.",
+        "caption_ro": "Peste drum, Kiri și-a pus un creion ascuțit chiar pe pernă. În fiecare seară desena o singură frunză din pădure."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "split_ripple",
+        "caption_en": "Five easy minutes never frightened her sleepy brain into quitting. Even on stormy Wednesdays, drawing one small leaf felt light.",
+        "caption_ro": "Cinci minute ușoare nu i-au speriat niciodată mintea obosită seara. Chiar și în miercurile ploioase, o frunză părea floare la ureche."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "system_reveal",
+        "caption_en": "Master Tor smiled at her growing stack of crisp pages, noting how steady sparks outlast bonfires that burn out fast.",
+        "caption_ro": "Meșterul Tor a zâmbit privind teancul ei tot mai gros de file. Scânteile mici repetate zilnic întrec focurile mari de paie."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Thirty nights later, Kiri held a complete field guide to Eldoria. Small daily votes had quietly turned her into an artist.",
+        "caption_ro": "După treizeci de seri, Kiri ținea în mâini ghidul complet al pădurii. Pașii mărunți și zilnici o transformaseră într-o adevărată artistă."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "All-or-Nothing Sprint (Pip's Lens)",
+        "ro": "Sprintul Totul-sau-Nimic (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "If I cannot practice for two heroic hours today, five tiny minutes do not even count! Either I finish the whole masterpiece tonight or I skip today completely.",
+        "ro": "Dacă nu exersez două ore întregi azi, cinci minute mici nici nu se pun! Ori termin toată capodopera în seara asta, ori las totul baltă până săptămâna viitoare."
+      },
+      "lens_b_label": {
+        "en": "Daily Spark System (Kiri's Lens)",
+        "ro": "Sistemul Scânteii Zilnice (Lentila lui Kiri)"
+      },
+      "lens_b_thought": {
+        "en": "Making the start tiny removes friction when I feel tired. Putting my pencil on my pillow means I show up daily, and thirty small leaves build real mastery.",
+        "ro": "Când începutul e mic de tot, oboseala nu mă mai blochează. Creionul lăsat pe pernă îmi amintește zilnic, iar treizeci de frunze mici adună măiestrie adevărată."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You want to learn guitar chords or juggle a soccer ball twenty times in a row before summer break.",
+        "ro": "Vrei să înveți acorduri la chitară sau să ții mingea pe picior de douăzeci de ori la rând până în vacanță."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Wait until Saturday to do one exhausting two-hour marathon",
+          "ro": "Aștepți până sâmbătă pentru un maraton epuizant de două ore"
+        },
+        "ripple": {
+          "en": "Saturday gets busy, your fingers ache when you rush, and your brain forgets the rhythm between weekends.",
+          "ro": "Sâmbăta devine aglomerată, degetele obosesc din cauza grabei, iar creierul uită mișcarea de la un sfârșit de săptămână la altul."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Put the guitar or ball by your backpack for five minutes after school",
+          "ro": "Așezi chitara sau mingea lângă ghiozdan pentru cinci minute zilnic"
+        },
+        "ripple": {
+          "en": "Seeing the cue makes starting effortless, your muscle memory locks in while you sleep, and week three feels surprisingly smooth.",
+          "ro": "Semnalul vizibil face pornirea simplă, memoria mișcării se fixează în somn, iar în săptămâna a treia totul curge firesc."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Habits stick when you shrink the starting step and place an obvious visual cue right in your path.",
+        "ro": "Obiceiurile prind rădăcini când micșorezi primul pas și pui un semnal vizibil chiar în drumul tău."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Plant One Visual Cue",
+        "ro": "Plantează un semnal vizibil"
+      },
+      "instruction": {
+        "en": "Move one book, sketchbook, instrument, or water bottle right onto the spot you look first tomorrow morning so your good habit starts itself.",
+        "ro": "Mută chiar acum o carte, un caiet de schițe sau sticla cu apă exact în locul pe care îl vezi primul mâine dimineață."
+      }
+    }
+  },
+  {
+    "id": "ep_06",
+    "order": 6,
+    "book_ids": [
+      "book_06"
+    ],
+    "value_ids": [
+      "val_emotional_naming",
+      "val_impulse_pause"
+    ],
+    "dilemma_id": "dil_06",
+    "category": "friends_empathy",
+    "alt_format": "PERSPECTIVE_FLIP",
+    "art_theme": "indigo_storm_lantern",
+    "accent_color": "#6366f1",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "The Secret Hiding Under Loud Anger",
+      "ro": "Secretul ascuns sub furia gălăgioasă"
+    },
+    "hook": {
+      "en": "What if the loudest show-off in the room is secretly hiding the biggest knot in their stomach?",
+      "ro": "Și dacă cel mai gălăgios lăudăros din cameră ascunde cel mai strâns nod în stomac?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Before the lantern parade, Jasper the bluejay strutted along the fence. He called everyone else's paper lanterns crooked kid toys.",
+        "caption_ro": "Înaintea serii lampioanelor, gaița Jasper se umfla în pene pe gard. Spunea tare că lampioanele celorlalți sunt jucării strâmbe."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "character_action",
+        "caption_en": "Pip grabbed two pinecones, ready to shout a sharp insult right back. Nobody mocked his friend's artwork without a fight!",
+        "caption_ro": "Pip a înșfăcat două conuri de pin, gata să-i strige înapoi o replică usturătoare. Nimeni nu râdea de munca prietenei lui!"
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_close",
+        "caption_en": "Kiri gently held Pip's shoulder and looked past Jasper's loud beak. Behind the fence post lay Jasper's own torn frame.",
+        "caption_ro": "Kiri l-a oprit blând pe Pip și a privit dincolo de ciocul gălăgios. După stâlpul gardului zăcea cadrul rupt al lui Jasper."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Prickly anger often acts like noisy armor over quiet embarrassment. Jasper acted tough so nobody would spot his accident.",
+        "caption_ro": "Furia țepoasă este adesea o armură zgomotoasă peste o rușine tăcută. Jasper poza în dur ca nimeni să nu râdă de el."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "choice_fork",
+        "caption_en": "Instead of firing back, Kiri walked over carrying spare golden paper and asked Jasper to help steady her tall wire.",
+        "caption_ro": "În loc să-l atace, Kiri s-a apropiat cu hârtie aurie de rezervă. L-a rugat pe Jasper s-o ajute cu sârma înaltă."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Jasper blinked, dropped his boastful voice, and patched his lantern beside them. Feeling safe melted armor that shouting only hardens.",
+        "caption_ro": "Jasper a clipit surprins, a lăsat tonul lăudăros și și-a reparat lampionul lângă ei. Siguranța topește armura pe care cearta o întărește."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Armor Clash (Pip's Lens)",
+        "ro": "Ciocnirea Armurilor (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "Jasper just insulted our lanterns in front of everyone, so he is simply mean! If I roast him back twice as loud, that will teach him some manners.",
+        "ro": "Jasper tocmai a râs de lampioanele noastre în fața tuturor, deci e pur și simplu răutăcios! Dacă îi răspund de două ori mai tare, îl învăț eu minte."
+      },
+      "lens_b_label": {
+        "en": "Heart Radar (Kiri's Lens)",
+        "ro": "Radarul Inimii (Lentila lui Kiri)"
+      },
+      "lens_b_thought": {
+        "en": "Kids who feel proud rarely need to tear others down. Jasper's loud bragging looks like a shield hiding worry over his torn frame, so offering a bridge beats throwing cones.",
+        "ro": "Cine este împăcat cu munca lui nu simte nevoia să-i lovească pe alții. Lauda lui Jasper ascunde teama pentru cadrul lui rupt, deci o punte ajută mai mult."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "During art class, a classmate scoffs and says watercolor painting is boring right after accidentally spilling blue paint across their own sky.",
+        "ro": "La ora de desen, un coleg pufnește și spune că acuarelele sunt plictisitoare chiar după ce a vărsat din greșeală albastru peste foaia lui."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Point at their spilled sky and laugh with the table",
+          "ro": "Arăți spre pata lui albastră și râzi împreună cu masa"
+        },
+        "ripple": {
+          "en": "Their embarrassment spikes, their armor gets twice as spiky, and the table mood stays tense all period.",
+          "ro": "Rușinea lui crește brusc, armura devine de două ori mai țepoasă, iar atmosfera la masă rămâne încordată toată ora."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Pass a paper towel casually and say spills make cool storm clouds",
+          "ro": "Îi întinzi firesc un șervețel și spui că pata seamănă cu un nor grozav"
+        },
+        "ripple": {
+          "en": "You save their dignity without making a big speech, and two minutes later they are painting lightning bolts and smiling.",
+          "ro": "Îi protejezi demnitatea fără predici, iar peste două minute desenează fulgere pe nor și zâmbește relaxat."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Loud anger or bragging is often an iceberg tip hiding quieter feelings like fear, hurt, or embarrassment underneath.",
+        "ro": "Furia sau lauda zgomotoasă sunt adesea doar vârful aisbergului care ascunde dedesubt teamă, durere sau jenă."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Spot the Underneath Feeling",
+        "ro": "Descoperă emoția de dedesubt"
+      },
+      "instruction": {
+        "en": "Think of the last time you felt prickly or annoyed this week, and name the quieter second feeling—like tired, left out, or rushed—hiding underneath.",
+        "ro": "Amintește-ți ultima oară când ai fost iritat săptămâna aceasta și numește a doua emoție mai tăcută—oboseală, grabă sau teamă—ascunsă dedesubt."
+      }
+    }
+  },
+  {
+    "id": "ep_07",
+    "order": 7,
+    "book_ids": [
+      "book_07"
+    ],
+    "value_ids": [
+      "val_order_chaos_balance",
+      "val_creative_courage"
+    ],
+    "dilemma_id": "dil_07",
+    "category": "inner_calm",
+    "alt_format": "QUIET_SPARK",
+    "art_theme": "golden_hearth_wildwood",
+    "accent_color": "#d97706",
+    "duration_target_sec": 45,
+    "title": {
+      "en": "One Clear Corner When Chaos Hits",
+      "ro": "Un colț limpede în mijlocul haosului"
+    },
+    "hook": {
+      "en": "Ever stare at a cluttered room with three urgent tasks due and freeze like a statue?",
+      "ro": "Ai privit vreodată o cameră răvășită, cu trei teme grele, rămânând blocat ca o statuie?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Cold autumn wind rattled Kiri's workshop windows. Tangled ropes, soaked blueprints, and broken latches covered every inch of oak floor.",
+        "caption_ro": "Vântul rece de toamnă zdrăngănea ferestrele atelierului lui Kiri. Sfori încâlcite, hărți umede și zăvoare rupte acopereau toată podeaua."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Every unfinished chore shouted for attention at once. Overwhelmed, Kiri pulled her hood down and froze on a wooden crate.",
+        "caption_ro": "Fiecare treabă părea să strige după atenție exact în aceeași clipă. Kiri și-a tras gluga pe ochi și a înțepenit pe o ladă."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_close",
+        "caption_en": "Mr. Bramble the beaver mason stepped inside and tapped one bench corner. Never wrestle the entire storm at once, he rumbled.",
+        "caption_ro": "Domnul Bramble, meșterul castor, a intrat și a bătut ușor într-un colț de banc. Nu te lupta cu toată furtuna deodată, a mormăit el."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Clear one honest square foot that your own two hands control, because visible order sends calm signals inward.",
+        "caption_ro": "Eliberează acum un singur colț cinstit pe care mâinile tale îl controlează. Ordinea din jur trimite pe loc un semnal de liniște înăuntru."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "character_action",
+        "caption_en": "Kiri coiled one rope, wiped the timber dry, and arranged four chisels neatly, feeling her tight shoulders drop right away.",
+        "caption_ro": "Kiri a strâns o sfoară, a șters colțul uscat și a aliniat patru dălți. Umerii ei încordați s-au relaxat imediat."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Standing beside that one steady island, the broken valley latch looked simple. Courage grows fastest from one tidy starting square.",
+        "caption_ro": "Lângă acea mică insulă de ordine, zăvorul stricat părea acum simplu de reparat. Curajul crește cel mai repede dintr-un loc limpede."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Frozen Overwhelm (Pip's Lens)",
+        "ro": "Blocajul Copleșitor (Lentila lui Pip)"
+      },
+      "lens_a_thought": {
+        "en": "Everything in here is a giant disaster and the gate is broken too! Since I cannot fix twenty messes at once, I might as well hide under my blanket.",
+        "ro": "Totul aici este un dezastru uriaș, iar poarta e și ea stricată! Dacă tot nu pot repara douăzeci de lucruri deodată, mai bine mă ascund sub pătură."
+      },
+      "lens_b_label": {
+        "en": "One-Corner Anchor (Mr. Bramble's Lens)",
+        "ro": "Ancora Colțului Limpede (Lentila Domnului Bramble)"
+      },
+      "lens_b_thought": {
+        "en": "My brain freezes only when it tries lifting the entire week at once. Clearing one small square of bench gives my hands traction and wakes up my brave builder mind.",
+        "ro": "Mintea mea îngheață doar când încearcă să ridice toată săptămâna deodată. Un singur colț eliberat pe masă îmi pune mâinile în mișcare și îmi trezește curajul."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "It is Sunday at 4 PM, your desk is buried under snacks, laundry, and notebooks, and your history project is still blank.",
+        "ro": "Este duminică, ora patru, biroul tău e îngropat sub haine, caiete și ambalaje, iar proiectul la istorie este încă o foaie goală."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Lie on the bed scrolling videos to escape the messy desk",
+          "ro": "Te întinzi pe pat derulând clipuri ca să uiți de biroul încărcat"
+        },
+        "ripple": {
+          "en": "An hour slips by, the pile still stares at you, and Sunday evening feels twice as rushed.",
+          "ro": "Trece o oră fără să-ți dai seama, mormanul te așteaptă neschimbat, iar seara de duminică devine de două ori mai grea."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Set a two-minute timer to clear just your desk center and open one page",
+          "ro": "Pui un cronometru de două minute, eliberezi centrul biroului și deschizi caietul"
+        },
+        "ripple": {
+          "en": "Seeing clean wood unlocks momentum, the freeze melts away, and your first paragraph flows before the timer even feels hard.",
+          "ro": "Lemnul liber îți deblochează energia, starea de îngheț dispare, iar primul paragraf prinde formă surprinzător de ușor."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "When big chaos freezes your brain, creating one small pocket of physical order restores calm and action.",
+        "ro": "Când haosul îți blochează mintea, un singur colț mic de ordine fizică îți redă liniștea și puterea de acțiune."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The Two-Minute Island Reset",
+        "ro": "Insula de ordine în două minute"
+      },
+      "instruction": {
+        "en": "Pick one cluttered square foot—your backpack front pocket, nightstand, or desk corner—and make it crisp and clear in two minutes flat.",
+        "ro": "Alege un singur spațiu mic—buzunarul din față al ghiozdanului, noptiera sau colțul biroului—și fă-l impecabil în două minute."
+      }
+    }
+  },
+  {
+    "id": "ep_08",
+    "order": 8,
+    "book_ids": [
+      "book_08"
+    ],
+    "value_ids": [
+      "val_yet_growth",
+      "val_mistake_alchemy"
+    ],
+    "dilemma_id": "dil_08",
+    "category": "focus_grit",
+    "alt_format": "BRAIN_GLITCH",
+    "art_theme": "terracotta_seed_marble",
+    "accent_color": "#ec4899",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "The Stone Flower Trap",
+      "ro": "Capcana florii de piatră"
+    },
+    "hook": {
+      "en": "Would you rather own a marble flower that never cracks—or a messy seed in dark soil?",
+      "ro": "Ai alege o floare de marmură care nu se ciobește niciodată—sau o sămânță în pământ negru?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Eleven-year-old Clara tried nailing a wooden birdhouse roof, and the pine plank split. Frustrated, she tossed her hammer onto the grass.",
+        "caption_ro": "Clara, la unsprezece ani, a bătut un cui în acoperișul căsuței, iar lemnul a crăpat. Și-a aruncat ciocanul în iarbă."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "character_close",
+        "caption_en": "Talented builders get it right the first time, Clara muttered. Master Garen walked over holding two small clay flowerpots.",
+        "caption_ro": "Constructorii adevărați reușesc din prima încercare, a mormăit Clara. Meșterul Garen s-a apropiat ținând în mâini două ghivece mici."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "split_ripple",
+        "caption_en": "One pot held a carved marble rose without a single scratch, while the second held damp soil around a green sprout.",
+        "caption_ro": "Un ghiveci avea un trandafir sculptat în marmură cenușie, fără nicio zgârietură. Celălalt avea pământ umed și un lăstar verde."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Stone flowers never look awkward or make mistakes, Garen smiled. Yet carved marble stays frozen forever without growing an inch.",
+        "caption_ro": "Florile de piatră nu par niciodată stângace și nu greșesc, a zâmbit Garen. Însă piatra rămâne neschimbată o sută de ani."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Every crooked nail fires an electric spark across your brain cells. Mistakes physically wire a stronger pathway for try number two.",
+        "caption_ro": "Fiecare cui strâmb trimite o scânteie vie între neuronii tăi. Greșelile construiesc la propriu o cărare mai sigură pentru a doua încercare."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Clara picked up her hammer and whispered two magic words: not yet. Drilling a tiny starter hole kept the roof solid.",
+        "caption_ro": "Clara și-a ridicat ciocanul și a șoptit două cuvinte magice: nu încă. O mică gaură de ghidaj a păstrat noul acoperiș întreg."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Stone Verdict (Fixed Lens)",
+        "ro": "Verdictul de Piatră (Lentila Fixă)"
+      },
+      "lens_a_thought": {
+        "en": "This plank split right down the middle, which proves I have zero woodworking talent! Better quit before anybody sees me struggling and realizes I am not naturally gifted.",
+        "ro": "Scândura s-a crăpat chiar pe mijloc, ceea ce dovedește că nu am niciun talent la construit! Mai bine renunț acum, înainte să mă vadă cineva că mă chinui."
+      },
+      "lens_b_label": {
+        "en": "Growing Seed Sight (Master Garen's Lens)",
+        "ro": "Privirea Seminței Vii (Lentila Meșterului Garen)"
+      },
+      "lens_b_thought": {
+        "en": "A split plank is data, not a grade on who I am! Now I see pine cracks near the edge, so testing a smaller nail upgrades my skill right now.",
+        "ro": "O scândură crăpată este un indiciu util, nu o notă pusă valorii mele! Acum văd că pinul crapă la margine, deci un cui mai subțire mă învață ceva nou."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You get back a math quiz with three tricky geometry puzzles wrong while your friend next to you got every single one right.",
+        "ro": "Primești înapoi testul la matematică și ai greșit trei probleme de geometrie, în timp ce colegul de bancă a luat punctaj maxim."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Stuff the quiz into your bag and say 'I'm just bad at shapes'",
+          "ro": "Îndeși testul în ghiozdan și spui: „Pur și simplu nu mă pricep la geometrie”"
+        },
+        "ripple": {
+          "en": "You protect your pride for five minutes, yet next week's shapes stay just as mysterious and stressful.",
+          "ro": "Îți aperi orgoliul pentru cinci minute, însă problemele de săptămâna viitoare rămân la fel de încurcate și stresante."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Say 'I don't get angles yet' and ask your friend to trace step two",
+          "ro": "Spui „Nu stăpânesc unghiurile încă” și îl rogi pe coleg să-ți arate pasul doi"
+        },
+        "ripple": {
+          "en": "You spot the one missing trick in two minutes, your brain wires a fresh pathway, and geometry stops feeling scary.",
+          "ro": "Descoperi exact pasul lipsă în două minute, creierul tău leagă o punte nouă, iar geometria devine dintr-odată logică."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Skills are living seeds rather than stone statues—mistakes are the exact moments your brain builds stronger wiring.",
+        "ro": "Abilitățile sunt semințe vii, nu statui de piatră—greșelile sunt chiar clipele în care creierul tău își întărește conexiunile."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "The 'Not Yet' Flip",
+        "ro": "Puterea lui „Nu încă”"
+      },
+      "instruction": {
+        "en": "Write down one skill you recently called yourself bad at, add the words 'NOT YET' in big letters, and write one tiny test move beneath it.",
+        "ro": "Scrie pe o foaie un lucru la care ai spus recent că nu te pricepi, adaugă cu litere mari „NU ÎNCĂ” și notează dedesubt un mic pas de test."
+      }
+    }
+  },
+  {
+    "id": "ep_09",
+    "order": 9,
+    "book_ids": [
+      "book_09"
+    ],
+    "value_ids": [
+      "val_patient_grit",
+      "val_deliberate_pacing"
+    ],
+    "dilemma_id": "dil_09",
+    "category": "focus_grit",
+    "alt_format": "BRANCHING_CHOICE",
+    "art_theme": "alpine_wind_feathers",
+    "accent_color": "#0ea5e9",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "Why the Fastest Falcon Stopped Halfway",
+      "ro": "De ce s-a oprit la jumătate cel mai rapid șoim"
+    },
+    "hook": {
+      "en": "Why does flashy natural talent so often lose to the climber who starts out slowest?",
+      "ro": "De ce pierde atât de des talentul spectaculos în fața copilului care pornește mai încet?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Felix the falcon rocketed skyward toward Whispering Peak. He laughed down at young Leo's uneven swallow feathers far below.",
+        "caption_ro": "Șoimul Felix a țâșnit spre cer ca o săgeată către Vârful Șoptitor. Râdea de sus, privind aripile scurte ale rândunicii Leo."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "split_ripple",
+        "caption_en": "Halfway up the mountain cliff, freezing canyon gusts slammed into them, and Felix tried blasting straight through using reckless speed.",
+        "caption_ro": "La jumătatea stâncii, rafale reci de munte au lovit canionul. Felix a încercat să străpungă furtuna doar prin viteză pură."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Used to effortless wins, Felix spun sideways onto an icy ledge. He complained about the unfair weather and quit.",
+        "caption_ro": "Obișnuit doar cu victorii ușoare, Felix s-a răsucit pe o margine de stâncă. A bombănit că vântul e nedrept și s-a oprit."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "character_action",
+        "caption_en": "Lower on the slope, Leo aimed only for the next pine ridge. Four calm wingbeats, one glide, then four steady beats.",
+        "caption_ro": "Mult mai jos, Leo țintea doar spre următoarea creastă de pini. Patru bătăi calme din aripi, o planare, apoi alte patru bătăi."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "system_reveal",
+        "caption_en": "Whenever snow stung his eyes, Leo angled his feathers patiently. Stamina grows when your focus locks onto small reachable checkpoints.",
+        "caption_ro": "Când ninsoarea îi izbea ochii, Leo își strângea aripile și folosea curentul. Rezistența crește când privești doar spre pragul următor."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "At sunset, one determined swallow broke through the clouds into golden light. Patient grit carried Leo where speed gave up.",
+        "caption_ro": "La apus, o mică rândunică a străpuns norii în lumina aurie. Perseverența răbdătoare l-a dus pe Leo acolo unde viteza a cedat."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Effortless Star Trap (Felix's Lens)",
+        "ro": "Capcana Victoriei Ușoare (Lentila lui Felix)"
+      },
+      "lens_a_thought": {
+        "en": "Flying always felt easy in warm valley air, so this freezing headwind ruins the whole race! If I cannot win looking fast and effortless, I am sitting right here.",
+        "ro": "Zborul a fost mereu simplu jos în valea caldă, deci vântul acesta rece strică toată cursa! Dacă nu pot câștiga rapid și fără efort, rămân pe stâncă."
+      },
+      "lens_b_label": {
+        "en": "Ridge-by-Ridge Rhythm (Leo's Lens)",
+        "ro": "Ritmul Creastă cu Creastă (Lentila lui Leo)"
+      },
+      "lens_b_thought": {
+        "en": "Staring at the icy summit makes my wings feel heavy, so I only fly to that next grey boulder. Steady rhythm and smart adjustments beat raw speed in long storms.",
+        "ro": "Dacă privesc doar vârful înghețat, aripile par grele, așa că zbor doar până la stânca următoare. Ritmul constant și răbdarea înving viteza pură în furtunile lungi."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "Three weeks into skateboarding, coding, or swimming club, the easy beginner tricks end and you wipe out three times on a harder skill.",
+        "ro": "După trei săptămâni la clubul de skateboard, programare sau înot, exercițiile ușoare se termină și greșești de trei ori la rând un pas greu."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Drop the club and switch to something immediately easy",
+          "ro": "Renunți la club și cauți altceva care îți iese ușor din prima"
+        },
+        "ripple": {
+          "en": "Beginnings feel fun for two weeks, yet you miss the awesome pride that waits right on the other side of your first plateau.",
+          "ro": "Începuturile par distractive două săptămâni, dar ratezi bucuria extraordinară care te așteaptă chiar dincolo de primul prag greu."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Break the move into one tiny ridge and test five calm reps",
+          "ro": "Împarți mișcarea într-o singură creastă mică și faci cinci încercări calme"
+        },
+        "ripple": {
+          "en": "By attempt five your balance shifts slightly, frustration turns into detective focus, and you unlock real grit.",
+          "ro": "La a cincea încercare echilibrul se așază mai bine, frustrarea se schimbă în concentrare de detectiv și descoperi perseverența reală."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Talent sets your starting speed, while steady, patient grit decides how high you actually climb.",
+        "ro": "Talentul îți dă viteza de la start, însă perseverența calmă și răbdătoare decide cât de sus ajungi cu adevărat."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Name Your Next Pine Ridge",
+        "ro": "Alege următoarea creastă de pini"
+      },
+      "instruction": {
+        "en": "Pick one big goal that feels far away right now, ignore the distant peak, and write down just the very next ten-minute checkpoint.",
+        "ro": "Alege un obiectiv mare care pare îndepărtat acum, lasă vârful deoparte și notează doar următorul prag mic de zece minute."
+      }
+    }
+  },
+  {
+    "id": "ep_10",
+    "order": 10,
+    "book_ids": [
+      "book_10"
+    ],
+    "value_ids": [
+      "val_deep_focus",
+      "val_attention_shield"
+    ],
+    "dilemma_id": "dil_10",
+    "category": "inner_calm",
+    "alt_format": "QUIET_SPARK",
+    "art_theme": "sapphire_glass_forge",
+    "accent_color": "#3b82f6",
+    "duration_target_sec": 45,
+    "title": {
+      "en": "Don't Invite Sparkflies Into Your Forge",
+      "ro": "Nu chema licuricii în atelierul tău"
+    },
+    "hook": {
+      "en": "What happens to your brain every time a tiny ping pulls your eyes away for 'just two seconds'?",
+      "ro": "Ce pățește mintea ta ori de câte ori un mic clinchet îți fură privirea „doar două secunde”?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Eleven-year-old Thomas tried shaping a harbor lantern on bright Lumina Island. Every minute, glowing Sparkflies buzzed songs past his ear.",
+        "caption_ro": "Thomas, la unsprezece ani, modela un felinar pentru port pe Insula Lumina. În fiecare minut, Licuricii-Sclipitori îi bâzâiau cântece pe la ureche."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Each time Thomas turned for one quick peek, his melted glass cooled down. By noon, he held a cloudy, uneven lump.",
+        "caption_ro": "Ori de câte ori Thomas întorcea capul doar o clipă, sticla topită se răcea. La prânz, ținea în mână un bulgăre strâmb și mat."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_close",
+        "caption_en": "Sparkflies are not the real trouble, Master Silas said gently. The trouble starts when you leave your workshop window wide open.",
+        "caption_ro": "Licuricii nu sunt adevărata problemă, i-a spus blând Meșterul Silas. Necazul începe atunci când lași fereastra atelierului larg deschisă."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Silas led Thomas into a quiet stone cabin and latched the oak door. Attention works just like furnace heat on glass.",
+        "caption_ro": "Silas l-a condus pe Thomas într-o cabană liniștită de piatră și a închis ușa. Atenția funcționează exact ca focul din cuptor."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "character_action",
+        "caption_en": "Every tiny interruption drops your mental temperature back to zero. Twenty shielded minutes build what three distracted hours never can.",
+        "caption_ro": "Fiecare mică întrerupere coboară temperatura minții înapoi la zero. Douăzeci de minute protejate făuresc ce trei ore împrăștiate nu reușesc."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Inside the silent forge, Thomas shaped a clear star crystal in one flow, then stepped outside to enjoy the Sparkflies freely.",
+        "caption_ro": "În atelierul tăcut, Thomas a modelat dintr-o suflare un cristal limpede ca o stea. Apoi a ieșit bucuros să privească licuricii în voie."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Open-Window Multitasking (Distracted Lens)",
+        "ro": "Fereastra Deschisă (Lentila Distrasă)"
+      },
+      "lens_a_thought": {
+        "en": "Glancing at one flashing Sparkfly only takes two seconds, so how could it hurt? I can totally build my crystal and watch every funny buzz at the exact same time!",
+        "ro": "Să arunc o privire spre un licurici îmi ia doar două secunde, deci ce rău ar putea face? Pot foarte bine să modelez sticla și să urmăresc totul deodată!"
+      },
+      "lens_b_label": {
+        "en": "Quiet Forge Shield (Master Silas's Lens)",
+        "ro": "Scutul Atelierului Liniștit (Lentila Meșterului Silas)"
+      },
+      "lens_b_thought": {
+        "en": "A two-second peek costs ten minutes of warm-up inside my brain. Closing the heavy door for twenty focused minutes lets me finish proud and play guilt-free afterward.",
+        "ro": "O privire de două secunde mă costă zece minute ca să-mi reîncălzesc atenția. Dacă închid ușa douăzeci de minute, termin munca mândru și mă joc liber după aceea."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "You sit down to build a comic page or study for science, and your group chat pings every forty seconds right beside your hand.",
+        "ro": "Te așezi să desenezi o bandă desenată sau să înveți la științe, iar grupul de mesaje sună din patruzeci în patruzeci de secunde lângă mâna ta."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Keep the screen next to your notebook and check every buzz",
+          "ro": "Lași telefonul lângă caiet și verifici fiecare vibrație pe loc"
+        },
+        "ripple": {
+          "en": "Forty-five minutes later you are tired, you barely remember what you read, and you did not really enjoy the chat either.",
+          "ro": "După patruzeci și cinci de minute ești obosit, abia îți amintești ce ai citit și nici de discuție nu te-ai bucurat cu adevărat."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Put the phone in another room for a twenty-minute forge sprint",
+          "ro": "Lași telefonul în altă cameră pentru douăzeci de minute de atelier liniștit"
+        },
+        "ripple": {
+          "en": "Your brain hits smooth flow in five minutes, you finish twice as fast, and your break afterward feels genuinely relaxing.",
+          "ro": "Mintea intră în ritm după cinci minute, termini de două ori mai repede, iar pauza de la final se simte cu adevărat liberă."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Your brain does its brightest, fastest creative work when you guard a distraction-free pocket of quiet focus.",
+        "ro": "Mintea ta creează cel mai limpede și mai rapid atunci când îi protejezi o insulă de liniște fără întreruperi."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Close the Forge Door",
+        "ro": "Închide ușa atelierului"
+      },
+      "instruction": {
+        "en": "Park every screen in a different room right now and spend ten uninterrupted minutes sketching, building, reading, or inventing one cool thing.",
+        "ro": "Lasă chiar acum orice ecran în altă cameră și petrece zece minute neîntrerupte desenând, construind, citind sau inventând ceva grozav."
+      }
+    }
+  },
+  {
+    "id": "ep_11",
+    "order": 11,
+    "book_ids": [
+      "book_11"
+    ],
+    "value_ids": [
+      "val_slow_owl_logic",
+      "val_bias_detective"
+    ],
+    "dilemma_id": "dil_11",
+    "category": "brain_systems",
+    "alt_format": "BRAIN_GLITCH",
+    "art_theme": "violet_hare_owl_bridge",
+    "accent_color": "#8b5cf6",
+    "duration_target_sec": 47,
+    "title": {
+      "en": "The Rabbit and the Owl Inside Your Skull",
+      "ro": "Iepurele și bufnița din mintea ta"
+    },
+    "hook": {
+      "en": "Did you know two completely different roommates argue inside your brain every single afternoon?",
+      "ro": "Știai că doi colegi complet diferiți se contrazic în mintea ta cât e ziua de lungă?"
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "Deep inside eleven-year-old Dan's mind lived two constant helpers. Quick-Hop the rabbit sprinted on instinct, while Slow-Hoot wore round spectacles.",
+        "caption_ro": "Adânc în mintea lui Dan, la unsprezece ani, trăiau doi ajutoare. Rapid-Iepurașul alerga din instinct, iar Lent-Bufnița purta ochelari."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "character_action",
+        "caption_en": "At Meadow Brook, thick green vines covered an old wooden bridge. Quick-Hop shouted that crossing looked completely safe!",
+        "caption_ro": "La Pârâul Poienii, vrejuri verzi acopereau un pod vechi de lemn. Rapid-Iepurașul a strigat că frunzele dese înseamnă scânduri sigure!"
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "glitch_freeze",
+        "caption_en": "Automatic brains love jumping toward the very first picture they notice. That reflex dodges flying dodgeballs, yet trusts shiny illusions.",
+        "caption_ro": "Mințile grăbite adoră să sară după prima imagine pe care o văd. Reflexul prinde mingi, dar cade ușor în capcane."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Slow-Hoot tapped her feathered wing calmly and requested five seconds of proof. Pretty leaves never guarantee sturdy beams underneath.",
+        "caption_ro": "Lent-Bufnița a bătut ușor din aripă și a cerut cinci secunde de probă. Frunzele frumoase nu dovedesc grinzi solide dedesubt."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "choice_fork",
+        "caption_en": "Dan poked a sturdy branch beneath the vines before stepping forward. With a sharp crack, a rotten board splashed below.",
+        "caption_ro": "Dan a împins un băț zdravăn pe sub vrejuri înainte să pășească. Cu un trosnet puternic, scândura putredă a căzut în apă."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Quick-Hop gulped and thanked the patient owl for dry sneakers. Smart thinkers invite their inner owl to inspect big leaps.",
+        "caption_ro": "Rapid-Iepurașul a înghițit în sec și i-a mulțumit bufniței pentru tenișii uscați. Mințile istețe verifică podul înainte să sară."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Snap-Jump Instinct (Quick-Hop's Lens)",
+        "ro": "Saltul din Instinct (Lentila lui Rapid-Iepurașul)"
+      },
+      "lens_a_thought": {
+        "en": "Look how bright and green that bridge looks—my gut feels a hundred percent sure! Checking underneath takes effort, so let us leap across right this second!",
+        "ro": "Uite cât de verde și frumos arată podul—instinctul meu este sută la sută sigur! Să verificăm dedesubt cere răbdare, deci hai să sărim chiar în secunda asta!"
+      },
+      "lens_b_label": {
+        "en": "Fact-Check Glasses (Slow-Hoot's Lens)",
+        "ro": "Ochelarii Verificării (Lentila lui Lent-Bufnița)"
+      },
+      "lens_b_thought": {
+        "en": "Feeling sure is not the same thing as knowing the truth! Five calm seconds with a test stick will show whether solid wood actually holds beneath those leaves.",
+        "ro": "Să te simți sigur nu este același lucru cu a cunoaște adevărul! Cinci secunde calme cu un băț de probă ne arată dacă lemnul chiar ține sub frunze."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "A classmate sends a cropped screenshot saying Friday's field trip got canceled because 'some kid in class 6B broke a rule.'",
+        "ro": "Un coleg trimite o captură decupată de ecran în care scrie că excursia de vineri s-a anulat din cauza cuiva din clasa voastră."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Forward it to five friends right away guessing who ruined it",
+          "ro": "O trimiți imediat la cinci prieteni, ghicind cine a stricat totul"
+        },
+        "ripple": {
+          "en": "Quick-Hop spreads a rumor across school in ten minutes, an innocent classmate gets blamed, and the screenshot turns out to be last year's joke.",
+          "ro": "Rapid-Iepurașul răspândește un zvon în zece minute, un coleg nevinovat e învinovățit, iar captura se dovedește o farsă veche de anul trecut."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Wake up Slow-Hoot and check the real school notice first",
+          "ro": "Trezești Lent-Bufnița și verifici întâi anunțul oficial al școlii"
+        },
+        "ripple": {
+          "en": "In thirty seconds you spot the fake date, save your friends from needless drama, and earn a reputation as the sharpest thinker around.",
+          "ro": "În treizeci de secunde observi data falsă, îți scutești prietenii de ceartă inutilă și devii vocea cea mai lucidă din grup."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Your fast brain is great at catching dodgeballs, while your slow owl brain saves you from illusions and rumors.",
+        "ro": "Mintea rapidă e grozavă când prinzi o minge din zbor, dar bufnița lentă te ferește de iluzii și zvonuri."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Test One Bridge Plank",
+        "ro": "Verifică scândura de sub frunze"
+      },
+      "instruction": {
+        "en": "Think of one 'fun fact' or rumor you heard this week without checking, and ask an adult, book, or real source to verify whether the plank holds.",
+        "ro": "Alege o curiozitate sau un zvon auzit săptămâna aceasta fără dovadă și verifică într-o carte sau cu un adult dacă scândura chiar ține."
+      }
+    }
+  },
+  {
+    "id": "ep_12",
+    "order": 12,
+    "book_ids": [
+      "book_12"
+    ],
+    "value_ids": [
+      "val_quiet_observation",
+      "val_deep_listening"
+    ],
+    "dilemma_id": "dil_12",
+    "category": "friends_empathy",
+    "alt_format": "PERSPECTIVE_FLIP",
+    "art_theme": "misty_stream_sketchbook",
+    "accent_color": "#06b6d4",
+    "duration_target_sec": 46,
+    "title": {
+      "en": "Why the Quietest Kid Saw It First",
+      "ro": "De ce a văzut primul cel mai tăcut copil"
+    },
+    "hook": {
+      "en": "Everyone cheers for the loudest voice in the room—until noise misses the one clue that saves the day.",
+      "ro": "Toți aplaudă cea mai tare voce din sală—până când gălăgia ratează singurul indiciu care salvează ziua."
+    },
+    "beats": [
+      {
+        "beat_index": 1,
+        "visual_cue": "hook_zoom",
+        "caption_en": "In the Great Beaver Lodge, Buster slapped his flat tail and shouted big plans. Everyone cheered the loudest voice on the log.",
+        "caption_ro": "În Marea Colonie a Castorilor, Buster bătea din coadă și striga planuri mari. Toți aplaudau cea mai puternică voce de pe buștean."
+      },
+      {
+        "beat_index": 2,
+        "visual_cue": "character_close",
+        "caption_en": "Oliver sat quietly near the edge with his worn cedar sketchpad. Buster teased that silent beavers must have zero bright ideas.",
+        "caption_ro": "Oliver stătea liniștit la margine cu micul său caiet de schițe. Buster îl tachina că cei tăcuți nu au nicio idee bună."
+      },
+      {
+        "beat_index": 3,
+        "visual_cue": "character_action",
+        "caption_en": "Stepping away from the roar, Oliver watched Whispering Stream in calm silence. Tiny silver bubbles rose beside the main bottom timber.",
+        "caption_ro": "Departe de larmă, Oliver a privit Pârâul Șoptitor în liniște deplină. Bule mici și argintii urcau chiar lângă grinda de jos."
+      },
+      {
+        "beat_index": 4,
+        "visual_cue": "system_reveal",
+        "caption_en": "Shouting crowds drown out faint signals before anybody notices danger. Quiet minds act like deep radar, catching small shifts early.",
+        "caption_ro": "Mulțimile gălăgioase acoperă semnalele fine înainte să simți pericolul. Mințile liniștite lucrează ca un radar adânc și foarte atent."
+      },
+      {
+        "beat_index": 5,
+        "visual_cue": "lens_shift",
+        "caption_en": "Oliver sketched the hidden leak and showed Buster one-on-one beside the shore. Clear drawings spoke louder than any speech.",
+        "caption_ro": "Oliver a desenat crăpătura ascunsă și i-a arătat-o lui Buster între patru ochi. Schița clară a vorbit mai tare decât orice discurs."
+      },
+      {
+        "beat_index": 6,
+        "visual_cue": "warm_horizon",
+        "caption_en": "Buster rallied the crew while Oliver guided every wedge into place. Great teams need both bold megaphones and quiet eyes.",
+        "caption_ro": "Buster a strâns echipa, iar Oliver a ghidat fiecare pană la locul ei. Echipele bune unesc vocile puternice cu ochii tăcuți."
+      }
+    ],
+    "perspective_flip": {
+      "lens_a_label": {
+        "en": "Loudest-Wins Myth (Buster's Lens)",
+        "ro": "Mitul Celei Mai Tari Voci (Lentila lui Buster)"
+      },
+      "lens_a_thought": {
+        "en": "Real leaders jump onto the highest log and talk first! Since Oliver barely says three words during noisy meetings, he probably has nothing useful to add.",
+        "ro": "Liderii adevărați sar pe cel mai înalt buștean și vorbesc primii! Fiindcă Oliver abia scoate trei cuvinte în adunarea gălăgioasă, probabil nu are nicio idee."
+      },
+      "lens_b_label": {
+        "en": "Deep-Current Radar (Oliver's Lens)",
+        "ro": "Radarul Apelor Adânci (Lentila lui Oliver)"
+      },
+      "lens_b_thought": {
+        "en": "I do not need to out-shout the room to bring real strength. Watching carefully in quiet moments lets me spot details nobody else sees and share plans that work.",
+        "ro": "Nu trebuie să acopăr toată sala ca să aduc o putere adevărată. Când privesc atent în liniște, observ detalii pe care alții le scapă și găsesc soluții clare."
+      }
+    },
+    "interactive_dilemma": {
+      "situation": {
+        "en": "In your four-person escape-room game or robotics team, three kids talk over each other while a quiet teammate stares closely at a clue card.",
+        "ro": "În echipa voastră de patru la robotică sau la un joc de indicii, trei copii vorbesc unul peste altul, iar un coleg tăcut privește atent un cartonaș."
+      },
+      "choice_a": {
+        "label": {
+          "en": "Raise your voice louder so the group tries your guess first",
+          "ro": "Ridici vocea și mai tare ca grupul să încerce ideea ta prima"
+        },
+        "ripple": {
+          "en": "The loudest guess misses a hidden symbol on the card, the clock ticks down, and your quiet teammate stops trying to chime in.",
+          "ro": "Ideea cea mai gălăgioasă ratează un simbol ascuns pe cartonaș, timpul trece, iar colegul tăcut renunță să mai încerce să spună ceva."
+        },
+        "is_growth_choice": false
+      },
+      "choice_b": {
+        "label": {
+          "en": "Pause the chatter and ask: 'Wait, what did you just spot on that card?'",
+          "ro": "Oprești gălăgia o clipă și întrebi: „Stai, ce ai observat pe cartonașul acela?”"
+        },
+        "ripple": {
+          "en": "They point out the mirrored code nobody else noticed, the lock clicks open, and everyone sees how powerful quiet observation is.",
+          "ro": "El arată codul în oglindă pe care nimeni altcineva nu-l văzuse, lacătul se deschide, iar toți descoperă puterea observației liniștite."
+        },
+        "is_growth_choice": true
+      },
+      "psych_takeaway": {
+        "en": "Quietness is not emptiness—calm observers often notice the subtle patterns and feelings that noisy rooms miss.",
+        "ro": "Liniștea nu înseamnă lipsă de idei—observatorii calmi surprind adesea tiparele fine pe care gălăgia le acoperă."
+      }
+    },
+    "offline_quest": {
+      "title": {
+        "en": "Two Minutes of Deep Radar",
+        "ro": "Două minute de radar tăcut"
+      },
+      "instruction": {
+        "en": "Sit quietly by a window, balcony, or park bench for two full minutes without speaking and sketch or list four tiny details most people walk right past.",
+        "ro": "Stai liniștit lângă fereastră, pe balcon sau pe o bancă două minute întregi fără să vorbești și notează patru detalii mici pe lângă care alții trec grăbiți."
+      }
+    }
+  }
+]

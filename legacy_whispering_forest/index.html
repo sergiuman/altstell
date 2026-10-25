@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Whispering Forest - Systems Thinking for Kids</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Magic Particles (fireflies) -->
+    <div class="fireflies">
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="app-header">
+        <div class="header-logo">
+            <span class="logo-icon">🌳</span>
+            <h1 id="app-title" data-en="The Whispering Forest" data-ro="Pădurea Șoptitoare">The Whispering Forest</h1>
+        </div>
+        <div class="header-controls">
+            <!-- Language Switcher -->
+            <button id="lang-toggle" class="btn btn-lang" aria-label="Toggle Language">
+                <span class="lang-text">RO</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="app-container">
+        <!-- Main Navigation Tabs -->
+        <nav class="app-tabs" aria-label="Main Navigation">
+            <button id="tab-story" class="tab-btn active" onclick="switchTab('story')">
+                <span class="tab-icon">📖</span>
+                <span class="tab-label" data-en="The Storybook" data-ro="Cartea de Povești">The Storybook</span>
+            </button>
+            <button id="tab-game" class="tab-btn" onclick="switchTab('game')">
+                <span class="tab-icon">🧁</span>
+                <span class="tab-label" data-en="Cupcake Stand Game" data-ro="Jocul cu Brioșe">Cupcake Stand Game</span>
+            </button>
+            <button id="tab-explorer" class="tab-btn" onclick="switchTab('explorer')">
+                <span class="tab-icon">➰</span>
+                <span class="tab-label" data-en="Systems Explorer" data-ro="Exploratorul de Bucle">Systems Explorer</span>
+            </button>
+        </nav>
+
+        <!-- SECTION 1: STORYBOOK CAROUSEL -->
+        <section id="section-story" class="app-section active">
+            <div class="story-layout">
+                <!-- Chapter Selector Sidebar -->
+                <aside class="chapter-sidebar">
+                    <h3 data-en="Chapters" data-ro="Capitole">Chapters</h3>
+                    <ul class="chapter-list">
+                        <li class="chapter-item active" onclick="selectChapter(0)">
+                            <span class="item-num">1</span>
+                            <span class="item-title" data-en="Mental Models" data-ro="Modele Mentale">Mental Models</span>
+                        </li>
+                        <li class="chapter-item" onclick="selectChapter(1)">
+                            <span class="item-num">2</span>
+                            <span class="item-title" data-en="Personal Mastery" data-ro="Măiestrie Personală">Personal Mastery</span>
+                        </li>
+                        <li class="chapter-item" onclick="selectChapter(2)">
+                            <span class="item-num">3</span>
+                            <span class="item-title" data-en="Shared Vision" data-ro="Viziune Împărtășită">Shared Vision</span>
+                        </li>
+                        <li class="chapter-item" onclick="selectChapter(3)">
+                            <span class="item-num">4</span>
+                            <span class="item-title" data-en="Team Learning" data-ro="Învățare în Echipă">Team Learning</span>
+                        </li>
+                        <li class="chapter-item" onclick="selectChapter(4)">
+                            <span class="item-num">5</span>
+                            <span class="item-title" data-en="Systems Thinking" data-ro="Gândire Sistemică">Systems Thinking</span>
+                        </li>
+                    </ul>
+                </aside>
+
+                <!-- Story Display Area -->
+                <article class="story-display card">
+                    <div class="story-header">
+                        <span class="story-badge" id="story-badge-discipline">Discipline</span>
+                        <h2 id="story-title">Chapter Title</h2>
+                    </div>
+
+                    <!-- CSS Illustrated Magic Canvas -->
+                    <div class="story-illustration" id="story-illustration">
+                        <div class="forest-backdrop">
+                            <div class="illustration-sola">🌳</div>
+                            <div id="illustration-prop" class="prop-element">🔍</div>
+                            <div class="illustration-kiri">👧</div>
+                            <div class="illustration-pip">🐿️</div>
+                        </div>
+                    </div>
+
+                    <div class="story-body" id="story-content">
+                        <!-- Story Text Inject Here -->
+                    </div>
+
+                    <div class="story-prompts" id="story-prompts">
+                        <h4 data-en="💬 Discussion Sparks" data-ro="💬 Întrebări de Discuție">💬 Discussion Sparks</h4>
+                        <ul id="prompts-list">
+                            <!-- Prompts Inject Here -->
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECTION 2: CUPCAKE STAND SYSTEM GAME (BEER GAME) -->
+        <section id="section-game" class="app-section">
+            <div class="game-layout">
+                <!-- Game Dashboard -->
+                <div class="game-dashboard card">
+                    <div class="dashboard-header">
+                        <h2 data-en="The Cupcake Cascade" data-ro="Cascada de Brioșe">The Cupcake Cascade</h2>
+                        <span class="week-counter"><span data-en="Week" data-ro="Săptămâna">Week</span> <strong id="game-week">1</strong> / 15</span>
+                    </div>
+
+                    <!-- Intro / Tutorial Panel -->
+                    <div id="game-intro-panel" class="game-panel active">
+                        <div class="intro-visual">🧁 🚚 🏠</div>
+                        <h3 data-en="Welcome, Head Baker!" data-ro="Bun venit, Cofetar Șef!">Welcome, Head Baker!</h3>
+                        <p data-en="You manage the forest Cupcake Stand. Every week, forest animals order cupcakes. But beware: it takes 2 weeks for the ingredients to ship, and 2 weeks for the baker to bake them (total 4 weeks delay!)."
+                           data-ro="Tu conduci standul de brioșe al pădurii. În fiecare săptămână, animalele comandă brioșe. Atenție însă: durează 2 săptămâni livrarea ingredientelor și încă 2 săptămâni coacerea brioșelor (o întârziere totală de 4 săptămâni!).">
+                        </p>
+                        <p data-en="Your goal is to keep inventory close to 8. Having too many cupcakes costs money (they melt!). Running out makes customers sad (backlog). Can you balance the system?"
+                           data-ro="Scopul tău este să menții inventarul aproape de 8 brioșe. Prea multe brioșe te costă bani (se topesc!). Dacă rămâi fără, clienții se întristează. Poți echilibra sistemul?">
+                        </p>
+                        <button class="btn btn-primary" onclick="startGame()" data-en="Start Baking" data-ro="Începe Coacerea">Start Baking</button>
+                    </div>
+
+                    <!-- Main Simulation Controls -->
+                    <div id="game-play-panel" class="game-panel">
+                        <div class="simulation-view">
+                            <!-- Stacks and Visual representations -->
+                            <div class="sim-node">
+                                <span class="node-icon">📦</span>
+                                <span class="node-label" data-en="Flour Mill" data-ro="Moara de Făină">Flour Mill</span>
+                                <span class="node-value" id="node-mill">Ready</span>
+                            </div>
+                            <div class="sim-arrow">➡️ (2w)</div>
+                            <div class="sim-node">
+                                <span class="node-icon">👨‍🍳</span>
+                                <span class="node-label" data-en="Baker" data-ro="Cofetar (Baker)">Baker</span>
+                                <span class="node-value" id="node-baker">Ready</span>
+                            </div>
+                            <div class="sim-arrow">➡️ (2w)</div>
+                            <div class="sim-node current-node">
+                                <span class="node-icon">🏠</span>
+                                <span class="node-label" data-en="Your Stand" data-ro="Standul Tău">Your Stand</span>
+                                <span class="node-value" id="node-stand-stock">8 Cupcakes</span>
+                            </div>
+                        </div>
+
+                        <!-- Real-time metrics grid -->
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <span class="metric-title" data-en="Current Inventory" data-ro="Brioșe în Stoc">Current Inventory</span>
+                                <span class="metric-number" id="metric-inventory">8</span>
+                                <span class="metric-sub" id="metric-inventory-cost">Cost: $0.00</span>
+                            </div>
+                            <div class="metric-card warning-state">
+                                <span class="metric-title" data-en="Hungry Animals (Backlog)" data-ro="Animale Flămânde">Hungry Animals (Backlog)</span>
+                                <span class="metric-number" id="metric-backlog">0</span>
+                                <span class="metric-sub" id="metric-backlog-cost">Cost: $0.00</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-title" data-en="Last Customer Demand" data-ro="Cererea Clienților">Last Customer Demand</span>
+                                <span class="metric-number" id="metric-demand">4</span>
+                                <span class="metric-sub" data-en="creatures in line" data-ro="animale la rând">creatures in line</span>
+                            </div>
+                            <div class="metric-card highlight-state">
+                                <span class="metric-title" data-en="Total Cost" data-ro="Cost Total">Total Cost</span>
+                                <span class="metric-number" id="metric-total-cost">$0.00</span>
+                                <span class="metric-sub" data-en="lower is better" data-ro="mai mic e mai bine">lower is better</span>
+                            </div>
+                        </div>
+
+                        <!-- Decision Panel -->
+                        <div class="order-control-box">
+                            <div class="input-prompt">
+                                <label for="order-input" data-en="How many cupcake ingredients will you order this week?" data-ro="Câte ingrediente pentru brioșe comanzi săptămâna asta?">How many cupcake ingredients will you order this week?</label>
+                                <input type="number" id="order-input" min="0" max="100" value="4">
+                            </div>
+                            <button class="btn btn-success" onclick="nextStep()" id="submit-order-btn" data-en="Place Order & Wait 1 Week" data-ro="Plasează Comanda și Așteaptă 1 Săptămână">Place Order & Wait 1 Week</button>
+                        </div>
+
+                        <!-- Tip from Pip -->
+                        <div class="pip-advice">
+                            <span class="pip-face">🐿️</span>
+                            <p id="pip-tip" data-en="Pip says: 'Psst! The shelf is empty! Quick, order 20 more!'" data-ro="Pip spune: 'Psst! Raftul e gol! Repede, comandă încă 20!'">Pip says: 'Psst! The shelf is empty! Quick, order 20 more!'</p>
+                        </div>
+                    </div>
+
+                    <!-- End Game Summary -->
+                    <div id="game-end-panel" class="game-panel">
+                        <h3 data-en="Simulation Complete!" data-ro="Simulare Finalizată!">Simulation Complete!</h3>
+                        <p id="game-verdict" data-en="Your bakery costs were: $0. Let's look at the patterns." data-ro="Costurile brutăriei tale au fost: $0. Să analizăm tiparele."></p>
+                        
+                        <!-- Dynamic HTML5 Canvas Chart -->
+                        <div class="chart-container">
+                            <canvas id="bullwhipChart" width="600" height="300"></canvas>
+                        </div>
+
+                        <div class="systems-lesson card">
+                            <h4 data-en="💡 The Systems Lesson: Structure Influences Behavior" data-ro="💡 Lecția Sistemică: Structura influențează comportamentul">💡 The Systems Lesson: Structure Influences Behavior</h4>
+                            <p data-en="Notice how a single step-change in customer demand (from 4 to 8) caused massive, expanding waves in your orders and inventory. This is the 'bullwhip effect'! You didn't do anything wrong—the delay built into the supply chain forced this behavior. When we don't see the delays, we panic and over-order. To fix it, we need to share information and wait patiently!"
+                               data-ro="Observă cum o simplă creștere a cererii (de la 4 la 8) a cauzat valuri uriașe, din ce în ce mai mari, în comenzi și inventar. Acesta este 'efectul de bici'! Nu ai greșit cu nimic—întârzierea din rețea a forțat acest comportament. Când nu vedem întârzierile, ne panicăm și comandăm în exces. Soluția este să împărtășim informația și să așteptăm cu răbdare!">
+                            </p>
+                        </div>
+
+                        <button class="btn btn-primary" onclick="restartGame()" data-en="Try Again" data-ro="Încearcă din nou">Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: SYSTEMS LOOP EXPLORER -->
+        <section id="section-explorer" class="app-section">
+            <div class="explorer-layout card">
+                <div class="explorer-header">
+                    <h2 data-en="Interactive Feedback Loops" data-ro="Bucle Interactive de Feedback">Interactive Feedback Loops</h2>
+                    <p data-en="Hover or tap the nodes in the loop below to see how cause and effect ripple through the forest water shortage system."
+                       data-ro="Mergi cu mouse-ul sau apasă pe nodurile buclei de mai jos pentru a vedea cum acțiunea și efectul se răspândesc prin sistemul apei din pădure.">
+                    </p>
+                </div>
+
+                <!-- Loop Visual Map -->
+                <div class="loop-visualizer">
+                    <div class="loop-node" id="node-fear" onmouseover="highlightPath('fear')" onmouseout="clearHighlight()">
+                        <span class="loop-emoji">😨</span>
+                        <h4 data-en="Fear of Shortage" data-ro="Frica de lipsă">Fear of Shortage</h4>
+                        <p data-en="Animals worry water will run out." data-ro="Animalele se tem că apa se va termina."></p>
+                    </div>
+
+                    <div class="loop-arrow right-arrow">➡️</div>
+
+                    <div class="loop-node" id="node-hoarding" onmouseover="highlightPath('hoarding')" onmouseout="clearHighlight()">
+                        <span class="loop-emoji">🏺</span>
+                        <h4 data-en="Water Hoarding" data-ro="Ascunderea Apei">Water Hoarding</h4>
+                        <p data-en="Everyone hides cups of water." data-ro="Fiecare adună căni cu apă."></p>
+                    </div>
+
+                    <div class="loop-arrow down-arrow">⬇️</div>
+                    <div class="loop-arrow up-arrow">⬆️</div>
+
+                    <div class="loop-node" id="node-brook" onmouseover="highlightPath('brook')" onmouseout="clearHighlight()">
+                        <span class="loop-emoji">🏜️</span>
+                        <h4 data-en="Drier Brook" data-ro="Pârâu mai Uscat">Drier Brook</h4>
+                        <p data-en="Flow drops downstream." data-ro="Curgerea scade în vale."></p>
+                    </div>
+
+                    <div class="loop-arrow left-arrow">⬅️</div>
+
+                    <div class="loop-node delay-node" id="node-delay" onmouseover="highlightPath('delay')" onmouseout="clearHighlight()">
+                        <span class="loop-emoji">⏳</span>
+                        <h4 data-en="2-Day Delay" data-ro="Întârziere de 2 Zile">2-Day Delay</h4>
+                        <p data-en="Water takes time to flow down." data-ro="Apei îi ia timp să curgă în vale."></p>
+                    </div>
+                </div>
+
+                <!-- Explanatory Panel -->
+                <div class="loop-explanation card" id="loop-explanation-panel">
+                    <h3 id="loop-title-dynamic" data-en="Hover over a loop node to explore!" data-ro="Treci cu mouse-ul peste un cerc pentru a explora!">Hover over a loop node to explore!</h3>
+                    <p id="loop-desc-dynamic" data-en="Understanding feedback loops helps us see the invisible circles of life, teaching us not to react in panic."
+                       data-ro="Înțelegerea buclelor de feedback ne ajută să vedem cercurile invizibile ale vieții, învățându-ne să nu acționăm sub impulsul panicii.">
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p data-en="Designed with ❤️ for a future Systems Thinker." data-ro="Creat cu ❤️ pentru o viitoare gânditoare sistemică.">Designed with ❤️ for a future Systems Thinker.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
