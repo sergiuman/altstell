@@ -3735,8 +3735,160 @@
         26.67,
         32.84
       ]
+    },
+    {
+      "id": "ep_26",
+      "order": 26,
+      "is_graph_fusion": true,
+      "generated_by": "ollama:gemma2:latest+graph_bridge",
+      "bridge_id": "bridge_02",
+      "book_ids": [
+        "book_14",
+        "book_05"
+      ],
+      "value_ids": [
+        "val_purpose_why",
+        "val_tiny_compounding"
+      ],
+      "dilemma_id": "dil_01",
+      "category": "graph_fusion",
+      "alt_format": "BRANCHING_CHOICE",
+      "art_theme": "campfire_myth",
+      "accent_color": "#6366f1",
+      "duration_target_sec": 45,
+      "title": {
+        "en": "The Compass and the Paperclip",
+        "ro": "Busola și Foarfeca"
+      },
+      "hook": {
+        "en": "What if your biggest dreams started with tiny steps?",
+        "ro": "Ce dacă visele tale mari încep cu pași mici?"
+      },
+      "beats": [
+        {
+          "beat_index": 1,
+          "visual_cue": "hook_zoom",
+          "caption_en": "Maya gazed at the map, her heart set on unseen islands.",
+          "caption_ro": "Maya privea harta, inima ei îndreptată spre insule necunoscute."
+        },
+        {
+          "beat_index": 2,
+          "visual_cue": "tension_pan",
+          "caption_en": "But building a ship felt impossible. She sighed, feeling overwhelmed.",
+          "caption_ro": "Dar construirea unei nave părea imposibilă. A oftat, simțind că este copleșită."
+        },
+        {
+          "beat_index": 3,
+          "visual_cue": "inner_voice",
+          "caption_en": "'Maybe I'm not brave enough,' Maya thought, her shoulders slumping.",
+          "caption_ro": "'Poate nu sunt suficient de curajoasă,' a gândit Maya, umerii ei căzând."
+        },
+        {
+          "beat_index": 4,
+          "visual_cue": "shift_moment",
+          "caption_en": "Then she saw Milo Chen, meticulously placing a paperclip in a jar.",
+          "caption_ro": "Apoi a văzut pe Milo Chen, plasând cu grijă o foarfecă într-o sticlă."
+        },
+        {
+          "beat_index": 5,
+          "visual_cue": "action_ripple",
+          "caption_en": "Milo smiled. 'One percent every day,' he said, 'makes a big difference.'",
+          "caption_ro": "Milo a zâmbit. 'Un procent în fiecare zi', a spus el, 'face diferența'."
+        },
+        {
+          "beat_index": 6,
+          "visual_cue": "constellation_close",
+          "caption_en": "Maya's eyes widened. Together, they started building, plank by plank.",
+          "caption_ro": "Ochii lui Maya s-au lărgit. Împreună, au început să construiască, scândură cu scândură."
+        }
+      ],
+      "perspective_flip": {
+        "lens_a_label": {
+          "en": "Fear Lens",
+          "ro": "Lentila Fricii"
+        },
+        "lens_a_thought": {
+          "en": "‘It’s too big, I can’t do it. What if I fail?’",
+          "ro": "‘Este prea mare, nu pot face-o. Ce dacă eşuez?’"
+        },
+        "lens_b_label": {
+          "en": "Growth Lens",
+          "ro": "Lentila Creșterii"
+        },
+        "lens_b_thought": {
+          "en": "'Every small step counts. We can make a difference together.'",
+          "ro": "'Fiecare pas mic contează. Împreună putem face diferența.'"
+        }
+      },
+      "interactive_dilemma": {
+        "situation": {
+          "en": "Your friend is feeling discouraged about a big project at school.",
+          "ro": "Prietena ta se simte descurajată cu privire la un proiect important la școală."
+        },
+        "choice_a": {
+          "label": {
+            "en": "Offer empty reassurance",
+            "ro": "Oferă o încurajare falsă"
+          },
+          "ripple": {
+            "en": "They might feel better temporarily, but deep down they'll still doubt themselves.",
+            "ro": "Se pot simți mai bine temporar, dar în adânc vor continua să îndoiască."
+          },
+          "is_growth_choice": false
+        },
+        "choice_b": {
+          "label": {
+            "en": "Encourage small steps and celebrate progress",
+            "ro": "Încurajează pașii mici și celebrează progresul"
+          },
+          "ripple": {
+            "en": "They'll feel empowered and build confidence to tackle the project.",
+            "ro": "Se vor simți puternici și vor avea încredere pentru a aborda proiectul."
+          },
+          "is_growth_choice": true
+        },
+        "psych_takeaway": {
+          "en": "True support means helping others find their own strength and celebrate every victory.",
+          "ro": "Un sprijin real înseamnă să ajuți pe alții să găsească propria lor putere și să sărbătorească fiecare victorie."
+        }
+      },
+      "mindful_cue": {
+        "en": "Take a deep breath and imagine yourself achieving your goals, step by step.",
+        "ro": "Inspiră adânc și imaginează-te că atingi obiectivele tale, pas cu pas."
+      },
+      "offline_quest": {
+        "title": {
+          "en": "The Tiny Goal Jar",
+          "ro": "Sticla Obiectivelor Mici"
+        },
+        "instruction": {
+          "en": "Write down one small goal you want to achieve today and put a paperclip in a jar. Each day, add another paperclip as you work towards your goal.",
+          "ro": "Scrie o mică realizare pe care vrei să o atingi astăzi și pune o foarfecă într-o sticlă. Fiecare zi, adaugă o foarfecă în plus pe măsură ce lucrezi spre obiectivul tău."
+        }
+      },
+      "video_en": "assets/videos/ep_26_en.mp4",
+      "video_ro": "assets/videos/ep_26_ro.mp4",
+      "poster": "assets/thumbs/ep_26.jpg",
+      "duration_en_sec": 33.29,
+      "duration_ro_sec": 38.33,
+      "beat_timestamps_en": [
+        0.0,
+        6.88,
+        11.38,
+        15.71,
+        20.42,
+        25.67
+      ],
+      "beat_timestamps_ro": [
+        0.0,
+        7.58,
+        13.46,
+        18.58,
+        23.33,
+        28.79
+      ]
     }
   ],
-  "updated_at": "2026-10-25T22:10:27.318978+00:00",
-  "total_episodes": 25
+  "updated_at": "2026-10-26T07:17:34.188436+00:00",
+  "total_episodes": 26
 }

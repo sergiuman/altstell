@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "target_age": 11,
   "core_philosophy": "Alternative Storytelling that sparks curiosity, metacognition, empathy, and real-world agency without addictive dark patterns.",
   "rules": [
@@ -14,7 +14,8 @@
     "11-year-olds respond far better to inner-voice contrast ('My fast brain shouted X, my wise brain noticed Y') than adult lectures.",
     "Pairing two complementary values from different books (e.g., Quiet Observation + Deep Listening) creates novel 'superpower combinations'.",
     "Embed age-appropriate problem-solving steps within the inner-voice contrast to empower active decision-making.",
-    "Weave micro-challenges requiring the child to apply learned values, prompting real-world reflection."
+    "Weave micro-challenges requiring the child to apply learned values, prompting real-world reflection.",
+    "Embed **emotional vocabulary** within the inner-voice contrast to foster self-awareness and empathy."
   ],
-  "last_updated": "2026-10-25T22:08:16.438993+00:00"
+  "last_updated": "2026-10-26T07:15:41.153756+00:00"
 }
