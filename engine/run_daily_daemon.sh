@@ -35,6 +35,5 @@ MAX_DAYS=$(/usr/bin/python3 -c "import json; d=json.load(open('$REPO_DIR/data/ev
 echo "[AltStell Daily Runner] Progress: Day $COMPLETED / $MAX_DAYS" >> "$LOG_FILE"
 
 if [ "$COMPLETED" -ge "$MAX_DAYS" ]; then
-  echo "[AltStell Daily Runner] 10-Day Evolution Campaign complete! Unloading launchd agent." >> "$LOG_FILE"
-  launchctl bootout "gui/$(id -u)/com.altstell.daily.evolution" 2>/dev/null || true
+  echo "[AltStell Daily Runner] 10-Day Evolution Campaign complete!" >> "$LOG_FILE"
 fi
