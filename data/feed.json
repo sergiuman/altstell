@@ -4343,8 +4343,160 @@
         29.21,
         36.21
       ]
+    },
+    {
+      "id": "ep_30",
+      "order": 30,
+      "is_graph_fusion": true,
+      "generated_by": "ollama:gemma2:latest+graph_bridge",
+      "bridge_id": "bridge_06",
+      "book_ids": [
+        "book_16",
+        "book_09"
+      ],
+      "value_ids": [
+        "val_resilient_self_talk",
+        "val_deliberate_pacing"
+      ],
+      "dilemma_id": "dil_01",
+      "category": "graph_fusion",
+      "alt_format": "PERSPECTIVE_FLIP",
+      "art_theme": "campfire_myth",
+      "accent_color": "#10b981",
+      "duration_target_sec": 45,
+      "title": {
+        "en": "Victor's Whispering Peak",
+        "ro": "Vârful Sussurărilor lui Victor"
+      },
+      "hook": {
+        "en": "Can Victor reach the top, or will the sleet slow him down?",
+        "ro": "Va reuși Victor să ajungă în vârf sau va fi oprit de ninsoarea rece?"
+      },
+      "beats": [
+        {
+          "beat_index": 1,
+          "visual_cue": "hook_zoom",
+          "caption_en": "Victor the hedgehog charges up Whispering Peak, snow swirling around him.",
+          "caption_ro": "Victor, ernul, se îndreaptă spre Vârful Sussurărilor, zăpada învârtindu-se în jurul lui."
+        },
+        {
+          "beat_index": 2,
+          "visual_cue": "tension_pan",
+          "caption_en": "Leo the swallow flies steady ledges above, watching Victor struggle.",
+          "caption_ro": "Leo, rândunica, zboară deasupra pe niște stânci stabile, observând lupta lui Victor."
+        },
+        {
+          "beat_index": 3,
+          "visual_cue": "inner_voice",
+          "caption_en": "'I can do this! I'm almost there!' Victor shouts to himself.",
+          "caption_ro": "'Pot să fac asta! Sunt aproape!' strigă Victor înăuntru."
+        },
+        {
+          "beat_index": 4,
+          "visual_cue": "shift_moment",
+          "caption_en": "Shell-Top and Grizz spot Victor slipping and slide towards the edge.",
+          "caption_ro": "Shell-Top și Grizz observă cum Victor alunecă și se îndreaptă spre marginea stâncii."
+        },
+        {
+          "beat_index": 5,
+          "visual_cue": "action_ripple",
+          "caption_en": "They rush to help, pulling Victor back from the edge and showing him a safer path.",
+          "caption_ro": "Se grăbesc să-l ajute, tragând pe Victor înapoi de la marginea stâncii și arătându-i o cale mai sigură."
+        },
+        {
+          "beat_index": 6,
+          "visual_cue": "constellation_close",
+          "caption_en": "Victor learns to pace himself, taking small steps and enjoying the view along the way.",
+          "caption_ro": "Victor învață să se adapteze ritmului, făcând pași mici și bucurându-se de peisaj pe măsură ce avansează."
+        }
+      ],
+      "perspective_flip": {
+        "lens_a_label": {
+          "en": "Impulse Lens",
+          "ro": "Lentila Impulsului"
+        },
+        "lens_a_thought": {
+          "en": "'I can do it all at once! I'm the fastest!' Victor thinks.",
+          "ro": "'Pot face totul odată! Sunt cel mai rapid!' gândește Victor."
+        },
+        "lens_b_label": {
+          "en": "Constellation Lens",
+          "ro": "Lentila Înțelepciunii"
+        },
+        "lens_b_thought": {
+          "en": "'Slow and steady wins the race. Enjoy the journey, Victor.' Shell-Top advises.",
+          "ro": "'Cel mai lent și cel mai constant câștigă cursa. Bucură-te de călătorie, Victor!' îi sfătuiește Shell-Top."
+        }
+      },
+      "interactive_dilemma": {
+        "situation": {
+          "en": "You need to finish a big project for school, but you're feeling overwhelmed.",
+          "ro": "Ai nevoie să finalizezi un proiect mare pentru școală, dar te simți copleșit."
+        },
+        "choice_a": {
+          "label": {
+            "en": "Rush it!",
+            "ro": "Fă-o repede!"
+          },
+          "ripple": {
+            "en": "You might turn in a sloppy job and feel stressed about missing out on other activities.",
+            "ro": "Poți preda o treabă neglijată și te poți simți stresat că ai ratat alte activități."
+          },
+          "is_growth_choice": false
+        },
+        "choice_b": {
+          "label": {
+            "en": "Break it down!",
+            "ro": "Divizează-l!"
+          },
+          "ripple": {
+            "en": "You can tackle smaller parts, stay organized, and feel proud of your accomplishment.",
+            "ro": "Poți aborda părțile mai mici, rămâi organizat și te poți simți mândru de realizarea ta."
+          },
+          "is_growth_choice": true
+        },
+        "psych_takeaway": {
+          "en": "Smart Iron Endurance: Take it step by step and you'll conquer anything!",
+          "ro": "Rezistență de Fier Inteligentă: Fă-o pas cu pas și vei învinge orice!"
+        }
+      },
+      "mindful_cue": {
+        "en": "Take a deep breath and picture yourself calmly completing your task.",
+        "ro": "Inspiră adânc și imaginează-ți că completezi calm sarcina ta."
+      },
+      "offline_quest": {
+        "title": {
+          "en": "2-Minute Real-World Spark",
+          "ro": "Scânteia de 2 Minute în Viața Reală"
+        },
+        "instruction": {
+          "en": "Think of a big task you need to do. Write down three smaller steps you can take today.",
+          "ro": "Gândește-te la o sarcină mare pe care trebuie să o faci. Scrie trei pași mai mici pe care îi poți face astăzi."
+        }
+      },
+      "video_en": "assets/videos/ep_30_en.mp4",
+      "video_ro": "assets/videos/ep_30_ro.mp4",
+      "poster": "assets/thumbs/ep_30.jpg",
+      "duration_en_sec": 33.5,
+      "duration_ro_sec": 43.19,
+      "beat_timestamps_en": [
+        0.0,
+        8.21,
+        12.46,
+        16.29,
+        20.17,
+        24.84
+      ],
+      "beat_timestamps_ro": [
+        0.0,
+        10.5,
+        16.88,
+        20.76,
+        25.88,
+        32.3
+      ]
     }
   ],
-  "updated_at": "2026-11-02T07:27:10.605267+00:00",
-  "total_episodes": 29
+  "updated_at": "2026-11-02T07:29:43.379748+00:00",
+  "total_episodes": 30
 }
