@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "target_age": 11,
   "core_philosophy": "Alternative Storytelling that sparks curiosity, metacognition, empathy, and real-world agency without addictive dark patterns.",
   "rules": [
@@ -16,7 +16,8 @@
     "Embed age-appropriate problem-solving steps within the inner-voice contrast to empower active decision-making.",
     "Weave micro-challenges requiring the child to apply learned values, prompting real-world reflection.",
     "Embed **emotional vocabulary** within the inner-voice contrast to foster self-awareness and empathy.",
-    "Anchor each superpower combination to a relatable childhood experience, fostering personal relevance and deeper impact."
+    "Anchor each superpower combination to a relatable childhood experience, fostering personal relevance and deeper impact.",
+    "Cultivate intrinsic motivation by framing challenges as opportunities to learn and grow, rather than solely focusing on achieving a reward."
   ],
-  "last_updated": "2026-11-02T07:18:11.218256+00:00"
+  "last_updated": "2026-11-02T07:21:22.321916+00:00"
 }
