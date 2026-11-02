@@ -4647,8 +4647,160 @@
         25.09,
         31.01
       ]
+    },
+    {
+      "id": "ep_32",
+      "order": 32,
+      "is_graph_fusion": true,
+      "generated_by": "ollama:gemma2:latest+graph_bridge",
+      "bridge_id": "bridge_08",
+      "book_ids": [
+        "book_03",
+        "book_07"
+      ],
+      "value_ids": [
+        "val_shared_stories",
+        "val_order_chaos_balance"
+      ],
+      "dilemma_id": "dil_01",
+      "category": "graph_fusion",
+      "alt_format": "RIPPLE_TIMELINE",
+      "art_theme": "campfire_myth",
+      "accent_color": "#ec4899",
+      "duration_target_sec": 45,
+      "title": {
+        "en": "The Courtyard Rules",
+        "ro": "Regulile Curții"
+      },
+      "hook": {
+        "en": "Strict rules? Fun times? Ana and Lara want both!",
+        "ro": "Reguli stricte? Petreceri distractive? Ana și Lara vorând ambele!"
+      },
+      "beats": [
+        {
+          "beat_index": 1,
+          "visual_cue": "hook_zoom",
+          "caption_en": "Ana and Lara love recess in their school courtyard.",
+          "caption_ro": "Ana și Lara iubesc pauza în curtea școlii lor."
+        },
+        {
+          "beat_index": 2,
+          "visual_cue": "tension_pan",
+          "caption_en": "But some old rules make it unfair. Only the oldest kids get to play!",
+          "caption_ro": "Dar niște reguli vechi fac ca să fie neî drept! Numai cei mai mari pot juca!"
+        },
+        {
+          "beat_index": 3,
+          "visual_cue": "inner_voice",
+          "caption_en": "Ana thinks: 'We need new rules that are fair for everyone!'",
+          "caption_ro": "Ana gândește: „Trebuie să avem noi reguli care să fie corecte pentru toți!”"
+        },
+        {
+          "beat_index": 4,
+          "visual_cue": "shift_moment",
+          "caption_en": "Lara suggests a plan: 'Let's propose fun new games and activities!'",
+          "caption_ro": "Lara propune un plan: „Haideți să propunem noi jocuri și activități distractive!”"
+        },
+        {
+          "beat_index": 5,
+          "visual_cue": "action_ripple",
+          "caption_en": "They make colorful posters and gather all the students to share their ideas.",
+          "caption_ro": "Ele fac afișe colorate și adună pe toți elevii pentru a-și împărtăși ideile."
+        },
+        {
+          "beat_index": 6,
+          "visual_cue": "constellation_close",
+          "caption_en": "Together, they create a new courtyard filled with laughter and shared joy!",
+          "caption_ro": "Împreună, ei creează o nouă curte plină de râs și bucurie împărtășită!"
+        }
+      ],
+      "perspective_flip": {
+        "lens_a_label": {
+          "en": "Lone Wolf",
+          "ro": "Vânător Solitar"
+        },
+        "lens_a_thought": {
+          "en": "Too many rules! I just want to play by myself.",
+          "ro": "Sunt prea multe reguli! Vreau doar să joc singur."
+        },
+        "lens_b_label": {
+          "en": "Community Builder",
+          "ro": "Constructor de Comunitate"
+        },
+        "lens_b_thought": {
+          "en": "Working together, we can make the courtyard fun for everyone!",
+          "ro": "Munca împreună ne poate face curtea distractivă pentru toți!"
+        }
+      },
+      "interactive_dilemma": {
+        "situation": {
+          "en": "Your friend wants to play a game only they know. Do you...",
+          "ro": "Prietenul tău vrea să joace un joc pe care doar el îl știe. Tu..."
+        },
+        "choice_a": {
+          "label": {
+            "en": "Play alone",
+            "ro": "Joacă singur"
+          },
+          "ripple": {
+            "en": "You might miss out on fun and making new friends.",
+            "ro": "Poți rata distracția și face noi prieteni."
+          },
+          "is_growth_choice": false
+        },
+        "choice_b": {
+          "label": {
+            "en": "Ask to learn the game",
+            "ro": "Cere să înveți jocul"
+          },
+          "ripple": {
+            "en": "You could have fun together and build a stronger friendship.",
+            "ro": "Poate vă distrați împreună și puteți consolida o prietenie mai puternică."
+          },
+          "is_growth_choice": true
+        },
+        "psych_takeaway": {
+          "en": "Being open to new things helps you grow and connect with others.",
+          "ro": "A fi deschis la lucrurile noi te ajută să crești și să te conectezi cu ceilalți."
+        }
+      },
+      "mindful_cue": {
+        "en": "Take a deep breath and think about something that makes you happy.",
+        "ro": "Inspiră adânc și gândește-te la ceva ce te face fericit."
+      },
+      "offline_quest": {
+        "title": {
+          "en": "Share Your Game",
+          "ro": "Partajează Jocul Tău"
+        },
+        "instruction": {
+          "en": "Teach someone a game you know! Make sure it's fun for everyone.",
+          "ro": "Învață pe cineva un joc pe care îl știi! Asigura-te că e distractiv pentru toți."
+        }
+      },
+      "video_en": "assets/videos/ep_32_en.mp4",
+      "video_ro": "assets/videos/ep_32_ro.mp4",
+      "poster": "assets/thumbs/ep_32.jpg",
+      "duration_en_sec": 31.03,
+      "duration_ro_sec": 36.25,
+      "beat_timestamps_en": [
+        0.0,
+        7.25,
+        11.71,
+        15.25,
+        19.75,
+        24.04
+      ],
+      "beat_timestamps_ro": [
+        0.0,
+        7.96,
+        13.13,
+        17.8,
+        23.3,
+        28.3
+      ]
     }
   ],
-  "updated_at": "2026-11-02T07:33:17.869863+00:00",
-  "total_episodes": 31
+  "updated_at": "2026-11-02T07:35:29.709351+00:00",
+  "total_episodes": 32
 }
