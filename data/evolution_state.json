@@ -1,7 +1,7 @@
 {
   "campaign_name": "AltStell 10-Day Autonomous Graph Evolution",
   "started_at": "2026-10-25T22:03:46.978876+00:00",
-  "completed_days": 4,
+  "completed_days": 5,
   "max_days": 11,
   "ollama_model": "gemma2:latest",
   "daily_runs": [
@@ -252,7 +252,69 @@
           "elapsed_ms": 3755
         }
       ]
+    },
+    {
+      "day": 5,
+      "timestamp": "2026-11-02T07:27:15.451125+00:00",
+      "episode_id": "ep_29",
+      "title_en": "The Dream Forge",
+      "title_ro": "Vulcânul Visurilor",
+      "bridged_values": [
+        "val_nightly_brain_reset",
+        "val_deep_focus"
+      ],
+      "guard_score": 100.0,
+      "new_principle": "Offer branching narrative paths where choices reflect the child's internal values, reinforcing self-discovery and agency.",
+      "graph_nodes": 91,
+      "graph_edges": 302,
+      "agent_trace": [
+        {
+          "step": 1,
+          "agent": "CuratorNode",
+          "elapsed_ms": 18
+        },
+        {
+          "step": 2,
+          "agent": "PrincipleImproverNode",
+          "elapsed_ms": 7880
+        },
+        {
+          "step": 3,
+          "agent": "ValueBridgeSelectorNode",
+          "elapsed_ms": 0
+        },
+        {
+          "step": 4,
+          "agent": "AltStoryArchitectNode",
+          "elapsed_ms": 73899
+        },
+        {
+          "step": 5,
+          "agent": "ChildPsychGuardNode",
+          "elapsed_ms": 2
+        },
+        {
+          "step": 6,
+          "agent": "AltStoryArchitectNode",
+          "elapsed_ms": 46180
+        },
+        {
+          "step": 7,
+          "agent": "ChildPsychGuardNode",
+          "elapsed_ms": 0
+        },
+        {
+          "step": 8,
+          "agent": "MediaStudioNode",
+          "elapsed_ms": 32632
+        },
+        {
+          "step": 9,
+          "agent": "GraphSyncAndPublishNode",
+          "elapsed_ms": 4845
+        }
+      ]
     }
   ],
-  "last_run_at": "2026-11-02T07:24:22.485992+00:00"
+  "last_run_at": "2026-11-02T07:27:15.451125+00:00"
 }
