@@ -4191,8 +4191,160 @@
         23.21,
         27.83
       ]
+    },
+    {
+      "id": "ep_29",
+      "order": 29,
+      "is_graph_fusion": true,
+      "generated_by": "ollama:gemma2:latest+graph_bridge",
+      "bridge_id": "bridge_05",
+      "book_ids": [
+        "book_15",
+        "book_10"
+      ],
+      "value_ids": [
+        "val_nightly_brain_reset",
+        "val_deep_focus"
+      ],
+      "dilemma_id": "dil_01",
+      "category": "graph_fusion",
+      "alt_format": "QUIET_SPARK",
+      "art_theme": "campfire_myth",
+      "accent_color": "#a855f7",
+      "duration_target_sec": 45,
+      "title": {
+        "en": "The Dream Forge",
+        "ro": "Vulcânul Visurilor"
+      },
+      "hook": {
+        "en": "Can you master glassblowing without ever touching a furnace?",
+        "ro": "Poți stăpâni vitroglazia fără să atingi vreodată cuptorul?"
+      },
+      "beats": [
+        {
+          "beat_index": 1,
+          "visual_cue": "hook_zoom",
+          "caption_en": "Apprentice Thomas slams his fist on the workbench, frustration etched on his face.",
+          "caption_ro": "Ucenicul Thomas lovește cu pumnul în masă, furia pictată pe față."
+        },
+        {
+          "beat_index": 2,
+          "visual_cue": "tension_pan",
+          "caption_en": "Three cracked Light-Crystals lie scattered around him, shards reflecting the flickering lamplight.",
+          "caption_ro": "Trei cristale de lumină cracate se află răspândite în jurul lui, fragmentele reflectând lumina flăcării."
+        },
+        {
+          "beat_index": 3,
+          "visual_cue": "inner_voice",
+          "caption_en": "'If only I could concentrate better,' he mutters, 'Maybe then I wouldn't keep messing up.'",
+          "caption_ro": "'Dacă numai aș putea să mă concentrez mai bine', șoptește el, 'Poate atunci nu aș mai greși atât de mult.'"
+        },
+        {
+          "beat_index": 4,
+          "visual_cue": "shift_moment",
+          "caption_en": "A soft glow emanates from the corner of the room. A shimmering figure appears - Nyx, the Dreamweaver.",
+          "caption_ro": "O lumină blândă răsare din colțul camerei. Apare o figură strălucitoare - Nyx, Croitorul Visurilor."
+        },
+        {
+          "beat_index": 5,
+          "visual_cue": "action_ripple",
+          "caption_en": "Nyx guides Thomas towards a peculiar oak chest, its surface adorned with swirling patterns.",
+          "caption_ro": "Nyx îl conduce pe Thomas către un vechi sertar de stejar, suprafața decorată cu modele spirale."
+        },
+        {
+          "beat_index": 6,
+          "visual_cue": "constellation_close",
+          "caption_en": "Inside, rows of glowing dream-elves meticulously polish miniature glass rods, their movements mirroring Thomas's struggles.",
+          "caption_ro": "Înăuntru, rânduri de elfi ai visului strălucind cu grijă polistirea unor mici tije de sticlă, mișcările lor reflectând lupta lui Thomas."
+        }
+      ],
+      "perspective_flip": {
+        "lens_a_label": {
+          "en": "Frustration Lens",
+          "ro": "Lentila Frustrării"
+        },
+        "lens_a_thought": {
+          "en": "I'm so bad at this! I can't get it right, no matter how hard I try.",
+          "ro": "Sunt atât de prost la asta! Nu reușesc niciodată, indiferent cât de mult mă străduiesc."
+        },
+        "lens_b_label": {
+          "en": "Dreamweaver Lens",
+          "ro": "Lentila Croitorului Visurilor"
+        },
+        "lens_b_thought": {
+          "en": "Focus isn't just about willpower; it's also about letting your dreams guide you and resting to recharge.",
+          "ro": "Concentrarea nu este doar despre voință; este și despre lăsarea visurilor să te îndrume și despre odihnă pentru a te reîncărca."
+        }
+      },
+      "interactive_dilemma": {
+        "situation": {
+          "en": "Your best friend is upset because you accidentally missed their birthday party. How do you react?",
+          "ro": "Cel mai bun prieten este supărat pentru că ai ratat accidental petrecerea de ziua lui. Cum reacționezi?"
+        },
+        "choice_a": {
+          "label": {
+            "en": "Defensive Response",
+            "ro": "Răspuns defensiv"
+          },
+          "ripple": {
+            "en": "You argue that you had a good reason for missing the party and try to shift the blame.",
+            "ro": "Tu argumentezi că ai avut un motiv bun pentru a rata petrecerea și încerci să schimbi vina."
+          },
+          "is_growth_choice": false
+        },
+        "choice_b": {
+          "label": {
+            "en": "Empathetic Bridge",
+            "ro": "Pod empatic"
+          },
+          "ripple": {
+            "en": "You sincerely apologize, listen to their feelings, and offer a thoughtful gesture to make it up to them.",
+            "ro": "Te scuzi sincer, asculți sentimentele lor și oferi un gest gândit pentru a-i compensa."
+          },
+          "is_growth_choice": true
+        },
+        "psych_takeaway": {
+          "en": "True friendships are built on understanding and empathy, not excuses and blame.",
+          "ro": "Adevăratele prietenii se construiesc pe înțelegere și empatie, nu pe scuze și vinovăție."
+        }
+      },
+      "mindful_cue": {
+        "en": "Take a deep breath and imagine your shoulders relaxing with each exhale. ",
+        "ro": "Inspiră adânc și imaginează-ți umerii relaxându-se cu fiecare expirație."
+      },
+      "offline_quest": {
+        "title": {
+          "en": "The Dream Journal Spark",
+          "ro": "Scânteia Jurnalului Visurilor"
+        },
+        "instruction": {
+          "en": "Before you sleep tonight, write down three things you're grateful for and one dream you hope to have. ",
+          "ro": "Înainte de a dormi seara asta, scrie trei lucruri pentru care ești recunoscător și un vis pe care speri să-l ai."
+        }
+      },
+      "video_en": "assets/videos/ep_29_en.mp4",
+      "video_ro": "assets/videos/ep_29_ro.mp4",
+      "poster": "assets/thumbs/ep_29.jpg",
+      "duration_en_sec": 42.0,
+      "duration_ro_sec": 48.74,
+      "beat_timestamps_en": [
+        0.0,
+        8.67,
+        14.29,
+        19.54,
+        25.79,
+        31.46
+      ],
+      "beat_timestamps_ro": [
+        0.0,
+        8.75,
+        15.42,
+        22.21,
+        29.21,
+        36.21
+      ]
     }
   ],
-  "updated_at": "2026-11-02T07:24:18.730372+00:00",
-  "total_episodes": 28
+  "updated_at": "2026-11-02T07:27:10.605267+00:00",
+  "total_episodes": 29
 }
