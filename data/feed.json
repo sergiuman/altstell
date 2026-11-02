@@ -4495,8 +4495,160 @@
         25.88,
         32.3
       ]
+    },
+    {
+      "id": "ep_31",
+      "order": 31,
+      "is_graph_fusion": true,
+      "generated_by": "ollama:gemma2:latest+graph_bridge",
+      "bridge_id": "bridge_07",
+      "book_ids": [
+        "book_17",
+        "book_04"
+      ],
+      "value_ids": [
+        "val_real_world_play",
+        "val_empathy_matching"
+      ],
+      "dilemma_id": "dil_01",
+      "category": "graph_fusion",
+      "alt_format": "BRANCHING_CHOICE",
+      "art_theme": "campfire_myth",
+      "accent_color": "#f59e0b",
+      "duration_target_sec": 45,
+      "title": {
+        "en": "Muddy Trail, Clear Hearts",
+        "ro": "Pâlnie Murdară, Inimi Claire"
+      },
+      "hook": {
+        "en": "Can glowing screens hide real friendship? Three friends find out.",
+        "ro": "Poate ascunde prietenia adevărată lumina ecranelor? Trei prieteni află."
+      },
+      "beats": [
+        {
+          "beat_index": 1,
+          "visual_cue": "hook_zoom",
+          "caption_en": "Sonia, Lara, and Dan spent weeks arguing in their online chat.",
+          "caption_ro": "Sonia, Lara și Dan au petrecut săptămâni întregi cerând în chatul lor online."
+        },
+        {
+          "beat_index": 2,
+          "visual_cue": "tension_pan",
+          "caption_en": "Their words felt sharp and cold, missing the warmth of real connection.",
+          "caption_ro": "Cuvintele lor păreau ascuțite și reci, lipsite de căldura unei conexiuni reale."
+        },
+        {
+          "beat_index": 3,
+          "visual_cue": "inner_voice",
+          "caption_en": "Sonia thought, 'Maybe we're just not meant to be friends anymore.'",
+          "caption_ro": "Sonia a gândit: „Poate nu suntem făcuți să fim prieteni."
+        },
+        {
+          "beat_index": 4,
+          "visual_cue": "shift_moment",
+          "caption_en": "But Master Eldon suggested ditching their screens and joining him on his muddy trail.",
+          "caption_ro": "Dar Master Eldon a sugerat să renunțe la ecrane și să îl însoțască pe poteca sa cu pământ ud."
+        },
+        {
+          "beat_index": 5,
+          "visual_cue": "action_ripple",
+          "caption_en": "Hesitantly, they agreed, leaving their phones behind and venturing into the unknown.",
+          "caption_ro": "Îndoită, au acceptat, lăsând telefoanele în urmă și aventurându-se în necunoscut."
+        },
+        {
+          "beat_index": 6,
+          "visual_cue": "constellation_close",
+          "caption_en": "Climbing the Big Rock together, they laughed and shared stories, their voices echoing through the forest.",
+          "caption_ro": "Întrecându-se pe Stânca Mare, au râs și au povestit, vocile lor răsunând prin pădure."
+        }
+      ],
+      "perspective_flip": {
+        "lens_a_label": {
+          "en": "Texting Lens",
+          "ro": "Lentila SMS"
+        },
+        "lens_a_thought": {
+          "en": "Words feel sharp and disconnected. I'm starting to miss my friends.",
+          "ro": "Cuvintele par ascuțite și deconectate. Incep să-mi simt prietenii."
+        },
+        "lens_b_label": {
+          "en": "Muddy Trail Lens",
+          "ro": "Lentila Pământului Umed"
+        },
+        "lens_b_thought": {
+          "en": "Hearing their laughter, I feel a warmth inside. Real connection is so powerful.",
+          "ro": "Audând râsul lor, simt o căldură înăuntru. Conexiunea reală este atât de puternică."
+        }
+      },
+      "interactive_dilemma": {
+        "situation": {
+          "en": "You're arguing with a friend online and things are getting heated.",
+          "ro": "Cerți cu un prieten online și lucrurile devin tensionate."
+        },
+        "choice_a": {
+          "label": {
+            "en": "Keep typing angry replies",
+            "ro": "Continuă să scrii răspunsuri furioase"
+          },
+          "ripple": {
+            "en": "Your friend will probably get angrier, and the argument might escalate. ",
+            "ro": "Prietenul tău probabil va deveni și mai supărat, iar disputa ar putea escalada."
+          },
+          "is_growth_choice": false
+        },
+        "choice_b": {
+          "label": {
+            "en": "Suggest taking a break and talking in person",
+            "ro": "Sugerează să luați o pauză și să vorbiți față în față"
+          },
+          "ripple": {
+            "en": "You can cool down, think things through clearly, and maybe even have a real laugh together. ",
+            "ro": "Poți răci, gândi lucrurile limpede și poate chiar să râzi împreună."
+          },
+          "is_growth_choice": true
+        },
+        "psych_takeaway": {
+          "en": "When arguments get heated, stepping away and connecting in person can help you understand each other better.",
+          "ro": "Când disputele devin fierbinți, retragerea și conectarea față în față vă poate ajuta să vă înțelegeți mai bine."
+        }
+      },
+      "mindful_cue": {
+        "en": "Take a deep breath and notice the sounds around you. Are there birds singing? Leaves rustling?",
+        "ro": "Inspiră adânc și observă sunetele din jurul tău. Sunt păsări care cântă? Frunze care se scutură?"
+      },
+      "offline_quest": {
+        "title": {
+          "en": "Muddy Trail Adventure",
+          "ro": "Aventura pe Pământ Umed"
+        },
+        "instruction": {
+          "en": "Go for a walk outside and try to connect with nature. Listen to the sounds, feel the textures, and look at the colors.",
+          "ro": "Du-te la o plimbare în afara casei și încearcă să te conectezi cu natura. Ascultă sunetele, simți texturile și privește culorile."
+        }
+      },
+      "video_en": "assets/videos/ep_31_en.mp4",
+      "video_ro": "assets/videos/ep_31_ro.mp4",
+      "poster": "assets/thumbs/ep_31.jpg",
+      "duration_en_sec": 35.25,
+      "duration_ro_sec": 40.24,
+      "beat_timestamps_en": [
+        0.0,
+        8.58,
+        12.62,
+        16.62,
+        21.33,
+        26.33
+      ],
+      "beat_timestamps_ro": [
+        0.0,
+        10.04,
+        15.42,
+        19.13,
+        25.09,
+        31.01
+      ]
     }
   ],
-  "updated_at": "2026-11-02T07:29:43.379748+00:00",
-  "total_episodes": 30
+  "updated_at": "2026-11-02T07:33:17.869863+00:00",
+  "total_episodes": 31
 }

@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "target_age": 11,
   "core_philosophy": "Alternative Storytelling that sparks curiosity, metacognition, empathy, and real-world agency without addictive dark patterns.",
   "rules": [
@@ -19,7 +19,8 @@
     "Anchor each superpower combination to a relatable childhood experience, fostering personal relevance and deeper impact.",
     "Cultivate intrinsic motivation by framing challenges as opportunities to learn and grow, rather than solely focusing on achieving a reward.",
     "Offer branching narrative paths where choices reflect the child's internal values, reinforcing self-discovery and agency.",
-    "Weave micro-challenges requiring collaboration or creative problem-solving to instill teamwork and resilience."
+    "Weave micro-challenges requiring collaboration or creative problem-solving to instill teamwork and resilience.",
+    "Embed moments of quiet reflection after key choices, prompting children to articulate their motivations and feelings."
   ],
-  "last_updated": "2026-11-02T07:27:39.504772+00:00"
+  "last_updated": "2026-11-02T07:30:12.960318+00:00"
 }
