@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "target_age": 11,
   "core_philosophy": "Alternative Storytelling that sparks curiosity, metacognition, empathy, and real-world agency without addictive dark patterns.",
   "rules": [
@@ -15,7 +15,8 @@
     "Pairing two complementary values from different books (e.g., Quiet Observation + Deep Listening) creates novel 'superpower combinations'.",
     "Embed age-appropriate problem-solving steps within the inner-voice contrast to empower active decision-making.",
     "Weave micro-challenges requiring the child to apply learned values, prompting real-world reflection.",
-    "Embed **emotional vocabulary** within the inner-voice contrast to foster self-awareness and empathy."
+    "Embed **emotional vocabulary** within the inner-voice contrast to foster self-awareness and empathy.",
+    "Anchor each superpower combination to a relatable childhood experience, fostering personal relevance and deeper impact."
   ],
-  "last_updated": "2026-10-26T07:15:41.153756+00:00"
+  "last_updated": "2026-11-02T07:18:11.218256+00:00"
 }
