@@ -28,7 +28,11 @@ fi
 # 3. Execute Daily Graph Value Discovery + Principle Improvement + Video Synthesis + Git Push
 /usr/bin/python3 "$REPO_DIR/engine/daily_self_improver.py" --publish >> "$LOG_FILE" 2>&1
 
-# 4. Check if all 10 daily cycles have completed; if so, cleanly unload the launchd schedule
+# 4. Sync updated evolution_state.json telemetry to GitHub Pages
+git add data/evolution_state.json data/storytelling_principles.json data/feed.json data/knowledge_graph.json >> "$LOG_FILE" 2>&1 || true
+git diff --cached --quiet || git commit -m "chore(evolution): update daily evolution_state telemetry" >> "$LOG_FILE" 2>&1 || true
+git push origin main >> "$LOG_FILE" 2>&1 || true
+
 COMPLETED=$(/usr/bin/python3 -c "import json; d=json.load(open('$REPO_DIR/data/evolution_state.json')); print(d.get('completed_days', 0))" 2>/dev/null || echo "0")
 MAX_DAYS=$(/usr/bin/python3 -c "import json; d=json.load(open('$REPO_DIR/data/evolution_state.json')); print(d.get('max_days', 10))" 2>/dev/null || echo "10")
 
